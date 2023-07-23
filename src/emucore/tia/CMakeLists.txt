@@ -1,0 +1,32 @@
+target_sources(${target} PRIVATE
+    AnalogReadout.cxx
+    AnalogReadout.hxx
+    AudioChannel.cxx
+    AudioChannel.hxx
+    Audio.cxx
+    Audio.hxx
+    Background.cxx
+    Background.hxx
+    Ball.cxx
+    Ball.hxx
+    DelayQueue.hxx
+    DelayQueueIterator.hxx
+    DelayQueueIteratorImpl.hxx
+    DelayQueueMember.hxx
+    DrawCounterDecodes.cxx
+    DrawCounterDecodes.hxx
+    FrameLayout.hxx
+    LatchedInput.cxx
+    LatchedInput.hxx
+    Missile.cxx
+    Missile.hxx
+    Player.cxx
+    Player.hxx
+    Playfield.cxx
+    Playfield.hxx
+    TIAConstants.hxx
+    TIA.cxx
+    TIA.hxx
+)
+
+add_subdirectory(frame-manager)

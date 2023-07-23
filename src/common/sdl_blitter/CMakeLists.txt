@@ -1,0 +1,10 @@
+target_sources(${target}
+PRIVATE
+    BilinearBlitter.cxx
+    BilinearBlitter.hxx
+    BlitterFactory.cxx
+    BlitterFactory.hxx
+    Blitter.hxx
+    QisBlitter.cxx
+    QisBlitter.hxx
+)

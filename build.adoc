@@ -1,0 +1,330 @@
+= build
+
+== Stash
+
+https://stella-emu.github.io/
+
+https://stella-emu.github.io/docs/index.html
+
+https://manpages.ubuntu.com/manpages/jammy/man6/stella.6.html
+
+== YouTube
+
+Atari 2600 Emulator - Stella 6.6 - Setup and configuration basics - ENG - TaschenHEINTZE - EMU 01 +
+https://www.youtube.com/watch?v=U9_S7HfQ7Bo
+
+Stella - Atari 2600 Console Emulator - Download and Setup +
+https://www.youtube.com/watch?v=owdg80a0nDA
+
+Atari 2600 Emulator: Stella How-to Part 1 +
+https://www.youtube.com/watch?v=3fsmdSIth0I
+
+STELLA The Atari 2600 Emulator setup Guide +
+https://www.youtube.com/watch?v=6VCfq6cStwY
+
+== configure
+
+----
+$ ./configure
+Running Stella configure...
+Looking for C++ compiler... g++
+Checking for compiler version... 11, ok
+Checking hosttype... linux-gnu
+Checking for zlib... yes
+Checking for libpng... yes
+Checking for libsqlite3... yes
+
+Summary:
+   GUI enabled
+   Sound support enabled
+   Debugger support enabled
+   Joystick support enabled
+   Cheatcode support enabled
+   PNG image support enabled
+   ZIP file support enabled
+   Windowed rendering modes enabled
+   Static binary disabled
+   Profiling disabled
+   Debug symbols disabled
+
+Looking for sdl2-config... /usr/bin/sdl2-config
+Creating config.mak
+----
+
+[source, sh]
+----
+$ sudo apt install libsqlite3-dev
+$ sudo apt install libsdl2-dev
+$ sudo apt install bison
+----
+
+== Problems
+
+----
+ignoring bad keyboard mapping
+
+-exec p myBaseDir.getShortPath()
+$1 = "~/.config/stella/"
+
+----
+
+== defines
+
+----
+SDL_SUPPORT
+_GLIBCXX_USE_CXX11_ABI=1
+UNIX
+BSPF_UNIX
+GUI_SUPPORT
+WINDOWED_SUPPORT
+SOUND_SUPPORT
+DEBUGGER_SUPPORT
+JOYSTICK_SUPPORT
+CHEATCODE_SUPPORT
+HTTP_LIB_SUPPORT
+IMAGE_SUPPORT
+ZIP_SUPPORT
+----
+
+`stella` build with `Makefile`
+----
+$ ./stella
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5178:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5178:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1334:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5178:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5701:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2664:(snd_pcm_open_noupdate) Unknown PCM default
+WARNING: Couldn't open SDL audio device!
+         ALSA: Couldn't open audio device: No such file or directory
+
+
+-lSDL2 -lpng16 -lz -lsqlite3 -lz  -o stella
+
+$ make
+mkdir -p -p src/os/unix/.deps
+mkdir -p -p out/src/os/unix
+g++ -MMD -MF "src/os/unix/.deps/FSNodePOSIX.d" -MQ "out/src/os/unix/FSNodePOSIX.o" -MP -O2 -x c++ -Wall -Wextra -Wno-unused-parameter -Wno-multichar -Wunused -Woverloaded-virtual -Wnon-virtual-dtor -std=c++17 -fomit-frame-pointer -DSDL_SUPPORT -D_GLIBCXX_USE_CXX11_ABI=1 -DUNIX -DBSPF_UNIX -DGUI_SUPPORT -DWINDOWED_SUPPORT -DSOUND_SUPPORT -DDEBUGGER_SUPPORT -DJOYSTICK_SUPPORT -DCHEATCODE_SUPPORT -DHTTP_LIB_SUPPORT -DIMAGE_SUPPORT -DZIP_SUPPORT -Isrc/emucore -Isrc/common -Isrc/common/tv_filters -Isrc/emucore/tia -Isrc/emucore/tia/frame-manager -Isrc/lib/json -Isrc/common/repository/sqlite -I/usr/include/SDL2 -D_REENTRANT -Isrc/os/unix -Isrc/gui -Isrc/debugger -Isrc/debugger/gui -Isrc/debugger/yacc -Isrc/cheat -Isrc/lib/httplib -Isrc/lib/nanojpeg -Isrc/lib/tinyexif -c src/os/unix/FSNodePOSIX.cxx -o out/src/os/unix/FSNodePOSIX.o
+mkdir -p -p src/os/unix/.deps
+mkdir -p -p out/src/os/unix
+g++ -MMD -MF "src/os/unix/.deps/OSystemUNIX.d" -MQ "out/src/os/unix/OSystemUNIX.o" xxxxxxx -c src/os/unix/OSystemUNIX.cxx -o out/src/os/unix/OSystemUNIX.o
+mkdir -p -p src/os/unix/.deps
+mkdir -p -p out/src/os/unix
+g++ -MMD -MF "src/os/unix/.deps/SerialPortUNIX.d" -MQ "out/src/os/unix/SerialPortUNIX.o" xxxxxxx -c src/os/unix/SerialPortUNIX.cxx -o out/src/os/unix/SerialPortUNIX.o
+
+g++ -MMD -MF "src/debugger/.deps/BreakpointMap.d" -MQ "out/src/debugger/BreakpointMap.o" xxxxxxx -c src/debugger/BreakpointMap.cxx -o out/src/debugger/BreakpointMap.o
+g++ -MMD -MF "src/debugger/.deps/CartDebug.d" -MQ "out/src/debugger/CartDebug.o" xxxxxxx -c src/debugger/CartDebug.cxx -o out/src/debugger/CartDebug.o
+g++ -MMD -MF "src/debugger/.deps/CpuDebug.d" -MQ "out/src/debugger/CpuDebug.o" xxxxxxx -c src/debugger/CpuDebug.cxx -o out/src/debugger/CpuDebug.o
+g++ -MMD -MF "src/debugger/.deps/Debugger.d" -MQ "out/src/debugger/Debugger.o" xxxxxxx -c src/debugger/Debugger.cxx -o out/src/debugger/Debugger.o
+g++ -MMD -MF "src/debugger/.deps/DebuggerParser.d" -MQ "out/src/debugger/DebuggerParser.o" xxxxxxx -c src/debugger/DebuggerParser.cxx -o out/src/debugger/DebuggerParser.o
+g++ -MMD -MF "src/debugger/.deps/DiStella.d" -MQ "out/src/debugger/DiStella.o" xxxxxxx -c src/debugger/DiStella.cxx -o out/src/debugger/DiStella.o
+
+----
+
+== sanitizer
+
+----
+$<$<CONFIG:Debug>:-fsanitize-address>
+add_compile_options(-fsanitize=address)
+add_link_options(-fsanitize=address)
+----
+
+----
+target_compile_options(${target} PRIVATE -fsanitize=address)
+target_link_options(${target} PRIVATE -fsanitize=address)
+----
+
+----
+set (CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -fno-omit-frame-pointer -fsanitize=address")
+set (CMAKE_LINKER_FLAGS_DEBUG "${CMAKE_LINKER_FLAGS_DEBUG} -fno-omit-frame-pointer -fsanitize=address")
+----
+
+----
+target_compile_options(${target} PUBLIC -fsanitize=address -fno-omit-frame-pointer)
+set_target_properties(${target} PROPERTIES LINK_FLAGS -fsanitize=address)
+----
+
+
+----
+^C=================================================================
+==52918==ERROR: AddressSanitizer: new-delete-type-mismatch on 0x615000000580 in thread T0:
+  object passed to delete has wrong type:
+  size of the allocated type:   496 bytes;
+  size of the deallocated type: 432 bytes.
+    #0 0x7f6aa7ac9530 in operator delete(void*, unsigned long) ../../../../src/libsanitizer/asan/asan_new_delete.cpp:164
+    #1 0x563878859f90 in OSystemUNIX::~OSystemUNIX() /workspaces/emu/src/stella-emu/stella/src/os/unix/OSystemUNIX.hxx:34
+    #2 0x5638781c6d9a in std::default_delete<OSystem>::operator()(OSystem*) const (/workspaces/emu/src/stella-emu/stella/build/stella+0x42ed9a)
+    #3 0x5638781c8063 in std::__uniq_ptr_impl<OSystem, std::default_delete<OSystem> >::reset(OSystem*) (/workspaces/emu/src/stella-emu/stella/build/stella+0x430063)
+    #4 0x5638781c5021 in std::unique_ptr<OSystem, std::default_delete<OSystem> >::reset(OSystem*) (/workspaces/emu/src/stella-emu/stella/build/stella+0x42d021)
+    #5 0x5638781babef in operator() /workspaces/emu/src/stella-emu/stella/src/common/main.cxx:232
+    #6 0x5638781bbef9 in main /workspaces/emu/src/stella-emu/stella/src/common/main.cxx:352
+    #7 0x7f6aa74d8d8f in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+    #8 0x7f6aa74d8e3f in __libc_start_main_impl ../csu/libc-start.c:392
+    #9 0x5638781b94b4 in _start (/workspaces/emu/src/stella-emu/stella/build/stella+0x4214b4)
+
+0x615000000580 is located 0 bytes inside of 496-byte region [0x615000000580,0x615000000770)
+allocated by thread T0 here:
+    #0 0x7f6aa7ac8488 in operator new(unsigned long) ../../../../src/libsanitizer/asan/asan_new_delete.cpp:95
+    #1 0x5638781c4164 in std::__detail::_MakeUniq<OSystemUNIX>::__single_object std::make_unique<OSystemUNIX>() (/workspaces/emu/src/stella-emu/stella/build/stella+0x42c164)
+    #2 0x5638781c2b1a in MediaFactory::createOSystem() (/workspaces/emu/src/stella-emu/stella/build/stella+0x42ab1a)
+    #3 0x5638781bb02a in main /workspaces/emu/src/stella-emu/stella/src/common/main.cxx:249
+    #4 0x7f6aa74d8d8f in __libc_start_call_main ../sysdeps/nptl/libc_start_call_main.h:58
+
+SUMMARY: AddressSanitizer: new-delete-type-mismatch ../../../../src/libsanitizer/asan/asan_new_delete.cpp:164 in operator delete(void*, unsigned long)
+==52918==HINT: if you don't care about these errors you may set ASAN_OPTIONS=new_delete_type_mismatch=0
+==52918==ABORTING
+----
+
+----
+# set_property(TARGET ${target} PROPERTY CXX_STANDARD 20)
+# target_compile_options(${target} PUBLIC -fsanitize=address -fno-omit-frame-pointer)
+# set_target_properties(${target} PROPERTIES LINK_FLAGS -fsanitize=address)
+# target_compile_definitions(${target}
+# PUBLIC
+#     CHEATCODE_SUPPORT
+# )
+# target_include_directories(${target}
+# PUBLIC
+#     ${CMAKE_CURRENT_LIST_DIR}
+# PRIVATE
+#     ${SRC_DIR}/emucore
+#     ${SRC_DIR}/emucore/tia
+#     ${SRC_DIR}/common
+#     ${SRC_DIR}/gui
+# )
+# set_property(TARGET ${target} PROPERTY CXX_STANDARD 20)
+# target_compile_options(${target} PUBLIC -fsanitize=address -fno-omit-frame-pointer)
+# set_target_properties(${target} PROPERTIES LINK_FLAGS -fsanitize=address)
+# target_compile_definitions(${target}
+# PRIVATE
+#     BSPF_UNIX
+#     GUI_SUPPORT
+#     SDL_SUPPORT
+# )
+# target_include_directories(${target}
+# PUBLIC
+#     ${CMAKE_CURRENT_LIST_DIR}
+# PRIVATE
+#     ${SRC_DIR}/emucore
+#     ${SRC_DIR}/emucore/tia
+#     ${SRC_DIR}/gui
+#     ${SRC_DIR}/os/unix
+# )
+target_link_libraries(${target}
+PRIVATE
+    json
+)
+# target_compile_definitions(${target}
+# PUBLIC
+#     DEBUGGER_SUPPORT
+#     GUI_SUPPORT
+# )
+# target_include_directories(${target}
+# PUBLIC
+#     ${CMAKE_CURRENT_LIST_DIR}
+# PRIVATE
+#     ${SRC_DIR}/emucore
+#     ${SRC_DIR}/emucore/tia
+#     ${SRC_DIR}/emucore/tia/frame-manager
+#     ${SRC_DIR}/common
+#     ${SRC_DIR}/common/tv_filters
+#     ${SRC_DIR}/gui
+# )
+# target_compile_definitions(${target}
+# PUBLIC
+#     GUI_SUPPORT
+#     BSPF_UNIX
+#     SDL_SUPPORT
+# )
+# target_include_directories(${target}
+# PUBLIC
+#     ${CMAKE_CURRENT_LIST_DIR}
+# PRIVATE
+#     ${SRC_DIR}/common
+#     ${SRC_DIR}/common/tv_filters
+#     ${SRC_DIR}/common/repository/sqlite
+#     ${SRC_DIR}/gui
+#     ${SRC_DIR}/os/unix
+# )
+target_link_libraries(${target}
+PRIVATE
+    json
+)
+----
+
+
+== asan
+
+https://github.com/google/sanitizers/issues/899
+
+https://github.com/google/sanitizers/issues/89
+
+----
+==11005==WARNING: invalid path to external symbolizer!
+==11005==WARNING: Failed to use and restart external symbolizer!
+
+=================================================================
+==11005==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 736 byte(s) in 4 object(s) allocated from:
+    #0 0x563910ca19f8  (/workspaces/emu/src/stella-emu/stella/build/stella+0x69e9f8) (BuildId: 1c5842be0cf83658b6b74fa2e423ad62dc0145fd)
+    #1 0x7f5ff6b8b16f  (<unknown module>)
+
+Direct leak of 520 byte(s) in 13 object(s) allocated from:
+    #0 0x563910ca180e  (/workspaces/emu/src/stella-emu/stella/build/stella+0x69e80e) (BuildId: 1c5842be0cf83658b6b74fa2e423ad62dc0145fd)
+    #1 0x7f5ff6b9c045  (<unknown module>)
+
+Direct leak of 184 byte(s) in 1 object(s) allocated from:
+    #0 0x563910ca19f8  (/workspaces/emu/src/stella-emu/stella/build/stella+0x69e9f8) (BuildId: 1c5842be0cf83658b6b74fa2e423ad62dc0145fd)
+    #1 0x7f5ff6b8b16f  (<unknown module>)
+    #2 0xd00000004  (<unknown module>)
+
+Direct leak of 62 byte(s) in 3 object(s) allocated from:
+    #0 0x563910ca180e  (/workspaces/emu/src/stella-emu/stella/build/stella+0x69e80e) (BuildId: 1c5842be0cf83658b6b74fa2e423ad62dc0145fd)
+    #1 0x7f5ff6b988f3  (<unknown module>)
+
+Direct leak of 24 byte(s) in 1 object(s) allocated from:
+    #0 0x563910ca180e  (/workspaces/emu/src/stella-emu/stella/build/stella+0x69e80e) (BuildId: 1c5842be0cf83658b6b74fa2e423ad62dc0145fd)
+    #1 0x7f5ff6b9ff3d  (<unknown module>)
+
+Indirect leak of 1933 byte(s) in 9 object(s) allocated from:
+    #0 0x563910ca1c36  (/workspaces/emu/src/stella-emu/stella/build/stella+0x69ec36) (BuildId: 1c5842be0cf83658b6b74fa2e423ad62dc0145fd)
+    #1 0x7f5ff6b993f4  (<unknown module>)
+
+Indirect leak of 56 byte(s) in 1 object(s) allocated from:
+    #0 0x563910ca19f8  (/workspaces/emu/src/stella-emu/stella/build/stella+0x69e9f8) (BuildId: 1c5842be0cf83658b6b74fa2e423ad62dc0145fd)
+    #1 0x7f5ff16b382e  (<unknown module>)
+
+Indirect leak of 56 byte(s) in 1 object(s) allocated from:
+    #0 0x563910ca19f8  (/workspaces/emu/src/stella-emu/stella/build/stella+0x69e9f8) (BuildId: 1c5842be0cf83658b6b74fa2e423ad62dc0145fd)
+    #1 0x7f5ff16b3845  (<unknown module>)
+
+Indirect leak of 40 byte(s) in 1 object(s) allocated from:
+    #0 0x563910ca180e  (/workspaces/emu/src/stella-emu/stella/build/stella+0x69e80e) (BuildId: 1c5842be0cf83658b6b74fa2e423ad62dc0145fd)
+    #1 0x7f5ff6b8b272  (<unknown module>)
+
+Indirect leak of 24 byte(s) in 1 object(s) allocated from:
+    #0 0x563910ca180e  (/workspaces/emu/src/stella-emu/stella/build/stella+0x69e80e) (BuildId: 1c5842be0cf83658b6b74fa2e423ad62dc0145fd)
+    #1 0x7f5ff6b9ff3d  (<unknown module>)
+
+Indirect leak of 24 byte(s) in 1 object(s) allocated from:
+    #0 0x563910ca180e  (/workspaces/emu/src/stella-emu/stella/build/stella+0x69e80e) (BuildId: 1c5842be0cf83658b6b74fa2e423ad62dc0145fd)
+    #1 0x7f5ff6b9072a  (<unknown module>)
+
+SUMMARY: AddressSanitizer: 3659 byte(s) leaked in 36 allocation(s).
+vscode ➜ /workspaces/…/stella-emu/stella/build (emu/atari/atari2600/playground) $
+----
+
+
+== vcpkg
+
+----
+cpp-httplib              0.18.0           A single file C++11 header-only HTTP/HTTPS server and client library
+libpng                   1.6.43#3         libpng is a library implementing an interface for reading and writing PNG ...
+nlohmann-json            3.11.3#1         JSON for Modern C++
+sqlite3                  3.46.1           SQLite is a software library that implements a self-contained, serverless,...
+tinyexif                 2024-09-03       tiny ISO-compliant C++ EXIF and XMP parsing library for JPEG images
+zlib                     1.3.1            A compression library
+----

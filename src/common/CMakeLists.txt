@@ -1,0 +1,87 @@
+# common
+
+target_sources(${target}
+PRIVATE
+    AudioQueue.cxx
+    AudioQueue.hxx
+    AudioSettings.cxx
+    AudioSettings.hxx
+    Base.cxx
+    Base.hxx
+    Bezel.cxx
+    Bezel.hxx
+    bspf.hxx
+    DevSettingsHandler.cxx
+    DevSettingsHandler.hxx
+    EventHandlerSDL2.cxx
+    EventHandlerSDL2.hxx
+    FBBackendSDL2.cxx
+    FBBackendSDL2.hxx
+    FBSurfaceSDL2.cxx
+    FBSurfaceSDL2.hxx
+    FpsMeter.cxx
+    FpsMeter.hxx
+    FSNodeFactory.hxx
+    FSNodeZIP.cxx
+    FSNodeZIP.hxx
+    HighScoresManager.cxx
+    HighScoresManager.hxx
+    JoyMap.cxx
+    JoyMap.hxx
+    JPGLibrary.cxx
+    JPGLibrary.hxx
+    jsonDefinitions.hxx
+    KeyMap.cxx
+    KeyMap.hxx
+    LinkedObjectPool.hxx
+    Logger.cxx
+    Logger.hxx
+    # main.cxx
+    MediaFactory.hxx
+    MouseControl.cxx
+    MouseControl.hxx
+    PaletteHandler.cxx
+    PaletteHandler.hxx
+    PhosphorHandler.cxx
+    PhosphorHandler.hxx
+    PhysicalJoystick.cxx
+    PhysicalJoystick.hxx
+    PJoystickHandler.cxx
+    PJoystickHandler.hxx
+    PKeyboardHandler.cxx
+    PKeyboardHandler.hxx
+    PNGLibrary.cxx
+    PNGLibrary.hxx
+    Rect.hxx
+    RewindManager.cxx
+    RewindManager.hxx
+    SDL_lib.hxx
+    smartmod.hxx
+    SoundNull.hxx
+    SoundSDL2.cxx
+    SoundSDL2.hxx
+    Stack.hxx
+    StaggeredLogger.cxx
+    StaggeredLogger.hxx
+    StateManager.cxx
+    StateManager.hxx
+    stella_icon.hxx
+    StellaKeys.hxx
+    StringParser.hxx
+    ThreadDebugging.cxx
+    ThreadDebugging.hxx
+    TimerManager.cxx
+    TimerManager.hxx
+    Variant.hxx
+    Vec.hxx
+    Version.hxx
+    VideoModeHandler.cxx
+    VideoModeHandler.hxx
+    ZipHandler.cxx
+    ZipHandler.hxx
+)
+
+add_subdirectory(audio)
+add_subdirectory(repository)
+add_subdirectory(sdl_blitter)
+add_subdirectory(tv_filters)

@@ -1,0 +1,14 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+    "name": "stella",
+    "version": "0.0.1",
+    "dependencies": [
+        "cpp-httplib",
+        "libpng",
+        "nlohmann-json",
+        "sdl2",
+        "sqlite3",
+        "tinyexif",
+        "zlib"
+    ]
+}
