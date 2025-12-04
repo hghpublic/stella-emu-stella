@@ -46,3 +46,10 @@ a.out
 *.sqlite3
 *.bak
 debian/files
+
+# macos
+.DS_Store
+
+# cmake
+build/
+temp/
