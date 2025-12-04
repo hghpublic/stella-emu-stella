@@ -1,0 +1,3103 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+ 33 16.4M   33 5710k    0     0  7123k      0  0:00:02 --:--:--  0:00:02 7123k100 16.4M  100 16.4M    0     0  9468k      0  0:00:01  0:00:01 --:--:-- 11.1M
+Archive:  SDL3-3.2.28.zip
+  inflating: SDL3-3.2.28/.clang-format  
+  inflating: SDL3-3.2.28/.clang-tidy  
+  inflating: SDL3-3.2.28/.editorconfig  
+  inflating: SDL3-3.2.28/.wikiheaders-options  
+  inflating: SDL3-3.2.28/Android.mk  
+  inflating: SDL3-3.2.28/BUGS.txt    
+  inflating: SDL3-3.2.28/CMakeLists.txt  
+  inflating: SDL3-3.2.28/CREDITS.md  
+  inflating: SDL3-3.2.28/INSTALL.md  
+  inflating: SDL3-3.2.28/LICENSE.txt  
+  inflating: SDL3-3.2.28/README.md   
+  inflating: SDL3-3.2.28/VisualC-GDK/SDL.sln  
+  inflating: SDL3-3.2.28/VisualC-GDK/SDL/SDL.vcxproj  
+  inflating: SDL3-3.2.28/VisualC-GDK/SDL/SDL.vcxproj.filters  
+  inflating: SDL3-3.2.28/VisualC-GDK/SDL_test/SDL_test.vcxproj  
+  inflating: SDL3-3.2.28/VisualC-GDK/clean.sh  
+  inflating: SDL3-3.2.28/VisualC-GDK/logos/Logo100x100.png  
+  inflating: SDL3-3.2.28/VisualC-GDK/logos/Logo150x150.png  
+  inflating: SDL3-3.2.28/VisualC-GDK/logos/Logo44x44.png  
+  inflating: SDL3-3.2.28/VisualC-GDK/logos/Logo480x480.png  
+  inflating: SDL3-3.2.28/VisualC-GDK/logos/SplashScreenImage.png  
+  inflating: SDL3-3.2.28/VisualC-GDK/tests/testcontroller/PackageLayout.xml  
+  inflating: SDL3-3.2.28/VisualC-GDK/tests/testcontroller/testcontroller.vcxproj  
+  inflating: SDL3-3.2.28/VisualC-GDK/tests/testcontroller/testcontroller.vcxproj.filters  
+  inflating: SDL3-3.2.28/VisualC-GDK/tests/testcontroller/wingdk/MicrosoftGame.config  
+  inflating: SDL3-3.2.28/VisualC-GDK/tests/testcontroller/xboxone/MicrosoftGame.config  
+  inflating: SDL3-3.2.28/VisualC-GDK/tests/testcontroller/xboxseries/MicrosoftGame.config  
+  inflating: SDL3-3.2.28/VisualC-GDK/tests/testgdk/PackageLayout.xml  
+  inflating: SDL3-3.2.28/VisualC-GDK/tests/testgdk/src/testgdk.cpp  
+  inflating: SDL3-3.2.28/VisualC-GDK/tests/testgdk/testgdk.vcxproj  
+  inflating: SDL3-3.2.28/VisualC-GDK/tests/testgdk/testgdk.vcxproj.filters  
+  inflating: SDL3-3.2.28/VisualC-GDK/tests/testgdk/wingdk/MicrosoftGame.config  
+  inflating: SDL3-3.2.28/VisualC-GDK/tests/testgdk/xboxone/MicrosoftGame.config  
+  inflating: SDL3-3.2.28/VisualC-GDK/tests/testgdk/xboxseries/MicrosoftGame.config  
+  inflating: SDL3-3.2.28/VisualC-GDK/tests/testsprite/PackageLayout.xml  
+  inflating: SDL3-3.2.28/VisualC-GDK/tests/testsprite/testsprite.vcxproj  
+  inflating: SDL3-3.2.28/VisualC-GDK/tests/testsprite/testsprite.vcxproj.filters  
+  inflating: SDL3-3.2.28/VisualC-GDK/tests/testsprite/wingdk/MicrosoftGame.config  
+  inflating: SDL3-3.2.28/VisualC-GDK/tests/testsprite/xboxone/MicrosoftGame.config  
+  inflating: SDL3-3.2.28/VisualC-GDK/tests/testsprite/xboxseries/MicrosoftGame.config  
+  inflating: SDL3-3.2.28/VisualC/SDL.sln  
+  inflating: SDL3-3.2.28/VisualC/SDL/Directory.Build.props  
+  inflating: SDL3-3.2.28/VisualC/SDL/SDL.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/SDL/SDL.vcxproj.filters  
+  inflating: SDL3-3.2.28/VisualC/SDL_test/Directory.Build.props  
+  inflating: SDL3-3.2.28/VisualC/SDL_test/SDL_test.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/VisualC/examples/audio/01-simple-playback/01-simple-playback.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/VisualC/examples/audio/02-simple-playback-callback/02-simple-playback-callback.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/VisualC/examples/audio/03-load-wav/03-load-wav.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/VisualC/examples/camera/01-read-and-draw/01-read-and-draw.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/VisualC/examples/game/01-snake/01-snake.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/VisualC/examples/pen/01-drawing-lines/01-drawing-lines.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/VisualC/examples/renderer/01-clear/01-clear.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/VisualC/examples/renderer/02-primitives/02-primitives.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/VisualC/examples/renderer/03-lines/03-lines.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/VisualC/examples/renderer/04-points/04-points.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/VisualC/examples/renderer/05-rectangles/05-rectangles.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/VisualC/examples/renderer/06-textures/06-textures.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/VisualC/examples/renderer/07-streaming-textures/07-streaming-textures.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/VisualC/examples/renderer/08-rotating-textures/08-rotating-textures.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/VisualC/examples/renderer/09-scaling-textures/09-scaling-textures.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/VisualC/examples/renderer/10-geometry/10-geometry.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/VisualC/examples/renderer/11-color-mods/11-color-mods.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/VisualC/examples/renderer/14-viewport/14-viewport.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/VisualC/examples/renderer/15-cliprect/15-cliprect.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/VisualC/examples/renderer/17-read-pixels/17-read-pixels.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/VisualC/examples/renderer/18-debug-text/18-debug-text.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/clean.sh  
+  inflating: SDL3-3.2.28/VisualC/examples/Directory.Build.props  
+  inflating: SDL3-3.2.28/VisualC/examples/audio/01-simple-playback/01-simple-playback.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/examples/audio/02-simple-playback-callback/02-simple-playback-callback.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/examples/audio/03-load-wav/03-load-wav.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/examples/camera/01-read-and-draw/01-read-and-draw.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/examples/demo/01-snake/01-snake.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/examples/demo/02-woodeneye-008/02-woodeneye-008.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/examples/demo/03-infinite-monkeys/03-infinite-monkeys.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/examples/generate.py  
+  inflating: SDL3-3.2.28/VisualC/examples/pen/01-drawing-lines/01-drawing-lines.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/examples/renderer/01-clear/01-clear.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/examples/renderer/02-primitives/02-primitives.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/examples/renderer/03-lines/03-lines.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/examples/renderer/04-points/04-points.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/examples/renderer/05-rectangles/05-rectangles.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/examples/renderer/06-textures/06-textures.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/examples/renderer/07-streaming-textures/07-streaming-textures.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/examples/renderer/08-rotating-textures/08-rotating-textures.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/examples/renderer/09-scaling-textures/09-scaling-textures.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/examples/renderer/10-geometry/10-geometry.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/examples/renderer/11-color-mods/11-color-mods.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/examples/renderer/14-viewport/14-viewport.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/examples/renderer/15-cliprect/15-cliprect.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/examples/renderer/17-read-pixels/17-read-pixels.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/examples/renderer/18-debug-text/18-debug-text.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/checkkeys/checkkeys.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/loopwave/loopwave.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/testatomic/testatomic.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/testautomation/testautomation.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/testcontroller/testcontroller.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/testdialog/testdialog.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/testdraw/testdraw.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/testfile/testfile.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/testgl/testgl.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/testgles2/testgles2.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/testoverlay/testoverlay.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/testpen/testpen.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/testplatform/testplatform.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/testpower/testpower.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/testrendertarget/testrendertarget.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/testrumble/testrumble.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/testscale/testscale.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/testsensor/testsensor.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/testshape/testshape.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/testsprite/testsprite.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/testsurround/testsurround.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/testvulkan/testvulkan.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/testwm/testwm.vcxproj  
+  inflating: SDL3-3.2.28/VisualC/tests/testyuv/testyuv.vcxproj  
+  inflating: SDL3-3.2.28/WhatsNew.txt  
+  inflating: SDL3-3.2.28/Xcode/SDL/Info-Framework.plist  
+  inflating: SDL3-3.2.28/Xcode/SDL/SDL.xcodeproj/project.pbxproj  
+  inflating: SDL3-3.2.28/Xcode/SDL/SDL3/Info.plist  
+  inflating: SDL3-3.2.28/Xcode/SDL/config.xcconfig  
+  inflating: SDL3-3.2.28/Xcode/SDL/pkg-support/SDL.info  
+  inflating: SDL3-3.2.28/Xcode/SDL/pkg-support/build.xcconfig  
+  inflating: SDL3-3.2.28/Xcode/SDL/pkg-support/resources/CMake/SDL3Config.cmake  
+  inflating: SDL3-3.2.28/Xcode/SDL/pkg-support/resources/CMake/SDL3ConfigVersion.cmake  
+  inflating: SDL3-3.2.28/Xcode/SDL/pkg-support/resources/INSTALL.md  
+  inflating: SDL3-3.2.28/Xcode/SDL/pkg-support/resources/SDL_DS_Store  
+  inflating: SDL3-3.2.28/Xcode/SDL/pkg-support/resources/framework/INSTALL.md  
+  inflating: SDL3-3.2.28/Xcode/SDL/pkg-support/sdl_logo.pdf  
+  inflating: SDL3-3.2.28/Xcode/SDL/pkg-support/share/cmake/SDL3/SDL3Config.cmake  
+  inflating: SDL3-3.2.28/Xcode/SDL/pkg-support/share/cmake/SDL3/SDL3ConfigVersion.cmake  
+  inflating: SDL3-3.2.28/Xcode/SDLTest/SDLTest.xcodeproj/project.pbxproj  
+  inflating: SDL3-3.2.28/Xcode/SDLTest/config.xcconfig  
+  inflating: SDL3-3.2.28/Xcode/XcodeDocSet/Doxyfile  
+  inflating: SDL3-3.2.28/android-project/app/build.gradle  
+  inflating: SDL3-3.2.28/android-project/app/jni/Android.mk  
+  inflating: SDL3-3.2.28/android-project/app/jni/Application.mk  
+  inflating: SDL3-3.2.28/android-project/app/jni/CMakeLists.txt  
+  inflating: SDL3-3.2.28/android-project/app/jni/src/Android.mk  
+  inflating: SDL3-3.2.28/android-project/app/jni/src/CMakeLists.txt  
+  inflating: SDL3-3.2.28/android-project/app/jni/src/YourSourceHere.c  
+  inflating: SDL3-3.2.28/android-project/app/proguard-rules.pro  
+  inflating: SDL3-3.2.28/android-project/app/src/main/AndroidManifest.xml  
+  inflating: SDL3-3.2.28/android-project/app/src/main/java/org/libsdl/app/HIDDevice.java  
+  inflating: SDL3-3.2.28/android-project/app/src/main/java/org/libsdl/app/HIDDeviceBLESteamController.java  
+  inflating: SDL3-3.2.28/android-project/app/src/main/java/org/libsdl/app/HIDDeviceManager.java  
+  inflating: SDL3-3.2.28/android-project/app/src/main/java/org/libsdl/app/HIDDeviceUSB.java  
+  inflating: SDL3-3.2.28/android-project/app/src/main/java/org/libsdl/app/SDL.java  
+  inflating: SDL3-3.2.28/android-project/app/src/main/java/org/libsdl/app/SDLActivity.java  
+  inflating: SDL3-3.2.28/android-project/app/src/main/java/org/libsdl/app/SDLAudioManager.java  
+  inflating: SDL3-3.2.28/android-project/app/src/main/java/org/libsdl/app/SDLControllerManager.java  
+  inflating: SDL3-3.2.28/android-project/app/src/main/java/org/libsdl/app/SDLDummyEdit.java  
+  inflating: SDL3-3.2.28/android-project/app/src/main/java/org/libsdl/app/SDLInputConnection.java  
+  inflating: SDL3-3.2.28/android-project/app/src/main/java/org/libsdl/app/SDLSurface.java  
+  inflating: SDL3-3.2.28/android-project/app/src/main/res/mipmap-hdpi/ic_launcher.png  
+  inflating: SDL3-3.2.28/android-project/app/src/main/res/mipmap-mdpi/ic_launcher.png  
+  inflating: SDL3-3.2.28/android-project/app/src/main/res/mipmap-xhdpi/ic_launcher.png  
+  inflating: SDL3-3.2.28/android-project/app/src/main/res/mipmap-xxhdpi/ic_launcher.png  
+  inflating: SDL3-3.2.28/android-project/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png  
+  inflating: SDL3-3.2.28/android-project/app/src/main/res/values/colors.xml  
+  inflating: SDL3-3.2.28/android-project/app/src/main/res/values/strings.xml  
+  inflating: SDL3-3.2.28/android-project/app/src/main/res/values/styles.xml  
+  inflating: SDL3-3.2.28/android-project/build.gradle  
+  inflating: SDL3-3.2.28/android-project/gradle.properties  
+  inflating: SDL3-3.2.28/android-project/gradle/wrapper/gradle-wrapper.jar  
+  inflating: SDL3-3.2.28/android-project/gradle/wrapper/gradle-wrapper.properties  
+  inflating: SDL3-3.2.28/android-project/gradlew  
+  inflating: SDL3-3.2.28/android-project/gradlew.bat  
+  inflating: SDL3-3.2.28/android-project/settings.gradle  
+  inflating: SDL3-3.2.28/build-scripts/SDL_migration.cocci  
+  inflating: SDL3-3.2.28/build-scripts/add-source-to-projects.pl  
+  inflating: SDL3-3.2.28/build-scripts/androidbuildlibs.sh  
+  inflating: SDL3-3.2.28/build-scripts/build-release.py  
+  inflating: SDL3-3.2.28/build-scripts/build-web-examples.pl  
+  inflating: SDL3-3.2.28/build-scripts/casefolding.txt  
+  inflating: SDL3-3.2.28/build-scripts/check_android_jni.py  
+  inflating: SDL3-3.2.28/build-scripts/check_elf_alignment.sh  
+  inflating: SDL3-3.2.28/build-scripts/check_stdlib_usage.py  
+  inflating: SDL3-3.2.28/build-scripts/clang-format-src.sh  
+  inflating: SDL3-3.2.28/build-scripts/cmake-toolchain-mingw64-i686.cmake  
+  inflating: SDL3-3.2.28/build-scripts/cmake-toolchain-mingw64-x86_64.cmake  
+  inflating: SDL3-3.2.28/build-scripts/cmake-toolchain-qnx-aarch64le.cmake  
+  inflating: SDL3-3.2.28/build-scripts/cmake-toolchain-qnx-x86_64.cmake  
+  inflating: SDL3-3.2.28/build-scripts/codechecker-buildbot.sh  
+  inflating: SDL3-3.2.28/build-scripts/create-android-project.py  
+  inflating: SDL3-3.2.28/build-scripts/create-release.py  
+  inflating: SDL3-3.2.28/build-scripts/fnsince.pl  
+  inflating: SDL3-3.2.28/build-scripts/gen_audio_channel_conversion.c  
+  inflating: SDL3-3.2.28/build-scripts/git-pre-push-hook.pl  
+  inflating: SDL3-3.2.28/build-scripts/makecasefoldhashtable.pl  
+  inflating: SDL3-3.2.28/build-scripts/mkinstalldirs  
+  inflating: SDL3-3.2.28/build-scripts/pkg-support/android/INSTALL.md.in  
+  inflating: SDL3-3.2.28/build-scripts/pkg-support/android/aar/__main__.py.in  
+  inflating: SDL3-3.2.28/build-scripts/pkg-support/android/aar/cmake/SDL3Config.cmake  
+  inflating: SDL3-3.2.28/build-scripts/pkg-support/android/aar/cmake/SDL3ConfigVersion.cmake.in  
+  inflating: SDL3-3.2.28/build-scripts/pkg-support/android/aar/description.json.in  
+  inflating: SDL3-3.2.28/build-scripts/pkg-support/mingw/INSTALL.md.in  
+  inflating: SDL3-3.2.28/build-scripts/pkg-support/mingw/Makefile  
+  inflating: SDL3-3.2.28/build-scripts/pkg-support/mingw/cmake/SDL3Config.cmake  
+  inflating: SDL3-3.2.28/build-scripts/pkg-support/mingw/cmake/SDL3ConfigVersion.cmake  
+  inflating: SDL3-3.2.28/build-scripts/pkg-support/msvc/Directory.Build.props  
+  inflating: SDL3-3.2.28/build-scripts/pkg-support/msvc/INSTALL.md.in  
+  inflating: SDL3-3.2.28/build-scripts/pkg-support/msvc/arm64/INSTALL.md.in  
+  inflating: SDL3-3.2.28/build-scripts/pkg-support/msvc/cmake/SDL3Config.cmake.in  
+  inflating: SDL3-3.2.28/build-scripts/pkg-support/msvc/cmake/SDL3ConfigVersion.cmake.in  
+  inflating: SDL3-3.2.28/build-scripts/pkg-support/msvc/x64/INSTALL.md.in  
+  inflating: SDL3-3.2.28/build-scripts/pkg-support/msvc/x86/INSTALL.md.in  
+  inflating: SDL3-3.2.28/build-scripts/pkg-support/source/SDL_revision.h.cmake.in  
+  inflating: SDL3-3.2.28/build-scripts/pkg-support/source/SDL_revision.h.in  
+  inflating: SDL3-3.2.28/build-scripts/release-info.json  
+  inflating: SDL3-3.2.28/build-scripts/rename_api.py  
+  inflating: SDL3-3.2.28/build-scripts/rename_headers.py  
+  inflating: SDL3-3.2.28/build-scripts/rename_macros.py  
+  inflating: SDL3-3.2.28/build-scripts/rename_symbols.py  
+  inflating: SDL3-3.2.28/build-scripts/rename_types.py  
+  inflating: SDL3-3.2.28/build-scripts/setup-gdk-desktop.py  
+  inflating: SDL3-3.2.28/build-scripts/showrev.sh  
+  inflating: SDL3-3.2.28/build-scripts/test-versioning.sh  
+  inflating: SDL3-3.2.28/build-scripts/update-copyright.sh  
+  inflating: SDL3-3.2.28/build-scripts/update-version.sh  
+  inflating: SDL3-3.2.28/build-scripts/updaterev.sh  
+  inflating: SDL3-3.2.28/build-scripts/wikiheaders.pl  
+  inflating: SDL3-3.2.28/cmake/3rdparty.cmake  
+  inflating: SDL3-3.2.28/cmake/CPackProjectConfig.cmake.in  
+  inflating: SDL3-3.2.28/cmake/FindFFmpeg.cmake  
+  inflating: SDL3-3.2.28/cmake/FindLibUSB.cmake  
+  inflating: SDL3-3.2.28/cmake/GetGitRevisionDescription.cmake  
+  inflating: SDL3-3.2.28/cmake/GetGitRevisionDescription.cmake.in  
+  inflating: SDL3-3.2.28/cmake/PkgConfigHelper.cmake  
+  inflating: SDL3-3.2.28/cmake/PreseedEmscriptenCache.cmake  
+  inflating: SDL3-3.2.28/cmake/PreseedMSVCCache.cmake  
+  inflating: SDL3-3.2.28/cmake/SDL3Config.cmake.in  
+  inflating: SDL3-3.2.28/cmake/SDL3jarTargets.cmake.in  
+  inflating: SDL3-3.2.28/cmake/android/FindSdlAndroid.cmake  
+  inflating: SDL3-3.2.28/cmake/android/FindSdlAndroidBuildTools.cmake  
+  inflating: SDL3-3.2.28/cmake/android/FindSdlAndroidPlatform.cmake  
+  inflating: SDL3-3.2.28/cmake/android/SdlAndroidFunctions.cmake  
+  inflating: SDL3-3.2.28/cmake/android/SdlAndroidScript.cmake  
+  inflating: SDL3-3.2.28/cmake/cmake_uninstall.cmake.in  
+  inflating: SDL3-3.2.28/cmake/macros.cmake  
+  inflating: SDL3-3.2.28/cmake/sdl3.pc.in  
+  inflating: SDL3-3.2.28/cmake/sdlchecks.cmake  
+  inflating: SDL3-3.2.28/cmake/sdlcompilers.cmake  
+  inflating: SDL3-3.2.28/cmake/sdlcpu.cmake  
+  inflating: SDL3-3.2.28/cmake/sdlmanpages.cmake  
+  inflating: SDL3-3.2.28/cmake/sdlplatform.cmake  
+  inflating: SDL3-3.2.28/cmake/sdltargets.cmake  
+  inflating: SDL3-3.2.28/cmake/test/CMakeLists.txt  
+  inflating: SDL3-3.2.28/cmake/test/inc_sdl_slash.c  
+  inflating: SDL3-3.2.28/cmake/test/main.swift  
+  inflating: SDL3-3.2.28/cmake/test/main_cli.c  
+  inflating: SDL3-3.2.28/cmake/test/main_gui.c  
+  inflating: SDL3-3.2.28/cmake/test/main_lib.c  
+  inflating: SDL3-3.2.28/cmake/test/sdltest.c  
+  inflating: SDL3-3.2.28/cmake/test/swift/module.modulemap  
+  inflating: SDL3-3.2.28/cmake/test/swift/shim.h  
+  inflating: SDL3-3.2.28/cmake/test/test_pkgconfig.sh  
+  inflating: SDL3-3.2.28/cmake/xxd.py  
+  inflating: SDL3-3.2.28/docs/INTRO-androidstudio.md  
+  inflating: SDL3-3.2.28/docs/INTRO-cmake.md  
+  inflating: SDL3-3.2.28/docs/INTRO-emscripten.md  
+  inflating: SDL3-3.2.28/docs/INTRO-mingw.md  
+  inflating: SDL3-3.2.28/docs/INTRO-visualstudio.md  
+  inflating: SDL3-3.2.28/docs/INTRO-xcode.md  
+  inflating: SDL3-3.2.28/docs/README-android.md  
+  inflating: SDL3-3.2.28/docs/README-bsd.md  
+  inflating: SDL3-3.2.28/docs/README-cmake.md  
+  inflating: SDL3-3.2.28/docs/README-contributing.md  
+  inflating: SDL3-3.2.28/docs/README-documentation-rules.md  
+  inflating: SDL3-3.2.28/docs/README-dynapi.md  
+  inflating: SDL3-3.2.28/docs/README-emscripten.md  
+  inflating: SDL3-3.2.28/docs/README-gdk.md  
+  inflating: SDL3-3.2.28/docs/README-haiku.md  
+  inflating: SDL3-3.2.28/docs/README-highdpi.md  
+  inflating: SDL3-3.2.28/docs/README-ios.md  
+  inflating: SDL3-3.2.28/docs/README-kmsbsd.md  
+  inflating: SDL3-3.2.28/docs/README-linux.md  
+  inflating: SDL3-3.2.28/docs/README-macos.md  
+  inflating: SDL3-3.2.28/docs/README-main-functions.md  
+  inflating: SDL3-3.2.28/docs/README-migration.md  
+  inflating: SDL3-3.2.28/docs/README-n3ds.md  
+  inflating: SDL3-3.2.28/docs/README-ngage.md  
+  inflating: SDL3-3.2.28/docs/README-platforms.md  
+  inflating: SDL3-3.2.28/docs/README-porting.md  
+  inflating: SDL3-3.2.28/docs/README-ps2.md  
+  inflating: SDL3-3.2.28/docs/README-ps4.md  
+  inflating: SDL3-3.2.28/docs/README-ps5.md  
+  inflating: SDL3-3.2.28/docs/README-psp.md  
+  inflating: SDL3-3.2.28/docs/README-riscos.md  
+  inflating: SDL3-3.2.28/docs/README-steamos.md  
+  inflating: SDL3-3.2.28/docs/README-strings.md  
+  inflating: SDL3-3.2.28/docs/README-switch.md  
+  inflating: SDL3-3.2.28/docs/README-touch.md  
+  inflating: SDL3-3.2.28/docs/README-versions.md  
+  inflating: SDL3-3.2.28/docs/README-vita.md  
+  inflating: SDL3-3.2.28/docs/README-wayland.md  
+  inflating: SDL3-3.2.28/docs/README-windows.md  
+  inflating: SDL3-3.2.28/docs/README.md  
+  inflating: SDL3-3.2.28/docs/doxyfile  
+  inflating: SDL3-3.2.28/docs/hello.c  
+  inflating: SDL3-3.2.28/docs/release_checklist.md  
+  inflating: SDL3-3.2.28/examples/CMakeLists.txt  
+  inflating: SDL3-3.2.28/examples/README.md  
+  inflating: SDL3-3.2.28/examples/asyncio/01-load-bitmaps/README.txt  
+  inflating: SDL3-3.2.28/examples/asyncio/01-load-bitmaps/load-bitmaps.c  
+  inflating: SDL3-3.2.28/examples/asyncio/01-load-bitmaps/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/asyncio/description.txt  
+  inflating: SDL3-3.2.28/examples/audio/01-simple-playback/README.txt  
+  inflating: SDL3-3.2.28/examples/audio/01-simple-playback/simple-playback.c  
+  inflating: SDL3-3.2.28/examples/audio/02-simple-playback-callback/README.txt  
+  inflating: SDL3-3.2.28/examples/audio/02-simple-playback-callback/simple-playback-callback.c  
+  inflating: SDL3-3.2.28/examples/audio/03-load-wav/README.txt  
+  inflating: SDL3-3.2.28/examples/audio/03-load-wav/load-wav.c  
+  inflating: SDL3-3.2.28/examples/audio/04-multiple-streams/README.txt  
+  inflating: SDL3-3.2.28/examples/audio/04-multiple-streams/multiple-streams.c  
+  inflating: SDL3-3.2.28/examples/audio/onmouseover.webp  
+  inflating: SDL3-3.2.28/examples/audio/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/camera/01-read-and-draw/README.txt  
+  inflating: SDL3-3.2.28/examples/camera/01-read-and-draw/onmouseover.webp  
+  inflating: SDL3-3.2.28/examples/camera/01-read-and-draw/read-and-draw.c  
+  inflating: SDL3-3.2.28/examples/camera/01-read-and-draw/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/categories.txt  
+  inflating: SDL3-3.2.28/examples/demo/01-snake/README.txt  
+  inflating: SDL3-3.2.28/examples/demo/01-snake/onmouseover.webp  
+  inflating: SDL3-3.2.28/examples/demo/01-snake/snake.c  
+  inflating: SDL3-3.2.28/examples/demo/01-snake/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/demo/02-woodeneye-008/README.txt  
+  inflating: SDL3-3.2.28/examples/demo/02-woodeneye-008/onmouseover.webp  
+  inflating: SDL3-3.2.28/examples/demo/02-woodeneye-008/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/demo/02-woodeneye-008/woodeneye-008.c  
+  inflating: SDL3-3.2.28/examples/demo/03-infinite-monkeys/README.txt  
+  inflating: SDL3-3.2.28/examples/demo/03-infinite-monkeys/infinite-monkeys.c  
+  inflating: SDL3-3.2.28/examples/demo/03-infinite-monkeys/onmouseover.webp  
+  inflating: SDL3-3.2.28/examples/demo/03-infinite-monkeys/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/demo/04-bytepusher/README.txt  
+  inflating: SDL3-3.2.28/examples/demo/04-bytepusher/bytepusher.c  
+  inflating: SDL3-3.2.28/examples/demo/04-bytepusher/onmouseover.webp  
+  inflating: SDL3-3.2.28/examples/demo/04-bytepusher/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/demo/description.txt  
+  inflating: SDL3-3.2.28/examples/highlight-plugin.lua  
+  inflating: SDL3-3.2.28/examples/input/01-joystick-polling/README.txt  
+  inflating: SDL3-3.2.28/examples/input/01-joystick-polling/joystick-polling.c  
+  inflating: SDL3-3.2.28/examples/input/01-joystick-polling/onmouseover.webp  
+  inflating: SDL3-3.2.28/examples/input/01-joystick-polling/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/input/02-joystick-events/README.txt  
+  inflating: SDL3-3.2.28/examples/input/02-joystick-events/joystick-events.c  
+  inflating: SDL3-3.2.28/examples/input/02-joystick-events/onmouseover.webp  
+  inflating: SDL3-3.2.28/examples/input/02-joystick-events/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/pen/01-drawing-lines/README.txt  
+  inflating: SDL3-3.2.28/examples/pen/01-drawing-lines/drawing-lines.c  
+  inflating: SDL3-3.2.28/examples/pen/01-drawing-lines/onmouseover.webp  
+  inflating: SDL3-3.2.28/examples/pen/01-drawing-lines/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/renderer/01-clear/README.txt  
+  inflating: SDL3-3.2.28/examples/renderer/01-clear/clear.c  
+  inflating: SDL3-3.2.28/examples/renderer/01-clear/onmouseover.webp  
+  inflating: SDL3-3.2.28/examples/renderer/01-clear/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/renderer/02-primitives/README.txt  
+  inflating: SDL3-3.2.28/examples/renderer/02-primitives/primitives.c  
+  inflating: SDL3-3.2.28/examples/renderer/02-primitives/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/renderer/03-lines/README.txt  
+  inflating: SDL3-3.2.28/examples/renderer/03-lines/lines.c  
+  inflating: SDL3-3.2.28/examples/renderer/03-lines/onmouseover.webp  
+  inflating: SDL3-3.2.28/examples/renderer/03-lines/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/renderer/04-points/README.txt  
+  inflating: SDL3-3.2.28/examples/renderer/04-points/onmouseover.webp  
+  inflating: SDL3-3.2.28/examples/renderer/04-points/points.c  
+  inflating: SDL3-3.2.28/examples/renderer/04-points/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/renderer/05-rectangles/README.txt  
+  inflating: SDL3-3.2.28/examples/renderer/05-rectangles/onmouseover.webp  
+  inflating: SDL3-3.2.28/examples/renderer/05-rectangles/rectangles.c  
+  inflating: SDL3-3.2.28/examples/renderer/05-rectangles/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/renderer/06-textures/README.txt  
+  inflating: SDL3-3.2.28/examples/renderer/06-textures/onmouseover.webp  
+  inflating: SDL3-3.2.28/examples/renderer/06-textures/textures.c  
+  inflating: SDL3-3.2.28/examples/renderer/06-textures/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/renderer/07-streaming-textures/README.txt  
+  inflating: SDL3-3.2.28/examples/renderer/07-streaming-textures/onmouseover.webp  
+  inflating: SDL3-3.2.28/examples/renderer/07-streaming-textures/streaming-textures.c  
+  inflating: SDL3-3.2.28/examples/renderer/07-streaming-textures/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/renderer/08-rotating-textures/README.txt  
+  inflating: SDL3-3.2.28/examples/renderer/08-rotating-textures/onmouseover.webp  
+  inflating: SDL3-3.2.28/examples/renderer/08-rotating-textures/rotating-textures.c  
+  inflating: SDL3-3.2.28/examples/renderer/08-rotating-textures/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/renderer/09-scaling-textures/README.txt  
+  inflating: SDL3-3.2.28/examples/renderer/09-scaling-textures/onmouseover.webp  
+  inflating: SDL3-3.2.28/examples/renderer/09-scaling-textures/scaling-textures.c  
+  inflating: SDL3-3.2.28/examples/renderer/09-scaling-textures/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/renderer/10-geometry/README.txt  
+  inflating: SDL3-3.2.28/examples/renderer/10-geometry/geometry.c  
+  inflating: SDL3-3.2.28/examples/renderer/10-geometry/onmouseover.webp  
+  inflating: SDL3-3.2.28/examples/renderer/10-geometry/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/renderer/11-color-mods/README.txt  
+  inflating: SDL3-3.2.28/examples/renderer/11-color-mods/color-mods.c  
+  inflating: SDL3-3.2.28/examples/renderer/11-color-mods/onmouseover.webp  
+  inflating: SDL3-3.2.28/examples/renderer/11-color-mods/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/renderer/14-viewport/README.txt  
+  inflating: SDL3-3.2.28/examples/renderer/14-viewport/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/renderer/14-viewport/viewport.c  
+  inflating: SDL3-3.2.28/examples/renderer/15-cliprect/README.txt  
+  inflating: SDL3-3.2.28/examples/renderer/15-cliprect/cliprect.c  
+  inflating: SDL3-3.2.28/examples/renderer/15-cliprect/onmouseover.webp  
+  inflating: SDL3-3.2.28/examples/renderer/15-cliprect/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/renderer/17-read-pixels/README.txt  
+  inflating: SDL3-3.2.28/examples/renderer/17-read-pixels/onmouseover.webp  
+  inflating: SDL3-3.2.28/examples/renderer/17-read-pixels/read-pixels.c  
+  inflating: SDL3-3.2.28/examples/renderer/17-read-pixels/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/renderer/18-debug-text/README.txt  
+  inflating: SDL3-3.2.28/examples/renderer/18-debug-text/debug-text.c  
+  inflating: SDL3-3.2.28/examples/renderer/18-debug-text/thumbnail.png  
+  inflating: SDL3-3.2.28/examples/template-category.html  
+  inflating: SDL3-3.2.28/examples/template-homepage.html  
+  inflating: SDL3-3.2.28/examples/template-placeholder.png  
+  inflating: SDL3-3.2.28/examples/template.c  
+  inflating: SDL3-3.2.28/examples/template.css  
+  inflating: SDL3-3.2.28/examples/template.html  
+  inflating: SDL3-3.2.28/include/SDL3/SDL.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_assert.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_asyncio.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_atomic.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_audio.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_begin_code.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_bits.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_blendmode.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_camera.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_clipboard.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_close_code.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_copying.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_cpuinfo.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_dialog.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_egl.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_endian.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_error.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_events.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_filesystem.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_gamepad.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_gpu.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_guid.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_haptic.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_hidapi.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_hints.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_init.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_intrin.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_iostream.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_joystick.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_keyboard.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_keycode.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_loadso.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_locale.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_log.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_main.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_main_impl.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_messagebox.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_metal.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_misc.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_mouse.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_mutex.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_oldnames.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_opengl.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_opengl_glext.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_opengles.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_opengles2.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_opengles2_gl2.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_opengles2_gl2ext.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_opengles2_gl2platform.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_opengles2_khrplatform.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_pen.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_pixels.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_platform.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_platform_defines.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_power.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_process.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_properties.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_rect.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_render.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_revision.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_scancode.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_sensor.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_stdinc.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_storage.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_surface.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_system.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_test.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_test_assert.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_test_common.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_test_compare.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_test_crc32.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_test_font.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_test_fuzzer.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_test_harness.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_test_log.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_test_md5.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_test_memory.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_thread.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_time.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_timer.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_touch.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_tray.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_version.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_video.h  
+  inflating: SDL3-3.2.28/include/SDL3/SDL_vulkan.h  
+  inflating: SDL3-3.2.28/include/build_config/SDL_build_config.h  
+  inflating: SDL3-3.2.28/include/build_config/SDL_build_config.h.cmake  
+  inflating: SDL3-3.2.28/include/build_config/SDL_build_config_android.h  
+  inflating: SDL3-3.2.28/include/build_config/SDL_build_config_ios.h  
+  inflating: SDL3-3.2.28/include/build_config/SDL_build_config_macos.h  
+  inflating: SDL3-3.2.28/include/build_config/SDL_build_config_minimal.h  
+  inflating: SDL3-3.2.28/include/build_config/SDL_build_config_windows.h  
+  inflating: SDL3-3.2.28/include/build_config/SDL_build_config_wingdk.h  
+  inflating: SDL3-3.2.28/include/build_config/SDL_build_config_xbox.h  
+  inflating: SDL3-3.2.28/include/build_config/SDL_revision.h.cmake  
+  inflating: SDL3-3.2.28/src/SDL.c   
+  inflating: SDL3-3.2.28/src/SDL_assert.c  
+  inflating: SDL3-3.2.28/src/SDL_assert_c.h  
+  inflating: SDL3-3.2.28/src/SDL_error.c  
+  inflating: SDL3-3.2.28/src/SDL_error_c.h  
+  inflating: SDL3-3.2.28/src/SDL_guid.c  
+  inflating: SDL3-3.2.28/src/SDL_hashtable.c  
+  inflating: SDL3-3.2.28/src/SDL_hashtable.h  
+  inflating: SDL3-3.2.28/src/SDL_hints.c  
+  inflating: SDL3-3.2.28/src/SDL_hints_c.h  
+  inflating: SDL3-3.2.28/src/SDL_internal.h  
+  inflating: SDL3-3.2.28/src/SDL_list.c  
+  inflating: SDL3-3.2.28/src/SDL_list.h  
+  inflating: SDL3-3.2.28/src/SDL_log.c  
+  inflating: SDL3-3.2.28/src/SDL_log_c.h  
+  inflating: SDL3-3.2.28/src/SDL_properties.c  
+  inflating: SDL3-3.2.28/src/SDL_properties_c.h  
+  inflating: SDL3-3.2.28/src/SDL_utils.c  
+  inflating: SDL3-3.2.28/src/SDL_utils_c.h  
+  inflating: SDL3-3.2.28/src/atomic/SDL_atomic.c  
+  inflating: SDL3-3.2.28/src/atomic/SDL_spinlock.c  
+  inflating: SDL3-3.2.28/src/audio/SDL_audio.c  
+  inflating: SDL3-3.2.28/src/audio/SDL_audio_c.h  
+  inflating: SDL3-3.2.28/src/audio/SDL_audio_channel_converters.h  
+  inflating: SDL3-3.2.28/src/audio/SDL_audiocvt.c  
+  inflating: SDL3-3.2.28/src/audio/SDL_audiodev.c  
+  inflating: SDL3-3.2.28/src/audio/SDL_audiodev_c.h  
+  inflating: SDL3-3.2.28/src/audio/SDL_audioqueue.c  
+  inflating: SDL3-3.2.28/src/audio/SDL_audioqueue.h  
+  inflating: SDL3-3.2.28/src/audio/SDL_audioresample.c  
+  inflating: SDL3-3.2.28/src/audio/SDL_audioresample.h  
+  inflating: SDL3-3.2.28/src/audio/SDL_audiotypecvt.c  
+  inflating: SDL3-3.2.28/src/audio/SDL_mixer.c  
+  inflating: SDL3-3.2.28/src/audio/SDL_sysaudio.h  
+  inflating: SDL3-3.2.28/src/audio/SDL_wave.c  
+  inflating: SDL3-3.2.28/src/audio/SDL_wave.h  
+  inflating: SDL3-3.2.28/src/audio/aaudio/SDL_aaudio.c  
+  inflating: SDL3-3.2.28/src/audio/aaudio/SDL_aaudio.h  
+  inflating: SDL3-3.2.28/src/audio/aaudio/SDL_aaudiofuncs.h  
+  inflating: SDL3-3.2.28/src/audio/alsa/SDL_alsa_audio.c  
+  inflating: SDL3-3.2.28/src/audio/alsa/SDL_alsa_audio.h  
+  inflating: SDL3-3.2.28/src/audio/coreaudio/SDL_coreaudio.h  
+  inflating: SDL3-3.2.28/src/audio/coreaudio/SDL_coreaudio.m  
+  inflating: SDL3-3.2.28/src/audio/directsound/SDL_directsound.c  
+  inflating: SDL3-3.2.28/src/audio/directsound/SDL_directsound.h  
+  inflating: SDL3-3.2.28/src/audio/disk/SDL_diskaudio.c  
+  inflating: SDL3-3.2.28/src/audio/disk/SDL_diskaudio.h  
+  inflating: SDL3-3.2.28/src/audio/dsp/SDL_dspaudio.c  
+  inflating: SDL3-3.2.28/src/audio/dsp/SDL_dspaudio.h  
+  inflating: SDL3-3.2.28/src/audio/dummy/SDL_dummyaudio.c  
+  inflating: SDL3-3.2.28/src/audio/dummy/SDL_dummyaudio.h  
+  inflating: SDL3-3.2.28/src/audio/emscripten/SDL_emscriptenaudio.c  
+  inflating: SDL3-3.2.28/src/audio/emscripten/SDL_emscriptenaudio.h  
+  inflating: SDL3-3.2.28/src/audio/haiku/SDL_haikuaudio.cc  
+  inflating: SDL3-3.2.28/src/audio/haiku/SDL_haikuaudio.h  
+  inflating: SDL3-3.2.28/src/audio/jack/SDL_jackaudio.c  
+  inflating: SDL3-3.2.28/src/audio/jack/SDL_jackaudio.h  
+  inflating: SDL3-3.2.28/src/audio/n3ds/SDL_n3dsaudio.c  
+  inflating: SDL3-3.2.28/src/audio/n3ds/SDL_n3dsaudio.h  
+  inflating: SDL3-3.2.28/src/audio/netbsd/SDL_netbsdaudio.c  
+  inflating: SDL3-3.2.28/src/audio/netbsd/SDL_netbsdaudio.h  
+  inflating: SDL3-3.2.28/src/audio/openslES/SDL_openslES.c  
+  inflating: SDL3-3.2.28/src/audio/openslES/SDL_openslES.h  
+  inflating: SDL3-3.2.28/src/audio/pipewire/SDL_pipewire.c  
+  inflating: SDL3-3.2.28/src/audio/pipewire/SDL_pipewire.h  
+  inflating: SDL3-3.2.28/src/audio/ps2/SDL_ps2audio.c  
+  inflating: SDL3-3.2.28/src/audio/ps2/SDL_ps2audio.h  
+  inflating: SDL3-3.2.28/src/audio/psp/SDL_pspaudio.c  
+  inflating: SDL3-3.2.28/src/audio/psp/SDL_pspaudio.h  
+  inflating: SDL3-3.2.28/src/audio/pulseaudio/SDL_pulseaudio.c  
+  inflating: SDL3-3.2.28/src/audio/pulseaudio/SDL_pulseaudio.h  
+  inflating: SDL3-3.2.28/src/audio/qnx/SDL_qsa_audio.c  
+  inflating: SDL3-3.2.28/src/audio/qnx/SDL_qsa_audio.h  
+  inflating: SDL3-3.2.28/src/audio/sndio/SDL_sndioaudio.c  
+  inflating: SDL3-3.2.28/src/audio/sndio/SDL_sndioaudio.h  
+  inflating: SDL3-3.2.28/src/audio/vita/SDL_vitaaudio.c  
+  inflating: SDL3-3.2.28/src/audio/vita/SDL_vitaaudio.h  
+  inflating: SDL3-3.2.28/src/audio/wasapi/SDL_wasapi.c  
+  inflating: SDL3-3.2.28/src/audio/wasapi/SDL_wasapi.h  
+  inflating: SDL3-3.2.28/src/camera/SDL_camera.c  
+  inflating: SDL3-3.2.28/src/camera/SDL_camera_c.h  
+  inflating: SDL3-3.2.28/src/camera/SDL_syscamera.h  
+  inflating: SDL3-3.2.28/src/camera/android/SDL_camera_android.c  
+  inflating: SDL3-3.2.28/src/camera/coremedia/SDL_camera_coremedia.m  
+  inflating: SDL3-3.2.28/src/camera/dummy/SDL_camera_dummy.c  
+  inflating: SDL3-3.2.28/src/camera/emscripten/SDL_camera_emscripten.c  
+  inflating: SDL3-3.2.28/src/camera/mediafoundation/SDL_camera_mediafoundation.c  
+  inflating: SDL3-3.2.28/src/camera/pipewire/SDL_camera_pipewire.c  
+  inflating: SDL3-3.2.28/src/camera/v4l2/SDL_camera_v4l2.c  
+  inflating: SDL3-3.2.28/src/camera/vita/SDL_camera_vita.c  
+  inflating: SDL3-3.2.28/src/core/SDL_core_unsupported.c  
+  inflating: SDL3-3.2.28/src/core/android/SDL_android.c  
+  inflating: SDL3-3.2.28/src/core/android/SDL_android.h  
+  inflating: SDL3-3.2.28/src/core/freebsd/SDL_evdev_kbd_default_keyaccmap.h  
+  inflating: SDL3-3.2.28/src/core/freebsd/SDL_evdev_kbd_freebsd.c  
+  inflating: SDL3-3.2.28/src/core/gdk/SDL_gdk.cpp  
+  inflating: SDL3-3.2.28/src/core/gdk/SDL_gdk.h  
+  inflating: SDL3-3.2.28/src/core/haiku/SDL_BApp.h  
+  inflating: SDL3-3.2.28/src/core/haiku/SDL_BeApp.cc  
+  inflating: SDL3-3.2.28/src/core/haiku/SDL_BeApp.h  
+  inflating: SDL3-3.2.28/src/core/linux/SDL_dbus.c  
+  inflating: SDL3-3.2.28/src/core/linux/SDL_dbus.h  
+  inflating: SDL3-3.2.28/src/core/linux/SDL_evdev.c  
+  inflating: SDL3-3.2.28/src/core/linux/SDL_evdev.h  
+  inflating: SDL3-3.2.28/src/core/linux/SDL_evdev_capabilities.c  
+  inflating: SDL3-3.2.28/src/core/linux/SDL_evdev_capabilities.h  
+  inflating: SDL3-3.2.28/src/core/linux/SDL_evdev_kbd.c  
+  inflating: SDL3-3.2.28/src/core/linux/SDL_evdev_kbd.h  
+  inflating: SDL3-3.2.28/src/core/linux/SDL_evdev_kbd_default_accents.h  
+  inflating: SDL3-3.2.28/src/core/linux/SDL_evdev_kbd_default_keymap.h  
+  inflating: SDL3-3.2.28/src/core/linux/SDL_fcitx.c  
+  inflating: SDL3-3.2.28/src/core/linux/SDL_fcitx.h  
+  inflating: SDL3-3.2.28/src/core/linux/SDL_ibus.c  
+  inflating: SDL3-3.2.28/src/core/linux/SDL_ibus.h  
+  inflating: SDL3-3.2.28/src/core/linux/SDL_ime.c  
+  inflating: SDL3-3.2.28/src/core/linux/SDL_ime.h  
+  inflating: SDL3-3.2.28/src/core/linux/SDL_system_theme.c  
+  inflating: SDL3-3.2.28/src/core/linux/SDL_system_theme.h  
+  inflating: SDL3-3.2.28/src/core/linux/SDL_threadprio.c  
+  inflating: SDL3-3.2.28/src/core/linux/SDL_udev.c  
+  inflating: SDL3-3.2.28/src/core/linux/SDL_udev.h  
+  inflating: SDL3-3.2.28/src/core/openbsd/SDL_wscons.h  
+  inflating: SDL3-3.2.28/src/core/openbsd/SDL_wscons_kbd.c  
+  inflating: SDL3-3.2.28/src/core/openbsd/SDL_wscons_mouse.c  
+  inflating: SDL3-3.2.28/src/core/unix/SDL_appid.c  
+  inflating: SDL3-3.2.28/src/core/unix/SDL_appid.h  
+  inflating: SDL3-3.2.28/src/core/unix/SDL_poll.c  
+  inflating: SDL3-3.2.28/src/core/unix/SDL_poll.h  
+  inflating: SDL3-3.2.28/src/core/windows/SDL_directx.h  
+  inflating: SDL3-3.2.28/src/core/windows/SDL_gameinput.c  
+  inflating: SDL3-3.2.28/src/core/windows/SDL_gameinput.h  
+  inflating: SDL3-3.2.28/src/core/windows/SDL_hid.c  
+  inflating: SDL3-3.2.28/src/core/windows/SDL_hid.h  
+  inflating: SDL3-3.2.28/src/core/windows/SDL_immdevice.c  
+  inflating: SDL3-3.2.28/src/core/windows/SDL_immdevice.h  
+  inflating: SDL3-3.2.28/src/core/windows/SDL_windows.c  
+  inflating: SDL3-3.2.28/src/core/windows/SDL_windows.h  
+  inflating: SDL3-3.2.28/src/core/windows/SDL_xinput.c  
+  inflating: SDL3-3.2.28/src/core/windows/SDL_xinput.h  
+  inflating: SDL3-3.2.28/src/core/windows/pch.c  
+  inflating: SDL3-3.2.28/src/core/windows/pch_cpp.cpp  
+  inflating: SDL3-3.2.28/src/core/windows/version.rc  
+  inflating: SDL3-3.2.28/src/cpuinfo/SDL_cpuinfo.c  
+  inflating: SDL3-3.2.28/src/cpuinfo/SDL_cpuinfo_c.h  
+  inflating: SDL3-3.2.28/src/dialog/SDL_dialog.c  
+  inflating: SDL3-3.2.28/src/dialog/SDL_dialog.h  
+  inflating: SDL3-3.2.28/src/dialog/SDL_dialog_utils.c  
+  inflating: SDL3-3.2.28/src/dialog/SDL_dialog_utils.h  
+  inflating: SDL3-3.2.28/src/dialog/android/SDL_androiddialog.c  
+  inflating: SDL3-3.2.28/src/dialog/cocoa/SDL_cocoadialog.m  
+  inflating: SDL3-3.2.28/src/dialog/dummy/SDL_dummydialog.c  
+  inflating: SDL3-3.2.28/src/dialog/haiku/SDL_haikudialog.cc  
+  inflating: SDL3-3.2.28/src/dialog/unix/SDL_portaldialog.c  
+  inflating: SDL3-3.2.28/src/dialog/unix/SDL_portaldialog.h  
+  inflating: SDL3-3.2.28/src/dialog/unix/SDL_unixdialog.c  
+  inflating: SDL3-3.2.28/src/dialog/unix/SDL_zenitydialog.c  
+  inflating: SDL3-3.2.28/src/dialog/unix/SDL_zenitydialog.h  
+  inflating: SDL3-3.2.28/src/dialog/windows/SDL_windowsdialog.c  
+  inflating: SDL3-3.2.28/src/dynapi/SDL_dynapi.c  
+  inflating: SDL3-3.2.28/src/dynapi/SDL_dynapi.h  
+  inflating: SDL3-3.2.28/src/dynapi/SDL_dynapi.sym  
+  inflating: SDL3-3.2.28/src/dynapi/SDL_dynapi_overrides.h  
+  inflating: SDL3-3.2.28/src/dynapi/SDL_dynapi_procs.h  
+  inflating: SDL3-3.2.28/src/dynapi/SDL_dynapi_unsupported.h  
+  inflating: SDL3-3.2.28/src/dynapi/gendynapi.py  
+  inflating: SDL3-3.2.28/src/events/SDL_categories.c  
+  inflating: SDL3-3.2.28/src/events/SDL_categories_c.h  
+  inflating: SDL3-3.2.28/src/events/SDL_clipboardevents.c  
+  inflating: SDL3-3.2.28/src/events/SDL_clipboardevents_c.h  
+  inflating: SDL3-3.2.28/src/events/SDL_displayevents.c  
+  inflating: SDL3-3.2.28/src/events/SDL_displayevents_c.h  
+  inflating: SDL3-3.2.28/src/events/SDL_dropevents.c  
+  inflating: SDL3-3.2.28/src/events/SDL_dropevents_c.h  
+  inflating: SDL3-3.2.28/src/events/SDL_events.c  
+  inflating: SDL3-3.2.28/src/events/SDL_events_c.h  
+  inflating: SDL3-3.2.28/src/events/SDL_eventwatch.c  
+  inflating: SDL3-3.2.28/src/events/SDL_eventwatch_c.h  
+  inflating: SDL3-3.2.28/src/events/SDL_keyboard.c  
+  inflating: SDL3-3.2.28/src/events/SDL_keyboard_c.h  
+  inflating: SDL3-3.2.28/src/events/SDL_keymap.c  
+  inflating: SDL3-3.2.28/src/events/SDL_keymap_c.h  
+  inflating: SDL3-3.2.28/src/events/SDL_keysym_to_keycode.c  
+  inflating: SDL3-3.2.28/src/events/SDL_keysym_to_keycode_c.h  
+  inflating: SDL3-3.2.28/src/events/SDL_keysym_to_scancode.c  
+  inflating: SDL3-3.2.28/src/events/SDL_keysym_to_scancode_c.h  
+  inflating: SDL3-3.2.28/src/events/SDL_mouse.c  
+  inflating: SDL3-3.2.28/src/events/SDL_mouse_c.h  
+  inflating: SDL3-3.2.28/src/events/SDL_pen.c  
+  inflating: SDL3-3.2.28/src/events/SDL_pen_c.h  
+  inflating: SDL3-3.2.28/src/events/SDL_quit.c  
+  inflating: SDL3-3.2.28/src/events/SDL_scancode_tables.c  
+  inflating: SDL3-3.2.28/src/events/SDL_scancode_tables_c.h  
+  inflating: SDL3-3.2.28/src/events/SDL_touch.c  
+  inflating: SDL3-3.2.28/src/events/SDL_touch_c.h  
+  inflating: SDL3-3.2.28/src/events/SDL_windowevents.c  
+  inflating: SDL3-3.2.28/src/events/SDL_windowevents_c.h  
+  inflating: SDL3-3.2.28/src/events/blank_cursor.h  
+  inflating: SDL3-3.2.28/src/events/default_cursor.h  
+  inflating: SDL3-3.2.28/src/events/imKStoUCS.c  
+  inflating: SDL3-3.2.28/src/events/imKStoUCS.h  
+  inflating: SDL3-3.2.28/src/events/scancodes_darwin.h  
+  inflating: SDL3-3.2.28/src/events/scancodes_linux.h  
+  inflating: SDL3-3.2.28/src/events/scancodes_windows.h  
+  inflating: SDL3-3.2.28/src/events/scancodes_xfree86.h  
+  inflating: SDL3-3.2.28/src/filesystem/SDL_filesystem.c  
+  inflating: SDL3-3.2.28/src/filesystem/SDL_filesystem_c.h  
+  inflating: SDL3-3.2.28/src/filesystem/SDL_sysfilesystem.h  
+  inflating: SDL3-3.2.28/src/filesystem/android/SDL_sysfilesystem.c  
+  inflating: SDL3-3.2.28/src/filesystem/cocoa/SDL_sysfilesystem.m  
+  inflating: SDL3-3.2.28/src/filesystem/dummy/SDL_sysfilesystem.c  
+  inflating: SDL3-3.2.28/src/filesystem/dummy/SDL_sysfsops.c  
+  inflating: SDL3-3.2.28/src/filesystem/emscripten/SDL_sysfilesystem.c  
+  inflating: SDL3-3.2.28/src/filesystem/gdk/SDL_sysfilesystem.cpp  
+  inflating: SDL3-3.2.28/src/filesystem/haiku/SDL_sysfilesystem.cc  
+  inflating: SDL3-3.2.28/src/filesystem/n3ds/SDL_sysfilesystem.c  
+  inflating: SDL3-3.2.28/src/filesystem/posix/SDL_sysfsops.c  
+  inflating: SDL3-3.2.28/src/filesystem/ps2/SDL_sysfilesystem.c  
+  inflating: SDL3-3.2.28/src/filesystem/psp/SDL_sysfilesystem.c  
+  inflating: SDL3-3.2.28/src/filesystem/riscos/SDL_sysfilesystem.c  
+  inflating: SDL3-3.2.28/src/filesystem/unix/SDL_sysfilesystem.c  
+  inflating: SDL3-3.2.28/src/filesystem/vita/SDL_sysfilesystem.c  
+  inflating: SDL3-3.2.28/src/filesystem/windows/SDL_sysfilesystem.c  
+  inflating: SDL3-3.2.28/src/filesystem/windows/SDL_sysfsops.c  
+  inflating: SDL3-3.2.28/src/gpu/SDL_gpu.c  
+  inflating: SDL3-3.2.28/src/gpu/SDL_sysgpu.h  
+  inflating: SDL3-3.2.28/src/gpu/d3d12/D3D12_Blit.h  
+  inflating: SDL3-3.2.28/src/gpu/d3d12/D3D_Blit.hlsl  
+  inflating: SDL3-3.2.28/src/gpu/d3d12/SDL_gpu_d3d12.c  
+  inflating: SDL3-3.2.28/src/gpu/d3d12/compile_shaders.bat  
+  inflating: SDL3-3.2.28/src/gpu/d3d12/compile_shaders_xbox.bat  
+  inflating: SDL3-3.2.28/src/gpu/metal/Metal_Blit.h  
+  inflating: SDL3-3.2.28/src/gpu/metal/Metal_Blit.metal  
+  inflating: SDL3-3.2.28/src/gpu/metal/SDL_gpu_metal.m  
+  inflating: SDL3-3.2.28/src/gpu/metal/compile_shaders.sh  
+  inflating: SDL3-3.2.28/src/gpu/vulkan/SDL_gpu_vulkan.c  
+  inflating: SDL3-3.2.28/src/gpu/vulkan/SDL_gpu_vulkan_vkfuncs.h  
+  inflating: SDL3-3.2.28/src/haptic/SDL_haptic.c  
+  inflating: SDL3-3.2.28/src/haptic/SDL_haptic_c.h  
+  inflating: SDL3-3.2.28/src/haptic/SDL_syshaptic.h  
+  inflating: SDL3-3.2.28/src/haptic/android/SDL_syshaptic.c  
+  inflating: SDL3-3.2.28/src/haptic/android/SDL_syshaptic_c.h  
+  inflating: SDL3-3.2.28/src/haptic/darwin/SDL_syshaptic.c  
+  inflating: SDL3-3.2.28/src/haptic/darwin/SDL_syshaptic_c.h  
+  inflating: SDL3-3.2.28/src/haptic/dummy/SDL_syshaptic.c  
+  inflating: SDL3-3.2.28/src/haptic/linux/SDL_syshaptic.c  
+  inflating: SDL3-3.2.28/src/haptic/windows/SDL_dinputhaptic.c  
+  inflating: SDL3-3.2.28/src/haptic/windows/SDL_dinputhaptic_c.h  
+  inflating: SDL3-3.2.28/src/haptic/windows/SDL_windowshaptic.c  
+  inflating: SDL3-3.2.28/src/haptic/windows/SDL_windowshaptic_c.h  
+  inflating: SDL3-3.2.28/src/hidapi/AUTHORS.txt  
+  inflating: SDL3-3.2.28/src/hidapi/BUILD.autotools.md  
+  inflating: SDL3-3.2.28/src/hidapi/BUILD.cmake.md  
+  inflating: SDL3-3.2.28/src/hidapi/BUILD.md  
+  inflating: SDL3-3.2.28/src/hidapi/CMakeLists.txt  
+  inflating: SDL3-3.2.28/src/hidapi/HACKING.txt  
+  inflating: SDL3-3.2.28/src/hidapi/LICENSE-bsd.txt  
+  inflating: SDL3-3.2.28/src/hidapi/LICENSE-gpl3.txt  
+  inflating: SDL3-3.2.28/src/hidapi/LICENSE-orig.txt  
+  inflating: SDL3-3.2.28/src/hidapi/LICENSE.txt  
+  inflating: SDL3-3.2.28/src/hidapi/Makefile.am  
+  inflating: SDL3-3.2.28/src/hidapi/README.md  
+  inflating: SDL3-3.2.28/src/hidapi/SDL_hidapi.c  
+  inflating: SDL3-3.2.28/src/hidapi/SDL_hidapi_android.h  
+  inflating: SDL3-3.2.28/src/hidapi/SDL_hidapi_c.h  
+  inflating: SDL3-3.2.28/src/hidapi/SDL_hidapi_ios.h  
+  inflating: SDL3-3.2.28/src/hidapi/SDL_hidapi_libusb.h  
+  inflating: SDL3-3.2.28/src/hidapi/SDL_hidapi_linux.h  
+  inflating: SDL3-3.2.28/src/hidapi/SDL_hidapi_mac.h  
+  inflating: SDL3-3.2.28/src/hidapi/SDL_hidapi_netbsd.h  
+  inflating: SDL3-3.2.28/src/hidapi/SDL_hidapi_steamxbox.h  
+  inflating: SDL3-3.2.28/src/hidapi/SDL_hidapi_windows.h  
+  inflating: SDL3-3.2.28/src/hidapi/VERSION  
+  inflating: SDL3-3.2.28/src/hidapi/android/hid.cpp  
+  inflating: SDL3-3.2.28/src/hidapi/android/hid.h  
+  inflating: SDL3-3.2.28/src/hidapi/bootstrap  
+  inflating: SDL3-3.2.28/src/hidapi/configure.ac  
+  inflating: SDL3-3.2.28/src/hidapi/dist/hidapi.podspec  
+  inflating: SDL3-3.2.28/src/hidapi/documentation/cmake-gui-drop-down.png  
+  inflating: SDL3-3.2.28/src/hidapi/documentation/cmake-gui-highlights.png  
+  inflating: SDL3-3.2.28/src/hidapi/doxygen/Doxyfile  
+  inflating: SDL3-3.2.28/src/hidapi/doxygen/main_page.md  
+  inflating: SDL3-3.2.28/src/hidapi/hidapi/hidapi.h  
+  inflating: SDL3-3.2.28/src/hidapi/hidtest/CMakeLists.txt  
+  inflating: SDL3-3.2.28/src/hidapi/hidtest/Makefile.am  
+  inflating: SDL3-3.2.28/src/hidapi/hidtest/test.c  
+  inflating: SDL3-3.2.28/src/hidapi/ios/hid.m  
+  inflating: SDL3-3.2.28/src/hidapi/libusb/CMakeLists.txt  
+  inflating: SDL3-3.2.28/src/hidapi/libusb/Makefile-manual  
+  inflating: SDL3-3.2.28/src/hidapi/libusb/Makefile.am  
+  inflating: SDL3-3.2.28/src/hidapi/libusb/Makefile.freebsd  
+  inflating: SDL3-3.2.28/src/hidapi/libusb/Makefile.haiku  
+  inflating: SDL3-3.2.28/src/hidapi/libusb/Makefile.linux  
+  inflating: SDL3-3.2.28/src/hidapi/libusb/hid.c  
+  inflating: SDL3-3.2.28/src/hidapi/libusb/hidapi_libusb.h  
+  inflating: SDL3-3.2.28/src/hidapi/libusb/hidapi_thread_pthread.h  
+  inflating: SDL3-3.2.28/src/hidapi/libusb/hidapi_thread_sdl.h  
+  inflating: SDL3-3.2.28/src/hidapi/linux/CMakeLists.txt  
+  inflating: SDL3-3.2.28/src/hidapi/linux/Makefile-manual  
+  inflating: SDL3-3.2.28/src/hidapi/linux/Makefile.am  
+  inflating: SDL3-3.2.28/src/hidapi/linux/hid.c  
+  inflating: SDL3-3.2.28/src/hidapi/m4/ax_pthread.m4  
+  inflating: SDL3-3.2.28/src/hidapi/m4/pkg.m4  
+  inflating: SDL3-3.2.28/src/hidapi/mac/CMakeLists.txt  
+  inflating: SDL3-3.2.28/src/hidapi/mac/Makefile-manual  
+  inflating: SDL3-3.2.28/src/hidapi/mac/Makefile.am  
+  inflating: SDL3-3.2.28/src/hidapi/mac/hid.c  
+  inflating: SDL3-3.2.28/src/hidapi/mac/hidapi_darwin.h  
+  inflating: SDL3-3.2.28/src/hidapi/meson.build  
+  inflating: SDL3-3.2.28/src/hidapi/netbsd/CMakeLists.txt  
+  inflating: SDL3-3.2.28/src/hidapi/netbsd/README.md  
+  inflating: SDL3-3.2.28/src/hidapi/netbsd/hid.c  
+  inflating: SDL3-3.2.28/src/hidapi/pc/hidapi-hidraw.pc.in  
+  inflating: SDL3-3.2.28/src/hidapi/pc/hidapi-libusb.pc.in  
+  inflating: SDL3-3.2.28/src/hidapi/pc/hidapi-netbsd.pc.in  
+  inflating: SDL3-3.2.28/src/hidapi/pc/hidapi.pc.in  
+  inflating: SDL3-3.2.28/src/hidapi/src/CMakeLists.txt  
+  inflating: SDL3-3.2.28/src/hidapi/src/cmake/hidapi-config.cmake.in  
+  inflating: SDL3-3.2.28/src/hidapi/subprojects/README.md  
+  inflating: SDL3-3.2.28/src/hidapi/subprojects/hidapi_build_cmake/CMakeLists.txt  
+  inflating: SDL3-3.2.28/src/hidapi/testgui/Makefile-manual  
+  inflating: SDL3-3.2.28/src/hidapi/testgui/Makefile.am  
+  inflating: SDL3-3.2.28/src/hidapi/testgui/Makefile.freebsd  
+  inflating: SDL3-3.2.28/src/hidapi/testgui/Makefile.linux  
+  inflating: SDL3-3.2.28/src/hidapi/testgui/Makefile.mac  
+  inflating: SDL3-3.2.28/src/hidapi/testgui/Makefile.mingw  
+  inflating: SDL3-3.2.28/src/hidapi/testgui/TestGUI.app.in/Contents/Info.plist  
+  inflating: SDL3-3.2.28/src/hidapi/testgui/TestGUI.app.in/Contents/PkgInfo  
+  inflating: SDL3-3.2.28/src/hidapi/testgui/TestGUI.app.in/Contents/Resources/English.lproj/InfoPlist.strings  
+  inflating: SDL3-3.2.28/src/hidapi/testgui/TestGUI.app.in/Contents/Resources/Signal11.icns  
+  inflating: SDL3-3.2.28/src/hidapi/testgui/copy_to_bundle.sh  
+  inflating: SDL3-3.2.28/src/hidapi/testgui/mac_support.h  
+  inflating: SDL3-3.2.28/src/hidapi/testgui/mac_support_cocoa.m  
+  inflating: SDL3-3.2.28/src/hidapi/testgui/test.cpp  
+  inflating: SDL3-3.2.28/src/hidapi/testgui/testgui.sln  
+  inflating: SDL3-3.2.28/src/hidapi/testgui/testgui.vcproj  
+  inflating: SDL3-3.2.28/src/hidapi/udev/69-hid.rules  
+  inflating: SDL3-3.2.28/src/hidapi/windows/CMakeLists.txt  
+  inflating: SDL3-3.2.28/src/hidapi/windows/Makefile-manual  
+  inflating: SDL3-3.2.28/src/hidapi/windows/Makefile.am  
+  inflating: SDL3-3.2.28/src/hidapi/windows/Makefile.mingw  
+  inflating: SDL3-3.2.28/src/hidapi/windows/hid.c  
+  inflating: SDL3-3.2.28/src/hidapi/windows/hidapi.rc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/hidapi.sln  
+  inflating: SDL3-3.2.28/src/hidapi/windows/hidapi.vcproj  
+  inflating: SDL3-3.2.28/src/hidapi/windows/hidapi.vcxproj  
+  inflating: SDL3-3.2.28/src/hidapi/windows/hidapi_cfgmgr32.h  
+  inflating: SDL3-3.2.28/src/hidapi/windows/hidapi_descriptor_reconstruct.c  
+  inflating: SDL3-3.2.28/src/hidapi/windows/hidapi_descriptor_reconstruct.h  
+  inflating: SDL3-3.2.28/src/hidapi/windows/hidapi_hidclass.h  
+  inflating: SDL3-3.2.28/src/hidapi/windows/hidapi_hidpi.h  
+  inflating: SDL3-3.2.28/src/hidapi/windows/hidapi_hidsdi.h  
+  inflating: SDL3-3.2.28/src/hidapi/windows/hidapi_winapi.h  
+  inflating: SDL3-3.2.28/src/hidapi/windows/hidtest.vcproj  
+  inflating: SDL3-3.2.28/src/hidapi/windows/hidtest.vcxproj  
+  inflating: SDL3-3.2.28/src/hidapi/windows/pp_data_dump/CMakeLists.txt  
+  inflating: SDL3-3.2.28/src/hidapi/windows/pp_data_dump/README.md  
+  inflating: SDL3-3.2.28/src/hidapi/windows/pp_data_dump/pp_data_dump.c  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/CMakeLists.txt  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/045E_02FF_0005_0001.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/045E_02FF_0005_0001_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/045E_02FF_0005_0001_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046A_0011_0006_0001.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046A_0011_0006_0001_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046A_0011_0006_0001_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_0A37_0001_000C.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_0A37_0001_000C_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_0A37_0001_000C_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_B010_0001_000C.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_B010_0001_000C_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_B010_0001_000C_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_B010_0001_FF00.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_B010_0001_FF00_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_B010_0001_FF00_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_B010_0002_0001.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_B010_0002_0001_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_B010_0002_0001_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_B010_0002_FF00.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_B010_0002_FF00_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_B010_0002_FF00_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_B010_0006_0001.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_B010_0006_0001_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_B010_0006_0001_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C077_0002_0001.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C077_0002_0001_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C077_0002_0001_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C283_0004_0001.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C283_0004_0001_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C283_0004_0001_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C52F_0001_000C.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C52F_0001_000C_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C52F_0001_000C_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C52F_0001_FF00.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C52F_0001_FF00_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C52F_0001_FF00_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C52F_0002_0001.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C52F_0002_0001_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C52F_0002_0001_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C52F_0002_FF00.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C52F_0002_FF00_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C52F_0002_FF00_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C534_0001_000C.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C534_0001_000C_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C534_0001_000C_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C534_0001_FF00.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C534_0001_FF00_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C534_0001_FF00_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C534_0002_0001.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C534_0002_0001_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C534_0002_0001_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C534_0002_FF00.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C534_0002_FF00_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C534_0002_FF00_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C534_0006_0001.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C534_0006_0001_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C534_0006_0001_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C534_0080_0001.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C534_0080_0001_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/046D_C534_0080_0001_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/047F_C056_0001_000C.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/047F_C056_0001_000C_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/047F_C056_0001_000C_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/047F_C056_0003_FFA0.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/047F_C056_0003_FFA0_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/047F_C056_0003_FFA0_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/047F_C056_0005_000B.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/047F_C056_0005_000B_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/047F_C056_0005_000B_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/17CC_1130_0000_FF01.pp_data  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/17CC_1130_0000_FF01_expected.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/data/17CC_1130_0000_FF01_real.rpt_desc  
+  inflating: SDL3-3.2.28/src/hidapi/windows/test/hid_report_reconstructor_test.c  
+  inflating: SDL3-3.2.28/src/io/SDL_asyncio.c  
+  inflating: SDL3-3.2.28/src/io/SDL_asyncio_c.h  
+  inflating: SDL3-3.2.28/src/io/SDL_iostream.c  
+  inflating: SDL3-3.2.28/src/io/SDL_iostream_c.h  
+  inflating: SDL3-3.2.28/src/io/SDL_sysasyncio.h  
+  inflating: SDL3-3.2.28/src/io/generic/SDL_asyncio_generic.c  
+  inflating: SDL3-3.2.28/src/io/io_uring/SDL_asyncio_liburing.c  
+  inflating: SDL3-3.2.28/src/io/n3ds/SDL_iostreamromfs.c  
+  inflating: SDL3-3.2.28/src/io/n3ds/SDL_iostreamromfs.h  
+  inflating: SDL3-3.2.28/src/io/windows/SDL_asyncio_windows_ioring.c  
+  inflating: SDL3-3.2.28/src/joystick/SDL_gamepad.c  
+  inflating: SDL3-3.2.28/src/joystick/SDL_gamepad_c.h  
+  inflating: SDL3-3.2.28/src/joystick/SDL_gamepad_db.h  
+  inflating: SDL3-3.2.28/src/joystick/SDL_joystick.c  
+  inflating: SDL3-3.2.28/src/joystick/SDL_joystick_c.h  
+  inflating: SDL3-3.2.28/src/joystick/SDL_steam_virtual_gamepad.c  
+  inflating: SDL3-3.2.28/src/joystick/SDL_steam_virtual_gamepad.h  
+  inflating: SDL3-3.2.28/src/joystick/SDL_sysjoystick.h  
+  inflating: SDL3-3.2.28/src/joystick/android/SDL_sysjoystick.c  
+  inflating: SDL3-3.2.28/src/joystick/android/SDL_sysjoystick_c.h  
+  inflating: SDL3-3.2.28/src/joystick/apple/SDL_mfijoystick.m  
+  inflating: SDL3-3.2.28/src/joystick/apple/SDL_mfijoystick_c.h  
+  inflating: SDL3-3.2.28/src/joystick/bsd/SDL_bsdjoystick.c  
+  inflating: SDL3-3.2.28/src/joystick/check_8bitdo.sh  
+  inflating: SDL3-3.2.28/src/joystick/controller_list.h  
+  inflating: SDL3-3.2.28/src/joystick/controller_type.c  
+  inflating: SDL3-3.2.28/src/joystick/controller_type.h  
+  inflating: SDL3-3.2.28/src/joystick/darwin/SDL_iokitjoystick.c  
+  inflating: SDL3-3.2.28/src/joystick/darwin/SDL_iokitjoystick_c.h  
+  inflating: SDL3-3.2.28/src/joystick/dummy/SDL_sysjoystick.c  
+  inflating: SDL3-3.2.28/src/joystick/emscripten/SDL_sysjoystick.c  
+  inflating: SDL3-3.2.28/src/joystick/emscripten/SDL_sysjoystick_c.h  
+  inflating: SDL3-3.2.28/src/joystick/gdk/SDL_gameinputjoystick.c  
+  inflating: SDL3-3.2.28/src/joystick/haiku/SDL_haikujoystick.cc  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/SDL_hidapi_combined.c  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/SDL_hidapi_gamecube.c  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/SDL_hidapi_luna.c  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/SDL_hidapi_nintendo.h  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/SDL_hidapi_ps3.c  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/SDL_hidapi_ps4.c  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/SDL_hidapi_ps5.c  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/SDL_hidapi_rumble.c  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/SDL_hidapi_rumble.h  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/SDL_hidapi_shield.c  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/SDL_hidapi_stadia.c  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/SDL_hidapi_steam.c  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/SDL_hidapi_steam_hori.c  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/SDL_hidapi_steamdeck.c  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/SDL_hidapi_switch.c  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/SDL_hidapi_wii.c  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/SDL_hidapi_xbox360.c  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/SDL_hidapi_xbox360w.c  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/SDL_hidapi_xboxone.c  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/SDL_hidapijoystick.c  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/SDL_hidapijoystick_c.h  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/steam/controller_constants.h  
+  inflating: SDL3-3.2.28/src/joystick/hidapi/steam/controller_structs.h  
+  inflating: SDL3-3.2.28/src/joystick/linux/SDL_sysjoystick.c  
+  inflating: SDL3-3.2.28/src/joystick/linux/SDL_sysjoystick_c.h  
+  inflating: SDL3-3.2.28/src/joystick/n3ds/SDL_sysjoystick.c  
+  inflating: SDL3-3.2.28/src/joystick/ps2/SDL_sysjoystick.c  
+  inflating: SDL3-3.2.28/src/joystick/psp/SDL_sysjoystick.c  
+  inflating: SDL3-3.2.28/src/joystick/sort_controllers.py  
+  inflating: SDL3-3.2.28/src/joystick/usb_ids.h  
+  inflating: SDL3-3.2.28/src/joystick/virtual/SDL_virtualjoystick.c  
+  inflating: SDL3-3.2.28/src/joystick/virtual/SDL_virtualjoystick_c.h  
+  inflating: SDL3-3.2.28/src/joystick/vita/SDL_sysjoystick.c  
+  inflating: SDL3-3.2.28/src/joystick/windows/SDL_dinputjoystick.c  
+  inflating: SDL3-3.2.28/src/joystick/windows/SDL_dinputjoystick_c.h  
+  inflating: SDL3-3.2.28/src/joystick/windows/SDL_rawinputjoystick.c  
+  inflating: SDL3-3.2.28/src/joystick/windows/SDL_rawinputjoystick_c.h  
+  inflating: SDL3-3.2.28/src/joystick/windows/SDL_windows_gaming_input.c  
+  inflating: SDL3-3.2.28/src/joystick/windows/SDL_windowsjoystick.c  
+  inflating: SDL3-3.2.28/src/joystick/windows/SDL_windowsjoystick_c.h  
+  inflating: SDL3-3.2.28/src/joystick/windows/SDL_xinputjoystick.c  
+  inflating: SDL3-3.2.28/src/joystick/windows/SDL_xinputjoystick_c.h  
+  inflating: SDL3-3.2.28/src/libm/e_atan2.c  
+  inflating: SDL3-3.2.28/src/libm/e_exp.c  
+  inflating: SDL3-3.2.28/src/libm/e_fmod.c  
+  inflating: SDL3-3.2.28/src/libm/e_log.c  
+  inflating: SDL3-3.2.28/src/libm/e_log10.c  
+  inflating: SDL3-3.2.28/src/libm/e_pow.c  
+  inflating: SDL3-3.2.28/src/libm/e_rem_pio2.c  
+  inflating: SDL3-3.2.28/src/libm/e_sqrt.c  
+  inflating: SDL3-3.2.28/src/libm/k_cos.c  
+  inflating: SDL3-3.2.28/src/libm/k_rem_pio2.c  
+  inflating: SDL3-3.2.28/src/libm/k_sin.c  
+  inflating: SDL3-3.2.28/src/libm/k_tan.c  
+  inflating: SDL3-3.2.28/src/libm/math_libm.h  
+  inflating: SDL3-3.2.28/src/libm/math_private.h  
+  inflating: SDL3-3.2.28/src/libm/s_atan.c  
+  inflating: SDL3-3.2.28/src/libm/s_copysign.c  
+  inflating: SDL3-3.2.28/src/libm/s_cos.c  
+  inflating: SDL3-3.2.28/src/libm/s_fabs.c  
+  inflating: SDL3-3.2.28/src/libm/s_floor.c  
+  inflating: SDL3-3.2.28/src/libm/s_isinf.c  
+  inflating: SDL3-3.2.28/src/libm/s_isinff.c  
+  inflating: SDL3-3.2.28/src/libm/s_isnan.c  
+  inflating: SDL3-3.2.28/src/libm/s_isnanf.c  
+  inflating: SDL3-3.2.28/src/libm/s_modf.c  
+  inflating: SDL3-3.2.28/src/libm/s_scalbn.c  
+  inflating: SDL3-3.2.28/src/libm/s_sin.c  
+  inflating: SDL3-3.2.28/src/libm/s_tan.c  
+  inflating: SDL3-3.2.28/src/loadso/dlopen/SDL_sysloadso.c  
+  inflating: SDL3-3.2.28/src/loadso/dummy/SDL_sysloadso.c  
+  inflating: SDL3-3.2.28/src/loadso/windows/SDL_sysloadso.c  
+  inflating: SDL3-3.2.28/src/locale/SDL_locale.c  
+  inflating: SDL3-3.2.28/src/locale/SDL_syslocale.h  
+  inflating: SDL3-3.2.28/src/locale/android/SDL_syslocale.c  
+  inflating: SDL3-3.2.28/src/locale/dummy/SDL_syslocale.c  
+  inflating: SDL3-3.2.28/src/locale/emscripten/SDL_syslocale.c  
+  inflating: SDL3-3.2.28/src/locale/haiku/SDL_syslocale.cc  
+  inflating: SDL3-3.2.28/src/locale/macos/SDL_syslocale.m  
+  inflating: SDL3-3.2.28/src/locale/n3ds/SDL_syslocale.c  
+  inflating: SDL3-3.2.28/src/locale/psp/SDL_syslocale.c  
+  inflating: SDL3-3.2.28/src/locale/unix/SDL_syslocale.c  
+  inflating: SDL3-3.2.28/src/locale/vita/SDL_syslocale.c  
+  inflating: SDL3-3.2.28/src/locale/windows/SDL_syslocale.c  
+  inflating: SDL3-3.2.28/src/main/SDL_main_callbacks.c  
+  inflating: SDL3-3.2.28/src/main/SDL_main_callbacks.h  
+  inflating: SDL3-3.2.28/src/main/SDL_runapp.c  
+  inflating: SDL3-3.2.28/src/main/emscripten/SDL_sysmain_callbacks.c  
+  inflating: SDL3-3.2.28/src/main/emscripten/SDL_sysmain_runapp.c  
+  inflating: SDL3-3.2.28/src/main/gdk/SDL_sysmain_runapp.cpp  
+  inflating: SDL3-3.2.28/src/main/generic/SDL_sysmain_callbacks.c  
+  inflating: SDL3-3.2.28/src/main/ios/SDL_sysmain_callbacks.m  
+  inflating: SDL3-3.2.28/src/main/n3ds/SDL_sysmain_runapp.c  
+  inflating: SDL3-3.2.28/src/main/ps2/SDL_sysmain_runapp.c  
+  inflating: SDL3-3.2.28/src/main/psp/SDL_sysmain_runapp.c  
+  inflating: SDL3-3.2.28/src/main/windows/SDL_sysmain_runapp.c  
+  inflating: SDL3-3.2.28/src/misc/SDL_sysurl.h  
+  inflating: SDL3-3.2.28/src/misc/SDL_url.c  
+  inflating: SDL3-3.2.28/src/misc/android/SDL_sysurl.c  
+  inflating: SDL3-3.2.28/src/misc/dummy/SDL_sysurl.c  
+  inflating: SDL3-3.2.28/src/misc/emscripten/SDL_sysurl.c  
+  inflating: SDL3-3.2.28/src/misc/haiku/SDL_sysurl.cc  
+  inflating: SDL3-3.2.28/src/misc/ios/SDL_sysurl.m  
+  inflating: SDL3-3.2.28/src/misc/macos/SDL_sysurl.m  
+  inflating: SDL3-3.2.28/src/misc/riscos/SDL_sysurl.c  
+  inflating: SDL3-3.2.28/src/misc/unix/SDL_sysurl.c  
+  inflating: SDL3-3.2.28/src/misc/vita/SDL_sysurl.c  
+  inflating: SDL3-3.2.28/src/misc/windows/SDL_sysurl.c  
+  inflating: SDL3-3.2.28/src/power/SDL_power.c  
+  inflating: SDL3-3.2.28/src/power/SDL_syspower.h  
+  inflating: SDL3-3.2.28/src/power/android/SDL_syspower.c  
+  inflating: SDL3-3.2.28/src/power/emscripten/SDL_syspower.c  
+  inflating: SDL3-3.2.28/src/power/haiku/SDL_syspower.c  
+  inflating: SDL3-3.2.28/src/power/linux/SDL_syspower.c  
+  inflating: SDL3-3.2.28/src/power/macos/SDL_syspower.c  
+  inflating: SDL3-3.2.28/src/power/n3ds/SDL_syspower.c  
+  inflating: SDL3-3.2.28/src/power/psp/SDL_syspower.c  
+  inflating: SDL3-3.2.28/src/power/uikit/SDL_syspower.h  
+  inflating: SDL3-3.2.28/src/power/uikit/SDL_syspower.m  
+  inflating: SDL3-3.2.28/src/power/vita/SDL_syspower.c  
+  inflating: SDL3-3.2.28/src/power/windows/SDL_syspower.c  
+  inflating: SDL3-3.2.28/src/process/SDL_process.c  
+  inflating: SDL3-3.2.28/src/process/SDL_sysprocess.h  
+  inflating: SDL3-3.2.28/src/process/dummy/SDL_dummyprocess.c  
+  inflating: SDL3-3.2.28/src/process/posix/SDL_posixprocess.c  
+  inflating: SDL3-3.2.28/src/process/windows/SDL_windowsprocess.c  
+  inflating: SDL3-3.2.28/src/render/SDL_d3dmath.h  
+  inflating: SDL3-3.2.28/src/render/SDL_render.c  
+  inflating: SDL3-3.2.28/src/render/SDL_render_debug_font.h  
+  inflating: SDL3-3.2.28/src/render/SDL_render_unsupported.c  
+  inflating: SDL3-3.2.28/src/render/SDL_sysrender.h  
+  inflating: SDL3-3.2.28/src/render/SDL_yuv_sw.c  
+  inflating: SDL3-3.2.28/src/render/SDL_yuv_sw_c.h  
+  inflating: SDL3-3.2.28/src/render/direct3d/D3D9_PixelShader_YUV.h  
+  inflating: SDL3-3.2.28/src/render/direct3d/D3D9_PixelShader_YUV.hlsl  
+  inflating: SDL3-3.2.28/src/render/direct3d/SDL_render_d3d.c  
+  inflating: SDL3-3.2.28/src/render/direct3d/SDL_shaders_d3d.c  
+  inflating: SDL3-3.2.28/src/render/direct3d/SDL_shaders_d3d.h  
+  inflating: SDL3-3.2.28/src/render/direct3d/compile_shaders.bat  
+  inflating: SDL3-3.2.28/src/render/direct3d11/D3D11_PixelShader_Advanced.h  
+  inflating: SDL3-3.2.28/src/render/direct3d11/D3D11_PixelShader_Advanced.hlsl  
+  inflating: SDL3-3.2.28/src/render/direct3d11/D3D11_PixelShader_Colors.h  
+  inflating: SDL3-3.2.28/src/render/direct3d11/D3D11_PixelShader_Colors.hlsl  
+  inflating: SDL3-3.2.28/src/render/direct3d11/D3D11_PixelShader_Common.hlsli  
+  inflating: SDL3-3.2.28/src/render/direct3d11/D3D11_PixelShader_Textures.h  
+  inflating: SDL3-3.2.28/src/render/direct3d11/D3D11_PixelShader_Textures.hlsl  
+  inflating: SDL3-3.2.28/src/render/direct3d11/D3D11_VertexShader.h  
+  inflating: SDL3-3.2.28/src/render/direct3d11/D3D11_VertexShader.hlsl  
+  inflating: SDL3-3.2.28/src/render/direct3d11/SDL_render_d3d11.c  
+  inflating: SDL3-3.2.28/src/render/direct3d11/SDL_shaders_d3d11.c  
+  inflating: SDL3-3.2.28/src/render/direct3d11/SDL_shaders_d3d11.h  
+  inflating: SDL3-3.2.28/src/render/direct3d11/compile_shaders.bat  
+  inflating: SDL3-3.2.28/src/render/direct3d12/D3D12_PixelShader_Advanced.h  
+  inflating: SDL3-3.2.28/src/render/direct3d12/D3D12_PixelShader_Advanced.hlsl  
+  inflating: SDL3-3.2.28/src/render/direct3d12/D3D12_PixelShader_Colors.h  
+  inflating: SDL3-3.2.28/src/render/direct3d12/D3D12_PixelShader_Colors.hlsl  
+  inflating: SDL3-3.2.28/src/render/direct3d12/D3D12_PixelShader_Common.hlsli  
+  inflating: SDL3-3.2.28/src/render/direct3d12/D3D12_PixelShader_Textures.h  
+  inflating: SDL3-3.2.28/src/render/direct3d12/D3D12_PixelShader_Textures.hlsl  
+  inflating: SDL3-3.2.28/src/render/direct3d12/D3D12_RootSig_Advanced.h  
+  inflating: SDL3-3.2.28/src/render/direct3d12/D3D12_RootSig_Color.h  
+  inflating: SDL3-3.2.28/src/render/direct3d12/D3D12_RootSig_Texture.h  
+  inflating: SDL3-3.2.28/src/render/direct3d12/D3D12_Shader_Common.hlsli  
+  inflating: SDL3-3.2.28/src/render/direct3d12/D3D12_VertexShader.hlsl  
+  inflating: SDL3-3.2.28/src/render/direct3d12/D3D12_VertexShader_Advanced.h  
+  inflating: SDL3-3.2.28/src/render/direct3d12/D3D12_VertexShader_Color.h  
+  inflating: SDL3-3.2.28/src/render/direct3d12/D3D12_VertexShader_Texture.h  
+  inflating: SDL3-3.2.28/src/render/direct3d12/SDL_render_d3d12.c  
+  inflating: SDL3-3.2.28/src/render/direct3d12/SDL_render_d3d12_xbox.cpp  
+  inflating: SDL3-3.2.28/src/render/direct3d12/SDL_render_d3d12_xbox.h  
+  inflating: SDL3-3.2.28/src/render/direct3d12/SDL_shaders_d3d12.c  
+  inflating: SDL3-3.2.28/src/render/direct3d12/SDL_shaders_d3d12.h  
+  inflating: SDL3-3.2.28/src/render/direct3d12/SDL_shaders_d3d12_xboxone.cpp  
+  inflating: SDL3-3.2.28/src/render/direct3d12/SDL_shaders_d3d12_xboxseries.cpp  
+  inflating: SDL3-3.2.28/src/render/direct3d12/compile_shaders.bat  
+  inflating: SDL3-3.2.28/src/render/direct3d12/compile_shaders_xbox.bat  
+  inflating: SDL3-3.2.28/src/render/gpu/SDL_gpu_util.h  
+  inflating: SDL3-3.2.28/src/render/gpu/SDL_pipeline_gpu.c  
+  inflating: SDL3-3.2.28/src/render/gpu/SDL_pipeline_gpu.h  
+  inflating: SDL3-3.2.28/src/render/gpu/SDL_render_gpu.c  
+  inflating: SDL3-3.2.28/src/render/gpu/SDL_shaders_gpu.c  
+  inflating: SDL3-3.2.28/src/render/gpu/SDL_shaders_gpu.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/.gitattributes  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/.gitignore  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/build-shaders.sh  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/color.frag  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/color.frag.metal.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/color.frag.sm50.dxbc.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/color.frag.sm60.dxil.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/color.frag.spv.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/dxbc50.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/dxil60.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/linepoint.vert  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/linepoint.vert.metal.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/linepoint.vert.sm50.dxbc.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/linepoint.vert.sm60.dxil.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/linepoint.vert.spv.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/metal.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/spir-v.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/texture_rgb.frag  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/texture_rgb.frag.metal.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/texture_rgb.frag.sm50.dxbc.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/texture_rgb.frag.sm60.dxil.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/texture_rgb.frag.spv.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/texture_rgba.frag  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/texture_rgba.frag.metal.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/texture_rgba.frag.sm50.dxbc.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/texture_rgba.frag.sm60.dxil.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/texture_rgba.frag.spv.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/tri_color.vert  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/tri_color.vert.metal.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/tri_color.vert.sm50.dxbc.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/tri_color.vert.sm60.dxil.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/tri_color.vert.spv.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/tri_texture.vert  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/tri_texture.vert.metal.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/tri_texture.vert.sm50.dxbc.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/tri_texture.vert.sm60.dxil.h  
+  inflating: SDL3-3.2.28/src/render/gpu/shaders/tri_texture.vert.spv.h  
+  inflating: SDL3-3.2.28/src/render/metal/SDL_render_metal.m  
+  inflating: SDL3-3.2.28/src/render/metal/SDL_shaders_metal.metal  
+  inflating: SDL3-3.2.28/src/render/metal/SDL_shaders_metal_ios.h  
+  inflating: SDL3-3.2.28/src/render/metal/SDL_shaders_metal_iphonesimulator.h  
+  inflating: SDL3-3.2.28/src/render/metal/SDL_shaders_metal_macos.h  
+  inflating: SDL3-3.2.28/src/render/metal/SDL_shaders_metal_tvos.h  
+  inflating: SDL3-3.2.28/src/render/metal/SDL_shaders_metal_tvsimulator.h  
+  inflating: SDL3-3.2.28/src/render/metal/build-metal-shaders.sh  
+  inflating: SDL3-3.2.28/src/render/opengl/SDL_glfuncs.h  
+  inflating: SDL3-3.2.28/src/render/opengl/SDL_render_gl.c  
+  inflating: SDL3-3.2.28/src/render/opengl/SDL_shaders_gl.c  
+  inflating: SDL3-3.2.28/src/render/opengl/SDL_shaders_gl.h  
+  inflating: SDL3-3.2.28/src/render/opengles2/SDL_gles2funcs.h  
+  inflating: SDL3-3.2.28/src/render/opengles2/SDL_render_gles2.c  
+  inflating: SDL3-3.2.28/src/render/opengles2/SDL_shaders_gles2.c  
+  inflating: SDL3-3.2.28/src/render/opengles2/SDL_shaders_gles2.h  
+  inflating: SDL3-3.2.28/src/render/ps2/SDL_render_ps2.c  
+  inflating: SDL3-3.2.28/src/render/psp/SDL_render_psp.c  
+  inflating: SDL3-3.2.28/src/render/psp/SDL_render_psp_c.h  
+  inflating: SDL3-3.2.28/src/render/software/SDL_blendfillrect.c  
+  inflating: SDL3-3.2.28/src/render/software/SDL_blendfillrect.h  
+  inflating: SDL3-3.2.28/src/render/software/SDL_blendline.c  
+  inflating: SDL3-3.2.28/src/render/software/SDL_blendline.h  
+  inflating: SDL3-3.2.28/src/render/software/SDL_blendpoint.c  
+  inflating: SDL3-3.2.28/src/render/software/SDL_blendpoint.h  
+  inflating: SDL3-3.2.28/src/render/software/SDL_draw.h  
+  inflating: SDL3-3.2.28/src/render/software/SDL_drawline.c  
+  inflating: SDL3-3.2.28/src/render/software/SDL_drawline.h  
+  inflating: SDL3-3.2.28/src/render/software/SDL_drawpoint.c  
+  inflating: SDL3-3.2.28/src/render/software/SDL_drawpoint.h  
+  inflating: SDL3-3.2.28/src/render/software/SDL_render_sw.c  
+  inflating: SDL3-3.2.28/src/render/software/SDL_render_sw_c.h  
+  inflating: SDL3-3.2.28/src/render/software/SDL_rotate.c  
+  inflating: SDL3-3.2.28/src/render/software/SDL_rotate.h  
+  inflating: SDL3-3.2.28/src/render/software/SDL_triangle.c  
+  inflating: SDL3-3.2.28/src/render/software/SDL_triangle.h  
+  inflating: SDL3-3.2.28/src/render/vitagxm/SDL_render_vita_gxm.c  
+  inflating: SDL3-3.2.28/src/render/vitagxm/SDL_render_vita_gxm_memory.c  
+  inflating: SDL3-3.2.28/src/render/vitagxm/SDL_render_vita_gxm_memory.h  
+  inflating: SDL3-3.2.28/src/render/vitagxm/SDL_render_vita_gxm_shaders.h  
+  inflating: SDL3-3.2.28/src/render/vitagxm/SDL_render_vita_gxm_tools.c  
+  inflating: SDL3-3.2.28/src/render/vitagxm/SDL_render_vita_gxm_tools.h  
+  inflating: SDL3-3.2.28/src/render/vitagxm/SDL_render_vita_gxm_types.h  
+  inflating: SDL3-3.2.28/src/render/vitagxm/shader_src/clear_f.cg  
+  inflating: SDL3-3.2.28/src/render/vitagxm/shader_src/clear_v.cg  
+  inflating: SDL3-3.2.28/src/render/vitagxm/shader_src/color_f.cg  
+  inflating: SDL3-3.2.28/src/render/vitagxm/shader_src/color_v.cg  
+  inflating: SDL3-3.2.28/src/render/vitagxm/shader_src/texture_f.cg  
+  inflating: SDL3-3.2.28/src/render/vitagxm/shader_src/texture_v.cg  
+  inflating: SDL3-3.2.28/src/render/vulkan/SDL_render_vulkan.c  
+  inflating: SDL3-3.2.28/src/render/vulkan/SDL_shaders_vulkan.c  
+  inflating: SDL3-3.2.28/src/render/vulkan/SDL_shaders_vulkan.h  
+  inflating: SDL3-3.2.28/src/render/vulkan/VULKAN_PixelShader_Advanced.h  
+  inflating: SDL3-3.2.28/src/render/vulkan/VULKAN_PixelShader_Advanced.hlsl  
+  inflating: SDL3-3.2.28/src/render/vulkan/VULKAN_PixelShader_Colors.h  
+  inflating: SDL3-3.2.28/src/render/vulkan/VULKAN_PixelShader_Colors.hlsl  
+  inflating: SDL3-3.2.28/src/render/vulkan/VULKAN_PixelShader_Common.hlsli  
+  inflating: SDL3-3.2.28/src/render/vulkan/VULKAN_PixelShader_Textures.h  
+  inflating: SDL3-3.2.28/src/render/vulkan/VULKAN_PixelShader_Textures.hlsl  
+  inflating: SDL3-3.2.28/src/render/vulkan/VULKAN_VertexShader.h  
+  inflating: SDL3-3.2.28/src/render/vulkan/VULKAN_VertexShader.hlsl  
+  inflating: SDL3-3.2.28/src/render/vulkan/compile_shaders.bat  
+  inflating: SDL3-3.2.28/src/sensor/SDL_sensor.c  
+  inflating: SDL3-3.2.28/src/sensor/SDL_sensor_c.h  
+  inflating: SDL3-3.2.28/src/sensor/SDL_syssensor.h  
+  inflating: SDL3-3.2.28/src/sensor/android/SDL_androidsensor.c  
+  inflating: SDL3-3.2.28/src/sensor/android/SDL_androidsensor.h  
+  inflating: SDL3-3.2.28/src/sensor/coremotion/SDL_coremotionsensor.h  
+  inflating: SDL3-3.2.28/src/sensor/coremotion/SDL_coremotionsensor.m  
+  inflating: SDL3-3.2.28/src/sensor/dummy/SDL_dummysensor.c  
+  inflating: SDL3-3.2.28/src/sensor/dummy/SDL_dummysensor.h  
+  inflating: SDL3-3.2.28/src/sensor/n3ds/SDL_n3dssensor.c  
+  inflating: SDL3-3.2.28/src/sensor/vita/SDL_vitasensor.c  
+  inflating: SDL3-3.2.28/src/sensor/vita/SDL_vitasensor.h  
+  inflating: SDL3-3.2.28/src/sensor/windows/SDL_windowssensor.c  
+  inflating: SDL3-3.2.28/src/sensor/windows/SDL_windowssensor.h  
+  inflating: SDL3-3.2.28/src/stdlib/SDL_casefolding.h  
+  inflating: SDL3-3.2.28/src/stdlib/SDL_crc16.c  
+  inflating: SDL3-3.2.28/src/stdlib/SDL_crc32.c  
+  inflating: SDL3-3.2.28/src/stdlib/SDL_getenv.c  
+  inflating: SDL3-3.2.28/src/stdlib/SDL_getenv_c.h  
+  inflating: SDL3-3.2.28/src/stdlib/SDL_iconv.c  
+  inflating: SDL3-3.2.28/src/stdlib/SDL_malloc.c  
+  inflating: SDL3-3.2.28/src/stdlib/SDL_memcpy.c  
+  inflating: SDL3-3.2.28/src/stdlib/SDL_memmove.c  
+  inflating: SDL3-3.2.28/src/stdlib/SDL_memset.c  
+  inflating: SDL3-3.2.28/src/stdlib/SDL_mslibc.c  
+  inflating: SDL3-3.2.28/src/stdlib/SDL_mslibc_arm64.masm  
+  inflating: SDL3-3.2.28/src/stdlib/SDL_mslibc_x64.masm  
+  inflating: SDL3-3.2.28/src/stdlib/SDL_murmur3.c  
+  inflating: SDL3-3.2.28/src/stdlib/SDL_qsort.c  
+  inflating: SDL3-3.2.28/src/stdlib/SDL_random.c  
+  inflating: SDL3-3.2.28/src/stdlib/SDL_stdlib.c  
+  inflating: SDL3-3.2.28/src/stdlib/SDL_string.c  
+  inflating: SDL3-3.2.28/src/stdlib/SDL_strtokr.c  
+  inflating: SDL3-3.2.28/src/stdlib/SDL_sysstdlib.h  
+  inflating: SDL3-3.2.28/src/stdlib/SDL_vacopy.h  
+  inflating: SDL3-3.2.28/src/storage/SDL_storage.c  
+  inflating: SDL3-3.2.28/src/storage/SDL_sysstorage.h  
+  inflating: SDL3-3.2.28/src/storage/generic/SDL_genericstorage.c  
+  inflating: SDL3-3.2.28/src/storage/steam/SDL_steamstorage.c  
+  inflating: SDL3-3.2.28/src/storage/steam/SDL_steamstorage_proc.h  
+  inflating: SDL3-3.2.28/src/test/SDL_test_assert.c  
+  inflating: SDL3-3.2.28/src/test/SDL_test_common.c  
+  inflating: SDL3-3.2.28/src/test/SDL_test_compare.c  
+  inflating: SDL3-3.2.28/src/test/SDL_test_crc32.c  
+  inflating: SDL3-3.2.28/src/test/SDL_test_font.c  
+  inflating: SDL3-3.2.28/src/test/SDL_test_fuzzer.c  
+  inflating: SDL3-3.2.28/src/test/SDL_test_harness.c  
+  inflating: SDL3-3.2.28/src/test/SDL_test_log.c  
+  inflating: SDL3-3.2.28/src/test/SDL_test_md5.c  
+  inflating: SDL3-3.2.28/src/test/SDL_test_memory.c  
+  inflating: SDL3-3.2.28/src/thread/SDL_systhread.h  
+  inflating: SDL3-3.2.28/src/thread/SDL_thread.c  
+  inflating: SDL3-3.2.28/src/thread/SDL_thread_c.h  
+  inflating: SDL3-3.2.28/src/thread/generic/SDL_syscond.c  
+  inflating: SDL3-3.2.28/src/thread/generic/SDL_syscond_c.h  
+  inflating: SDL3-3.2.28/src/thread/generic/SDL_sysmutex.c  
+  inflating: SDL3-3.2.28/src/thread/generic/SDL_sysmutex_c.h  
+  inflating: SDL3-3.2.28/src/thread/generic/SDL_sysrwlock.c  
+  inflating: SDL3-3.2.28/src/thread/generic/SDL_sysrwlock_c.h  
+  inflating: SDL3-3.2.28/src/thread/generic/SDL_syssem.c  
+  inflating: SDL3-3.2.28/src/thread/generic/SDL_systhread.c  
+  inflating: SDL3-3.2.28/src/thread/generic/SDL_systhread_c.h  
+  inflating: SDL3-3.2.28/src/thread/generic/SDL_systls.c  
+  inflating: SDL3-3.2.28/src/thread/n3ds/SDL_sysmutex.c  
+  inflating: SDL3-3.2.28/src/thread/n3ds/SDL_sysmutex_c.h  
+  inflating: SDL3-3.2.28/src/thread/n3ds/SDL_syssem.c  
+  inflating: SDL3-3.2.28/src/thread/n3ds/SDL_systhread.c  
+  inflating: SDL3-3.2.28/src/thread/n3ds/SDL_systhread_c.h  
+  inflating: SDL3-3.2.28/src/thread/ps2/SDL_syssem.c  
+  inflating: SDL3-3.2.28/src/thread/ps2/SDL_systhread.c  
+  inflating: SDL3-3.2.28/src/thread/ps2/SDL_systhread_c.h  
+  inflating: SDL3-3.2.28/src/thread/psp/SDL_sysmutex.c  
+  inflating: SDL3-3.2.28/src/thread/psp/SDL_sysmutex_c.h  
+  inflating: SDL3-3.2.28/src/thread/psp/SDL_syssem.c  
+  inflating: SDL3-3.2.28/src/thread/psp/SDL_systhread.c  
+  inflating: SDL3-3.2.28/src/thread/psp/SDL_systhread_c.h  
+  inflating: SDL3-3.2.28/src/thread/pthread/SDL_syscond.c  
+  inflating: SDL3-3.2.28/src/thread/pthread/SDL_sysmutex.c  
+  inflating: SDL3-3.2.28/src/thread/pthread/SDL_sysmutex_c.h  
+  inflating: SDL3-3.2.28/src/thread/pthread/SDL_sysrwlock.c  
+  inflating: SDL3-3.2.28/src/thread/pthread/SDL_syssem.c  
+  inflating: SDL3-3.2.28/src/thread/pthread/SDL_systhread.c  
+  inflating: SDL3-3.2.28/src/thread/pthread/SDL_systhread_c.h  
+  inflating: SDL3-3.2.28/src/thread/pthread/SDL_systls.c  
+  inflating: SDL3-3.2.28/src/thread/vita/SDL_sysmutex.c  
+  inflating: SDL3-3.2.28/src/thread/vita/SDL_sysmutex_c.h  
+  inflating: SDL3-3.2.28/src/thread/vita/SDL_syssem.c  
+  inflating: SDL3-3.2.28/src/thread/vita/SDL_systhread.c  
+  inflating: SDL3-3.2.28/src/thread/vita/SDL_systhread_c.h  
+  inflating: SDL3-3.2.28/src/thread/windows/SDL_syscond_cv.c  
+  inflating: SDL3-3.2.28/src/thread/windows/SDL_sysmutex.c  
+  inflating: SDL3-3.2.28/src/thread/windows/SDL_sysmutex_c.h  
+  inflating: SDL3-3.2.28/src/thread/windows/SDL_sysrwlock_srw.c  
+  inflating: SDL3-3.2.28/src/thread/windows/SDL_syssem.c  
+  inflating: SDL3-3.2.28/src/thread/windows/SDL_systhread.c  
+  inflating: SDL3-3.2.28/src/thread/windows/SDL_systhread_c.h  
+  inflating: SDL3-3.2.28/src/thread/windows/SDL_systls.c  
+  inflating: SDL3-3.2.28/src/time/SDL_time.c  
+  inflating: SDL3-3.2.28/src/time/SDL_time_c.h  
+  inflating: SDL3-3.2.28/src/time/n3ds/SDL_systime.c  
+  inflating: SDL3-3.2.28/src/time/ps2/SDL_systime.c  
+  inflating: SDL3-3.2.28/src/time/psp/SDL_systime.c  
+  inflating: SDL3-3.2.28/src/time/unix/SDL_systime.c  
+  inflating: SDL3-3.2.28/src/time/vita/SDL_systime.c  
+  inflating: SDL3-3.2.28/src/time/windows/SDL_systime.c  
+  inflating: SDL3-3.2.28/src/timer/SDL_timer.c  
+  inflating: SDL3-3.2.28/src/timer/SDL_timer_c.h  
+  inflating: SDL3-3.2.28/src/timer/haiku/SDL_systimer.c  
+  inflating: SDL3-3.2.28/src/timer/n3ds/SDL_systimer.c  
+  inflating: SDL3-3.2.28/src/timer/ps2/SDL_systimer.c  
+  inflating: SDL3-3.2.28/src/timer/psp/SDL_systimer.c  
+  inflating: SDL3-3.2.28/src/timer/unix/SDL_systimer.c  
+  inflating: SDL3-3.2.28/src/timer/vita/SDL_systimer.c  
+  inflating: SDL3-3.2.28/src/timer/windows/SDL_systimer.c  
+  inflating: SDL3-3.2.28/src/tray/SDL_tray_utils.c  
+  inflating: SDL3-3.2.28/src/tray/SDL_tray_utils.h  
+  inflating: SDL3-3.2.28/src/tray/cocoa/SDL_tray.m  
+  inflating: SDL3-3.2.28/src/tray/dummy/SDL_tray.c  
+  inflating: SDL3-3.2.28/src/tray/unix/SDL_tray.c  
+  inflating: SDL3-3.2.28/src/tray/windows/SDL_tray.c  
+  inflating: SDL3-3.2.28/src/video/SDL_RLEaccel.c  
+  inflating: SDL3-3.2.28/src/video/SDL_RLEaccel_c.h  
+  inflating: SDL3-3.2.28/src/video/SDL_blit.c  
+  inflating: SDL3-3.2.28/src/video/SDL_blit.h  
+  inflating: SDL3-3.2.28/src/video/SDL_blit_0.c  
+  inflating: SDL3-3.2.28/src/video/SDL_blit_1.c  
+  inflating: SDL3-3.2.28/src/video/SDL_blit_A.c  
+  inflating: SDL3-3.2.28/src/video/SDL_blit_N.c  
+  inflating: SDL3-3.2.28/src/video/SDL_blit_auto.c  
+  inflating: SDL3-3.2.28/src/video/SDL_blit_auto.h  
+  inflating: SDL3-3.2.28/src/video/SDL_blit_copy.c  
+  inflating: SDL3-3.2.28/src/video/SDL_blit_copy.h  
+  inflating: SDL3-3.2.28/src/video/SDL_blit_slow.c  
+  inflating: SDL3-3.2.28/src/video/SDL_blit_slow.h  
+  inflating: SDL3-3.2.28/src/video/SDL_bmp.c  
+  inflating: SDL3-3.2.28/src/video/SDL_clipboard.c  
+  inflating: SDL3-3.2.28/src/video/SDL_clipboard_c.h  
+  inflating: SDL3-3.2.28/src/video/SDL_egl.c  
+  inflating: SDL3-3.2.28/src/video/SDL_egl_c.h  
+  inflating: SDL3-3.2.28/src/video/SDL_fillrect.c  
+  inflating: SDL3-3.2.28/src/video/SDL_pixels.c  
+  inflating: SDL3-3.2.28/src/video/SDL_pixels_c.h  
+  inflating: SDL3-3.2.28/src/video/SDL_rect.c  
+  inflating: SDL3-3.2.28/src/video/SDL_rect_c.h  
+  inflating: SDL3-3.2.28/src/video/SDL_rect_impl.h  
+  inflating: SDL3-3.2.28/src/video/SDL_stb.c  
+  inflating: SDL3-3.2.28/src/video/SDL_stb_c.h  
+  inflating: SDL3-3.2.28/src/video/SDL_stretch.c  
+  inflating: SDL3-3.2.28/src/video/SDL_surface.c  
+  inflating: SDL3-3.2.28/src/video/SDL_surface_c.h  
+  inflating: SDL3-3.2.28/src/video/SDL_sysvideo.h  
+  inflating: SDL3-3.2.28/src/video/SDL_video.c  
+  inflating: SDL3-3.2.28/src/video/SDL_video_c.h  
+  inflating: SDL3-3.2.28/src/video/SDL_video_unsupported.c  
+  inflating: SDL3-3.2.28/src/video/SDL_vulkan_internal.h  
+  inflating: SDL3-3.2.28/src/video/SDL_vulkan_utils.c  
+  inflating: SDL3-3.2.28/src/video/SDL_yuv.c  
+  inflating: SDL3-3.2.28/src/video/SDL_yuv_c.h  
+  inflating: SDL3-3.2.28/src/video/android/SDL_androidclipboard.c  
+  inflating: SDL3-3.2.28/src/video/android/SDL_androidclipboard.h  
+  inflating: SDL3-3.2.28/src/video/android/SDL_androidevents.c  
+  inflating: SDL3-3.2.28/src/video/android/SDL_androidevents.h  
+  inflating: SDL3-3.2.28/src/video/android/SDL_androidgl.c  
+  inflating: SDL3-3.2.28/src/video/android/SDL_androidgl.h  
+  inflating: SDL3-3.2.28/src/video/android/SDL_androidkeyboard.c  
+  inflating: SDL3-3.2.28/src/video/android/SDL_androidkeyboard.h  
+  inflating: SDL3-3.2.28/src/video/android/SDL_androidmessagebox.c  
+  inflating: SDL3-3.2.28/src/video/android/SDL_androidmessagebox.h  
+  inflating: SDL3-3.2.28/src/video/android/SDL_androidmouse.c  
+  inflating: SDL3-3.2.28/src/video/android/SDL_androidmouse.h  
+  inflating: SDL3-3.2.28/src/video/android/SDL_androidpen.c  
+  inflating: SDL3-3.2.28/src/video/android/SDL_androidpen.h  
+  inflating: SDL3-3.2.28/src/video/android/SDL_androidtouch.c  
+  inflating: SDL3-3.2.28/src/video/android/SDL_androidtouch.h  
+  inflating: SDL3-3.2.28/src/video/android/SDL_androidvideo.c  
+  inflating: SDL3-3.2.28/src/video/android/SDL_androidvideo.h  
+  inflating: SDL3-3.2.28/src/video/android/SDL_androidvulkan.c  
+  inflating: SDL3-3.2.28/src/video/android/SDL_androidvulkan.h  
+  inflating: SDL3-3.2.28/src/video/android/SDL_androidwindow.c  
+  inflating: SDL3-3.2.28/src/video/android/SDL_androidwindow.h  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoaclipboard.h  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoaclipboard.m  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoaevents.h  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoaevents.m  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoakeyboard.h  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoakeyboard.m  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoamessagebox.h  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoamessagebox.m  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoametalview.h  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoametalview.m  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoamodes.h  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoamodes.m  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoamouse.h  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoamouse.m  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoaopengl.h  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoaopengl.m  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoaopengles.h  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoaopengles.m  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoapen.h  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoapen.m  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoashape.h  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoashape.m  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoavideo.h  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoavideo.m  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoavulkan.h  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoavulkan.m  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoawindow.h  
+  inflating: SDL3-3.2.28/src/video/cocoa/SDL_cocoawindow.m  
+  inflating: SDL3-3.2.28/src/video/directx/SDL_d3d12.h  
+  inflating: SDL3-3.2.28/src/video/directx/SDL_d3d12_xbox_cmacros.h  
+  inflating: SDL3-3.2.28/src/video/directx/d3d12.h  
+  inflating: SDL3-3.2.28/src/video/directx/d3d12sdklayers.h  
+  inflating: SDL3-3.2.28/src/video/directx/gen_xbox_cmacros.cs  
+  inflating: SDL3-3.2.28/src/video/dummy/SDL_nullevents.c  
+  inflating: SDL3-3.2.28/src/video/dummy/SDL_nullevents_c.h  
+  inflating: SDL3-3.2.28/src/video/dummy/SDL_nullframebuffer.c  
+  inflating: SDL3-3.2.28/src/video/dummy/SDL_nullframebuffer_c.h  
+  inflating: SDL3-3.2.28/src/video/dummy/SDL_nullvideo.c  
+  inflating: SDL3-3.2.28/src/video/dummy/SDL_nullvideo.h  
+  inflating: SDL3-3.2.28/src/video/emscripten/SDL_emscriptenevents.c  
+  inflating: SDL3-3.2.28/src/video/emscripten/SDL_emscriptenevents.h  
+  inflating: SDL3-3.2.28/src/video/emscripten/SDL_emscriptenframebuffer.c  
+  inflating: SDL3-3.2.28/src/video/emscripten/SDL_emscriptenframebuffer.h  
+  inflating: SDL3-3.2.28/src/video/emscripten/SDL_emscriptenmouse.c  
+  inflating: SDL3-3.2.28/src/video/emscripten/SDL_emscriptenmouse.h  
+  inflating: SDL3-3.2.28/src/video/emscripten/SDL_emscriptenopengles.c  
+  inflating: SDL3-3.2.28/src/video/emscripten/SDL_emscriptenopengles.h  
+  inflating: SDL3-3.2.28/src/video/emscripten/SDL_emscriptenvideo.c  
+  inflating: SDL3-3.2.28/src/video/emscripten/SDL_emscriptenvideo.h  
+  inflating: SDL3-3.2.28/src/video/gdk/SDL_gdktextinput.cpp  
+  inflating: SDL3-3.2.28/src/video/gdk/SDL_gdktextinput.h  
+  inflating: SDL3-3.2.28/src/video/haiku/SDL_BWin.h  
+  inflating: SDL3-3.2.28/src/video/haiku/SDL_bclipboard.cc  
+  inflating: SDL3-3.2.28/src/video/haiku/SDL_bclipboard.h  
+  inflating: SDL3-3.2.28/src/video/haiku/SDL_bevents.cc  
+  inflating: SDL3-3.2.28/src/video/haiku/SDL_bevents.h  
+  inflating: SDL3-3.2.28/src/video/haiku/SDL_bframebuffer.cc  
+  inflating: SDL3-3.2.28/src/video/haiku/SDL_bframebuffer.h  
+  inflating: SDL3-3.2.28/src/video/haiku/SDL_bkeyboard.cc  
+  inflating: SDL3-3.2.28/src/video/haiku/SDL_bkeyboard.h  
+  inflating: SDL3-3.2.28/src/video/haiku/SDL_bmessagebox.cc  
+  inflating: SDL3-3.2.28/src/video/haiku/SDL_bmessagebox.h  
+  inflating: SDL3-3.2.28/src/video/haiku/SDL_bmodes.cc  
+  inflating: SDL3-3.2.28/src/video/haiku/SDL_bmodes.h  
+  inflating: SDL3-3.2.28/src/video/haiku/SDL_bopengl.cc  
+  inflating: SDL3-3.2.28/src/video/haiku/SDL_bopengl.h  
+  inflating: SDL3-3.2.28/src/video/haiku/SDL_bvideo.cc  
+  inflating: SDL3-3.2.28/src/video/haiku/SDL_bvideo.h  
+  inflating: SDL3-3.2.28/src/video/haiku/SDL_bwindow.cc  
+  inflating: SDL3-3.2.28/src/video/haiku/SDL_bwindow.h  
+  inflating: SDL3-3.2.28/src/video/khronos/EGL/egl.h  
+  inflating: SDL3-3.2.28/src/video/khronos/EGL/eglext.h  
+  inflating: SDL3-3.2.28/src/video/khronos/EGL/eglplatform.h  
+  inflating: SDL3-3.2.28/src/video/khronos/GLES2/gl2.h  
+  inflating: SDL3-3.2.28/src/video/khronos/GLES2/gl2ext.h  
+  inflating: SDL3-3.2.28/src/video/khronos/GLES2/gl2platform.h  
+  inflating: SDL3-3.2.28/src/video/khronos/GLES3/gl3.h  
+  inflating: SDL3-3.2.28/src/video/khronos/GLES3/gl31.h  
+  inflating: SDL3-3.2.28/src/video/khronos/GLES3/gl32.h  
+  inflating: SDL3-3.2.28/src/video/khronos/GLES3/gl3platform.h  
+  inflating: SDL3-3.2.28/src/video/khronos/KHR/khrplatform.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vk_video/vulkan_video_codec_av1std.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vk_video/vulkan_video_codec_av1std_decode.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vk_video/vulkan_video_codec_h264std.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vk_video/vulkan_video_codec_h264std_decode.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vk_video/vulkan_video_codec_h264std_encode.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vk_video/vulkan_video_codec_h265std.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vk_video/vulkan_video_codec_h265std_decode.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vk_video/vulkan_video_codec_h265std_encode.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vk_video/vulkan_video_codecs_common.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vulkan/vk_icd.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vulkan/vk_layer.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vulkan/vk_platform.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vulkan/vulkan.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vulkan/vulkan_android.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vulkan/vulkan_beta.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vulkan/vulkan_core.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vulkan/vulkan_directfb.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vulkan/vulkan_fuchsia.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vulkan/vulkan_ggp.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vulkan/vulkan_ios.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vulkan/vulkan_macos.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vulkan/vulkan_metal.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vulkan/vulkan_screen.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vulkan/vulkan_vi.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vulkan/vulkan_wayland.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vulkan/vulkan_win32.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vulkan/vulkan_xcb.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vulkan/vulkan_xlib.h  
+  inflating: SDL3-3.2.28/src/video/khronos/vulkan/vulkan_xlib_xrandr.h  
+  inflating: SDL3-3.2.28/src/video/kmsdrm/SDL_kmsdrmdyn.c  
+  inflating: SDL3-3.2.28/src/video/kmsdrm/SDL_kmsdrmdyn.h  
+  inflating: SDL3-3.2.28/src/video/kmsdrm/SDL_kmsdrmevents.c  
+  inflating: SDL3-3.2.28/src/video/kmsdrm/SDL_kmsdrmevents.h  
+  inflating: SDL3-3.2.28/src/video/kmsdrm/SDL_kmsdrmmouse.c  
+  inflating: SDL3-3.2.28/src/video/kmsdrm/SDL_kmsdrmmouse.h  
+  inflating: SDL3-3.2.28/src/video/kmsdrm/SDL_kmsdrmopengles.c  
+  inflating: SDL3-3.2.28/src/video/kmsdrm/SDL_kmsdrmopengles.h  
+  inflating: SDL3-3.2.28/src/video/kmsdrm/SDL_kmsdrmsym.h  
+  inflating: SDL3-3.2.28/src/video/kmsdrm/SDL_kmsdrmvideo.c  
+  inflating: SDL3-3.2.28/src/video/kmsdrm/SDL_kmsdrmvideo.h  
+  inflating: SDL3-3.2.28/src/video/kmsdrm/SDL_kmsdrmvulkan.c  
+  inflating: SDL3-3.2.28/src/video/kmsdrm/SDL_kmsdrmvulkan.h  
+  inflating: SDL3-3.2.28/src/video/n3ds/SDL_n3dsevents.c  
+  inflating: SDL3-3.2.28/src/video/n3ds/SDL_n3dsevents_c.h  
+  inflating: SDL3-3.2.28/src/video/n3ds/SDL_n3dsframebuffer.c  
+  inflating: SDL3-3.2.28/src/video/n3ds/SDL_n3dsframebuffer_c.h  
+  inflating: SDL3-3.2.28/src/video/n3ds/SDL_n3dsswkb.c  
+  inflating: SDL3-3.2.28/src/video/n3ds/SDL_n3dsswkb.h  
+  inflating: SDL3-3.2.28/src/video/n3ds/SDL_n3dstouch.c  
+  inflating: SDL3-3.2.28/src/video/n3ds/SDL_n3dstouch.h  
+  inflating: SDL3-3.2.28/src/video/n3ds/SDL_n3dsvideo.c  
+  inflating: SDL3-3.2.28/src/video/n3ds/SDL_n3dsvideo.h  
+  inflating: SDL3-3.2.28/src/video/offscreen/SDL_offscreenevents.c  
+  inflating: SDL3-3.2.28/src/video/offscreen/SDL_offscreenevents_c.h  
+  inflating: SDL3-3.2.28/src/video/offscreen/SDL_offscreenframebuffer.c  
+  inflating: SDL3-3.2.28/src/video/offscreen/SDL_offscreenframebuffer_c.h  
+  inflating: SDL3-3.2.28/src/video/offscreen/SDL_offscreenopengles.c  
+  inflating: SDL3-3.2.28/src/video/offscreen/SDL_offscreenopengles.h  
+  inflating: SDL3-3.2.28/src/video/offscreen/SDL_offscreenvideo.c  
+  inflating: SDL3-3.2.28/src/video/offscreen/SDL_offscreenvideo.h  
+  inflating: SDL3-3.2.28/src/video/offscreen/SDL_offscreenvulkan.c  
+  inflating: SDL3-3.2.28/src/video/offscreen/SDL_offscreenvulkan.h  
+  inflating: SDL3-3.2.28/src/video/offscreen/SDL_offscreenwindow.c  
+  inflating: SDL3-3.2.28/src/video/offscreen/SDL_offscreenwindow.h  
+  inflating: SDL3-3.2.28/src/video/openvr/SDL_openvrvideo.c  
+  inflating: SDL3-3.2.28/src/video/openvr/SDL_openvrvideo.h  
+  inflating: SDL3-3.2.28/src/video/openvr/openvr_capi.h  
+  inflating: SDL3-3.2.28/src/video/ps2/SDL_ps2video.c  
+  inflating: SDL3-3.2.28/src/video/ps2/SDL_ps2video.h  
+  inflating: SDL3-3.2.28/src/video/psp/SDL_pspevents.c  
+  inflating: SDL3-3.2.28/src/video/psp/SDL_pspevents_c.h  
+  inflating: SDL3-3.2.28/src/video/psp/SDL_pspgl.c  
+  inflating: SDL3-3.2.28/src/video/psp/SDL_pspgl_c.h  
+  inflating: SDL3-3.2.28/src/video/psp/SDL_pspvideo.c  
+  inflating: SDL3-3.2.28/src/video/psp/SDL_pspvideo.h  
+  inflating: SDL3-3.2.28/src/video/qnx/SDL_qnx.h  
+  inflating: SDL3-3.2.28/src/video/qnx/SDL_qnxgl.c  
+  inflating: SDL3-3.2.28/src/video/qnx/SDL_qnxkeyboard.c  
+  inflating: SDL3-3.2.28/src/video/qnx/SDL_qnxvideo.c  
+  inflating: SDL3-3.2.28/src/video/raspberry/SDL_rpievents.c  
+  inflating: SDL3-3.2.28/src/video/raspberry/SDL_rpievents_c.h  
+  inflating: SDL3-3.2.28/src/video/raspberry/SDL_rpimouse.c  
+  inflating: SDL3-3.2.28/src/video/raspberry/SDL_rpimouse.h  
+  inflating: SDL3-3.2.28/src/video/raspberry/SDL_rpiopengles.c  
+  inflating: SDL3-3.2.28/src/video/raspberry/SDL_rpiopengles.h  
+  inflating: SDL3-3.2.28/src/video/raspberry/SDL_rpivideo.c  
+  inflating: SDL3-3.2.28/src/video/raspberry/SDL_rpivideo.h  
+  inflating: SDL3-3.2.28/src/video/riscos/SDL_riscosdefs.h  
+  inflating: SDL3-3.2.28/src/video/riscos/SDL_riscosevents.c  
+  inflating: SDL3-3.2.28/src/video/riscos/SDL_riscosevents_c.h  
+  inflating: SDL3-3.2.28/src/video/riscos/SDL_riscosframebuffer.c  
+  inflating: SDL3-3.2.28/src/video/riscos/SDL_riscosframebuffer_c.h  
+  inflating: SDL3-3.2.28/src/video/riscos/SDL_riscosmessagebox.c  
+  inflating: SDL3-3.2.28/src/video/riscos/SDL_riscosmessagebox.h  
+  inflating: SDL3-3.2.28/src/video/riscos/SDL_riscosmodes.c  
+  inflating: SDL3-3.2.28/src/video/riscos/SDL_riscosmodes.h  
+  inflating: SDL3-3.2.28/src/video/riscos/SDL_riscosmouse.c  
+  inflating: SDL3-3.2.28/src/video/riscos/SDL_riscosmouse.h  
+  inflating: SDL3-3.2.28/src/video/riscos/SDL_riscosvideo.c  
+  inflating: SDL3-3.2.28/src/video/riscos/SDL_riscosvideo.h  
+  inflating: SDL3-3.2.28/src/video/riscos/SDL_riscoswindow.c  
+  inflating: SDL3-3.2.28/src/video/riscos/SDL_riscoswindow.h  
+  inflating: SDL3-3.2.28/src/video/riscos/scancodes_riscos.h  
+  inflating: SDL3-3.2.28/src/video/sdlgenblit.pl  
+  inflating: SDL3-3.2.28/src/video/stb_image.h  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitappdelegate.h  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitappdelegate.m  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitclipboard.h  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitclipboard.m  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitevents.h  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitevents.m  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitmessagebox.h  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitmessagebox.m  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitmetalview.h  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitmetalview.m  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitmodes.h  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitmodes.m  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitopengles.h  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitopengles.m  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitopenglview.h  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitopenglview.m  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitpen.h  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitpen.m  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitvideo.h  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitvideo.m  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitview.h  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitview.m  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitviewcontroller.h  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitviewcontroller.m  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitvulkan.h  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitvulkan.m  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitwindow.h  
+  inflating: SDL3-3.2.28/src/video/uikit/SDL_uikitwindow.m  
+  inflating: SDL3-3.2.28/src/video/vita/SDL_vitaframebuffer.c  
+  inflating: SDL3-3.2.28/src/video/vita/SDL_vitaframebuffer.h  
+  inflating: SDL3-3.2.28/src/video/vita/SDL_vitagl_pvr.c  
+  inflating: SDL3-3.2.28/src/video/vita/SDL_vitagl_pvr_c.h  
+  inflating: SDL3-3.2.28/src/video/vita/SDL_vitagles.c  
+  inflating: SDL3-3.2.28/src/video/vita/SDL_vitagles_c.h  
+  inflating: SDL3-3.2.28/src/video/vita/SDL_vitagles_pvr.c  
+  inflating: SDL3-3.2.28/src/video/vita/SDL_vitagles_pvr_c.h  
+  inflating: SDL3-3.2.28/src/video/vita/SDL_vitakeyboard.c  
+  inflating: SDL3-3.2.28/src/video/vita/SDL_vitakeyboard.h  
+  inflating: SDL3-3.2.28/src/video/vita/SDL_vitamessagebox.c  
+  inflating: SDL3-3.2.28/src/video/vita/SDL_vitamessagebox.h  
+  inflating: SDL3-3.2.28/src/video/vita/SDL_vitamouse.c  
+  inflating: SDL3-3.2.28/src/video/vita/SDL_vitamouse_c.h  
+  inflating: SDL3-3.2.28/src/video/vita/SDL_vitatouch.c  
+  inflating: SDL3-3.2.28/src/video/vita/SDL_vitatouch.h  
+  inflating: SDL3-3.2.28/src/video/vita/SDL_vitavideo.c  
+  inflating: SDL3-3.2.28/src/video/vita/SDL_vitavideo.h  
+  inflating: SDL3-3.2.28/src/video/vivante/SDL_vivanteopengles.c  
+  inflating: SDL3-3.2.28/src/video/vivante/SDL_vivanteopengles.h  
+  inflating: SDL3-3.2.28/src/video/vivante/SDL_vivanteplatform.c  
+  inflating: SDL3-3.2.28/src/video/vivante/SDL_vivanteplatform.h  
+  inflating: SDL3-3.2.28/src/video/vivante/SDL_vivantevideo.c  
+  inflating: SDL3-3.2.28/src/video/vivante/SDL_vivantevideo.h  
+  inflating: SDL3-3.2.28/src/video/vivante/SDL_vivantevulkan.c  
+  inflating: SDL3-3.2.28/src/video/vivante/SDL_vivantevulkan.h  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandclipboard.c  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandclipboard.h  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandcolor.c  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandcolor.h  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylanddatamanager.c  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylanddatamanager.h  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylanddyn.c  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylanddyn.h  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandevents.c  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandevents_c.h  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandkeyboard.c  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandkeyboard.h  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandmessagebox.c  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandmessagebox.h  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandmouse.c  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandmouse.h  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandopengles.c  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandopengles.h  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandshmbuffer.c  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandshmbuffer.h  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandsym.h  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandvideo.c  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandvideo.h  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandvulkan.c  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandvulkan.h  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandwindow.c  
+  inflating: SDL3-3.2.28/src/video/wayland/SDL_waylandwindow.h  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_msctf.h  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_surface_utils.c  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_surface_utils.h  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsclipboard.c  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsclipboard.h  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsevents.c  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsevents.h  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsframebuffer.c  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsframebuffer.h  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsgameinput.c  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsgameinput.h  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowskeyboard.c  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowskeyboard.h  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsmessagebox.c  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsmessagebox.h  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsmodes.c  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsmodes.h  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsmouse.c  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsmouse.h  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsopengl.c  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsopengl.h  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsopengles.c  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsopengles.h  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsrawinput.c  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsrawinput.h  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsshape.c  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsshape.h  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsvideo.c  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsvideo.h  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsvulkan.c  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowsvulkan.h  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowswindow.c  
+  inflating: SDL3-3.2.28/src/video/windows/SDL_windowswindow.h  
+  inflating: SDL3-3.2.28/src/video/windows/wmmsg.h  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11clipboard.c  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11clipboard.h  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11dyn.c  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11dyn.h  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11events.c  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11events.h  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11framebuffer.c  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11framebuffer.h  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11keyboard.c  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11keyboard.h  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11messagebox.c  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11messagebox.h  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11modes.c  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11modes.h  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11mouse.c  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11mouse.h  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11opengl.c  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11opengl.h  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11opengles.c  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11opengles.h  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11pen.c  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11pen.h  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11settings.c  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11settings.h  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11shape.c  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11shape.h  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11sym.h  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11touch.c  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11touch.h  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11video.c  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11video.h  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11vulkan.c  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11vulkan.h  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11window.c  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11window.h  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11xfixes.c  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11xfixes.h  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11xinput2.c  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11xinput2.h  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11xsync.c  
+  inflating: SDL3-3.2.28/src/video/x11/SDL_x11xsync.h  
+  inflating: SDL3-3.2.28/src/video/x11/edid-parse.c  
+  inflating: SDL3-3.2.28/src/video/x11/edid.h  
+  inflating: SDL3-3.2.28/src/video/x11/xsettings-client.c  
+  inflating: SDL3-3.2.28/src/video/x11/xsettings-client.h  
+  inflating: SDL3-3.2.28/src/video/yuv2rgb/LICENSE  
+  inflating: SDL3-3.2.28/src/video/yuv2rgb/README.md  
+  inflating: SDL3-3.2.28/src/video/yuv2rgb/yuv_rgb.h  
+  inflating: SDL3-3.2.28/src/video/yuv2rgb/yuv_rgb_common.h  
+  inflating: SDL3-3.2.28/src/video/yuv2rgb/yuv_rgb_internal.h  
+  inflating: SDL3-3.2.28/src/video/yuv2rgb/yuv_rgb_lsx.c  
+  inflating: SDL3-3.2.28/src/video/yuv2rgb/yuv_rgb_lsx.h  
+  inflating: SDL3-3.2.28/src/video/yuv2rgb/yuv_rgb_lsx_func.h  
+  inflating: SDL3-3.2.28/src/video/yuv2rgb/yuv_rgb_sse.c  
+  inflating: SDL3-3.2.28/src/video/yuv2rgb/yuv_rgb_sse.h  
+  inflating: SDL3-3.2.28/src/video/yuv2rgb/yuv_rgb_sse_func.h  
+  inflating: SDL3-3.2.28/src/video/yuv2rgb/yuv_rgb_std.c  
+  inflating: SDL3-3.2.28/src/video/yuv2rgb/yuv_rgb_std.h  
+  inflating: SDL3-3.2.28/src/video/yuv2rgb/yuv_rgb_std_func.h  
+  inflating: SDL3-3.2.28/test/CMakeLists.txt  
+  inflating: SDL3-3.2.28/test/COPYING  
+  inflating: SDL3-3.2.28/test/LICENSE.txt  
+  inflating: SDL3-3.2.28/test/android/cmake/AndroidManifest.xml.cmake  
+  inflating: SDL3-3.2.28/test/android/cmake/SDLEntryTestActivity.java.cmake  
+  inflating: SDL3-3.2.28/test/android/cmake/SDLTestActivity.java.cmake  
+  inflating: SDL3-3.2.28/test/android/cmake/res/values/strings.xml.cmake  
+  inflating: SDL3-3.2.28/test/android/cmake/res/xml/shortcuts.xml.cmake  
+  inflating: SDL3-3.2.28/test/android/res/drawable/sdl-test_foreground.xml  
+  inflating: SDL3-3.2.28/test/android/res/layout/arguments_layout.xml  
+  inflating: SDL3-3.2.28/test/android/res/mipmap-anydpi-v26/sdl-test.xml  
+  inflating: SDL3-3.2.28/test/android/res/mipmap-anydpi-v26/sdl-test_round.xml  
+  inflating: SDL3-3.2.28/test/android/res/mipmap-hdpi/sdl-test.png  
+  inflating: SDL3-3.2.28/test/android/res/mipmap-hdpi/sdl-test_round.png  
+  inflating: SDL3-3.2.28/test/android/res/mipmap-mdpi/sdl-test.png  
+  inflating: SDL3-3.2.28/test/android/res/mipmap-mdpi/sdl-test_round.png  
+  inflating: SDL3-3.2.28/test/android/res/mipmap-xhdpi/sdl-test.png  
+  inflating: SDL3-3.2.28/test/android/res/mipmap-xhdpi/sdl-test_round.png  
+  inflating: SDL3-3.2.28/test/android/res/mipmap-xxhdpi/sdl-test.png  
+  inflating: SDL3-3.2.28/test/android/res/mipmap-xxhdpi/sdl-test_round.png  
+  inflating: SDL3-3.2.28/test/android/res/mipmap-xxxhdpi/sdl-test.png  
+  inflating: SDL3-3.2.28/test/android/res/mipmap-xxxhdpi/sdl-test_round.png  
+  inflating: SDL3-3.2.28/test/android/res/values/arg_strings.xml  
+  inflating: SDL3-3.2.28/test/android/res/values/sdl-test_background.xml  
+  inflating: SDL3-3.2.28/test/android/res/values/styles.xml  
+  inflating: SDL3-3.2.28/test/audiofile.bmp  
+  inflating: SDL3-3.2.28/test/checkkeys.c  
+  inflating: SDL3-3.2.28/test/childprocess.c  
+  inflating: SDL3-3.2.28/test/emscripten/driver.py  
+  inflating: SDL3-3.2.28/test/emscripten/joystick-pre.js  
+  inflating: SDL3-3.2.28/test/emscripten/pre.js  
+  inflating: SDL3-3.2.28/test/emscripten/server.py  
+  inflating: SDL3-3.2.28/test/gamepad_axis.bmp  
+  inflating: SDL3-3.2.28/test/gamepad_axis.h  
+  inflating: SDL3-3.2.28/test/gamepad_axis_arrow.bmp  
+  inflating: SDL3-3.2.28/test/gamepad_axis_arrow.h  
+  inflating: SDL3-3.2.28/test/gamepad_back.bmp  
+  inflating: SDL3-3.2.28/test/gamepad_back.h  
+  inflating: SDL3-3.2.28/test/gamepad_battery.bmp  
+  inflating: SDL3-3.2.28/test/gamepad_battery.h  
+  inflating: SDL3-3.2.28/test/gamepad_battery_unknown.bmp  
+  inflating: SDL3-3.2.28/test/gamepad_battery_unknown.h  
+  inflating: SDL3-3.2.28/test/gamepad_battery_wired.bmp  
+  inflating: SDL3-3.2.28/test/gamepad_battery_wired.h  
+  inflating: SDL3-3.2.28/test/gamepad_button.bmp  
+  inflating: SDL3-3.2.28/test/gamepad_button.h  
+  inflating: SDL3-3.2.28/test/gamepad_button_background.bmp  
+  inflating: SDL3-3.2.28/test/gamepad_button_background.h  
+  inflating: SDL3-3.2.28/test/gamepad_button_small.bmp  
+  inflating: SDL3-3.2.28/test/gamepad_button_small.h  
+  inflating: SDL3-3.2.28/test/gamepad_face_abxy.bmp  
+  inflating: SDL3-3.2.28/test/gamepad_face_abxy.h  
+  inflating: SDL3-3.2.28/test/gamepad_face_bayx.bmp  
+  inflating: SDL3-3.2.28/test/gamepad_face_bayx.h  
+  inflating: SDL3-3.2.28/test/gamepad_face_sony.bmp  
+  inflating: SDL3-3.2.28/test/gamepad_face_sony.h  
+  inflating: SDL3-3.2.28/test/gamepad_front.bmp  
+  inflating: SDL3-3.2.28/test/gamepad_front.h  
+  inflating: SDL3-3.2.28/test/gamepad_touchpad.bmp  
+  inflating: SDL3-3.2.28/test/gamepad_touchpad.h  
+  inflating: SDL3-3.2.28/test/gamepad_wired.bmp  
+  inflating: SDL3-3.2.28/test/gamepad_wired.h  
+  inflating: SDL3-3.2.28/test/gamepad_wireless.bmp  
+  inflating: SDL3-3.2.28/test/gamepad_wireless.h  
+  inflating: SDL3-3.2.28/test/gamepadutils.c  
+  inflating: SDL3-3.2.28/test/gamepadutils.h  
+  inflating: SDL3-3.2.28/test/glass.bmp  
+  inflating: SDL3-3.2.28/test/glass.h  
+  inflating: SDL3-3.2.28/test/icon.bmp  
+  inflating: SDL3-3.2.28/test/icon.h  
+  inflating: SDL3-3.2.28/test/icon2x.bmp  
+  inflating: SDL3-3.2.28/test/logaudiodev.bmp  
+  inflating: SDL3-3.2.28/test/loopwave.c  
+  inflating: SDL3-3.2.28/test/main.cpp  
+  inflating: SDL3-3.2.28/test/moose.dat  
+  inflating: SDL3-3.2.28/test/n3ds/logo48x48.png  
+  inflating: SDL3-3.2.28/test/physaudiodev.bmp  
+  inflating: SDL3-3.2.28/test/picture.xbm  
+  inflating: SDL3-3.2.28/test/pretest.c  
+  inflating: SDL3-3.2.28/test/relative_mode.markdown  
+  inflating: SDL3-3.2.28/test/sample.bmp  
+  inflating: SDL3-3.2.28/test/sample.wav  
+  inflating: SDL3-3.2.28/test/sdl-test_round.bmp  
+  inflating: SDL3-3.2.28/test/soundboard.bmp  
+  inflating: SDL3-3.2.28/test/soundboard_levels.bmp  
+  inflating: SDL3-3.2.28/test/speaker.bmp  
+  inflating: SDL3-3.2.28/test/sword.wav  
+  inflating: SDL3-3.2.28/test/template.test.in  
+  inflating: SDL3-3.2.28/test/testasyncio.c  
+  inflating: SDL3-3.2.28/test/testatomic.c  
+  inflating: SDL3-3.2.28/test/testaudio.c  
+  inflating: SDL3-3.2.28/test/testaudiohotplug.c  
+  inflating: SDL3-3.2.28/test/testaudioinfo.c  
+  inflating: SDL3-3.2.28/test/testaudiorecording.c  
+  inflating: SDL3-3.2.28/test/testaudiostreamdynamicresample.c  
+  inflating: SDL3-3.2.28/test/testautomation.c  
+  inflating: SDL3-3.2.28/test/testautomation_audio.c  
+  inflating: SDL3-3.2.28/test/testautomation_blit.c  
+  inflating: SDL3-3.2.28/test/testautomation_clipboard.c  
+  inflating: SDL3-3.2.28/test/testautomation_events.c  
+  inflating: SDL3-3.2.28/test/testautomation_guid.c  
+  inflating: SDL3-3.2.28/test/testautomation_hints.c  
+  inflating: SDL3-3.2.28/test/testautomation_images.c  
+  inflating: SDL3-3.2.28/test/testautomation_images.h  
+  inflating: SDL3-3.2.28/test/testautomation_intrinsics.c  
+  inflating: SDL3-3.2.28/test/testautomation_iostream.c  
+  inflating: SDL3-3.2.28/test/testautomation_joystick.c  
+  inflating: SDL3-3.2.28/test/testautomation_keyboard.c  
+  inflating: SDL3-3.2.28/test/testautomation_log.c  
+  inflating: SDL3-3.2.28/test/testautomation_main.c  
+  inflating: SDL3-3.2.28/test/testautomation_math.c  
+  inflating: SDL3-3.2.28/test/testautomation_mouse.c  
+  inflating: SDL3-3.2.28/test/testautomation_pixels.c  
+  inflating: SDL3-3.2.28/test/testautomation_platform.c  
+  inflating: SDL3-3.2.28/test/testautomation_properties.c  
+  inflating: SDL3-3.2.28/test/testautomation_rect.c  
+  inflating: SDL3-3.2.28/test/testautomation_render.c  
+  inflating: SDL3-3.2.28/test/testautomation_sdltest.c  
+  inflating: SDL3-3.2.28/test/testautomation_stdlib.c  
+  inflating: SDL3-3.2.28/test/testautomation_subsystems.c  
+  inflating: SDL3-3.2.28/test/testautomation_suites.h  
+  inflating: SDL3-3.2.28/test/testautomation_surface.c  
+  inflating: SDL3-3.2.28/test/testautomation_time.c  
+  inflating: SDL3-3.2.28/test/testautomation_timer.c  
+  inflating: SDL3-3.2.28/test/testautomation_video.c  
+  inflating: SDL3-3.2.28/test/testbounds.c  
+  inflating: SDL3-3.2.28/test/testcamera.c  
+  inflating: SDL3-3.2.28/test/testclipboard.c  
+  inflating: SDL3-3.2.28/test/testcolorspace.c  
+  inflating: SDL3-3.2.28/test/testcontroller.c  
+  inflating: SDL3-3.2.28/test/testcustomcursor.c  
+  inflating: SDL3-3.2.28/test/testdialog.c  
+  inflating: SDL3-3.2.28/test/testdisplayinfo.c  
+  inflating: SDL3-3.2.28/test/testdraw.c  
+  inflating: SDL3-3.2.28/test/testdrawchessboard.c  
+  inflating: SDL3-3.2.28/test/testdropfile.c  
+  inflating: SDL3-3.2.28/test/testerror.c  
+  inflating: SDL3-3.2.28/test/testevdev.c  
+  inflating: SDL3-3.2.28/test/testffmpeg.c  
+  inflating: SDL3-3.2.28/test/testffmpeg_vulkan.c  
+  inflating: SDL3-3.2.28/test/testffmpeg_vulkan.h  
+  inflating: SDL3-3.2.28/test/testfile.c  
+  inflating: SDL3-3.2.28/test/testfilesystem.c  
+  inflating: SDL3-3.2.28/test/testgeometry.c  
+  inflating: SDL3-3.2.28/test/testgl.c  
+  inflating: SDL3-3.2.28/test/testgles.c  
+  inflating: SDL3-3.2.28/test/testgles2.c  
+  inflating: SDL3-3.2.28/test/testgpu/build-shaders.sh  
+  inflating: SDL3-3.2.28/test/testgpu/cube.glsl  
+  inflating: SDL3-3.2.28/test/testgpu/cube.hlsl  
+  inflating: SDL3-3.2.28/test/testgpu/cube.metal  
+  inflating: SDL3-3.2.28/test/testgpu/testgpu_dxil.h  
+  inflating: SDL3-3.2.28/test/testgpu/testgpu_metallib.h  
+  inflating: SDL3-3.2.28/test/testgpu/testgpu_spirv.h  
+  inflating: SDL3-3.2.28/test/testgpu_simple_clear.c  
+  inflating: SDL3-3.2.28/test/testgpu_spinning_cube.c  
+  inflating: SDL3-3.2.28/test/testhaptic.c  
+  inflating: SDL3-3.2.28/test/testhittesting.c  
+  inflating: SDL3-3.2.28/test/testhotplug.c  
+  inflating: SDL3-3.2.28/test/testiconv.c  
+  inflating: SDL3-3.2.28/test/testime.c  
+  inflating: SDL3-3.2.28/test/testintersections.c  
+  inflating: SDL3-3.2.28/test/testkeys.c  
+  inflating: SDL3-3.2.28/test/testloadso.c  
+  inflating: SDL3-3.2.28/test/testlocale.c  
+  inflating: SDL3-3.2.28/test/testlock.c  
+  inflating: SDL3-3.2.28/test/testmanymouse.c  
+  inflating: SDL3-3.2.28/test/testmessage.c  
+  inflating: SDL3-3.2.28/test/testmodal.c  
+  inflating: SDL3-3.2.28/test/testmouse.c  
+  inflating: SDL3-3.2.28/test/testmultiaudio.c  
+  inflating: SDL3-3.2.28/test/testnative.c  
+  inflating: SDL3-3.2.28/test/testnative.h  
+  inflating: SDL3-3.2.28/test/testnativecocoa.m  
+  inflating: SDL3-3.2.28/test/testnativew32.c  
+  inflating: SDL3-3.2.28/test/testnativewayland.c  
+  inflating: SDL3-3.2.28/test/testnativex11.c  
+  inflating: SDL3-3.2.28/test/testoffscreen.c  
+  inflating: SDL3-3.2.28/test/testoverlay.c  
+  inflating: SDL3-3.2.28/test/testpen.c  
+  inflating: SDL3-3.2.28/test/testplatform.c  
+  inflating: SDL3-3.2.28/test/testpopup.c  
+  inflating: SDL3-3.2.28/test/testpower.c  
+  inflating: SDL3-3.2.28/test/testprocess.c  
+  inflating: SDL3-3.2.28/test/testqsort.c  
+  inflating: SDL3-3.2.28/test/testrelative.c  
+  inflating: SDL3-3.2.28/test/testrendercopyex.c  
+  inflating: SDL3-3.2.28/test/testrendertarget.c  
+  inflating: SDL3-3.2.28/test/testresample.c  
+  inflating: SDL3-3.2.28/test/testrumble.c  
+  inflating: SDL3-3.2.28/test/testrwlock.c  
+  inflating: SDL3-3.2.28/test/testscale.c  
+  inflating: SDL3-3.2.28/test/testsem.c  
+  inflating: SDL3-3.2.28/test/testsensor.c  
+  inflating: SDL3-3.2.28/test/testshader.c  
+  inflating: SDL3-3.2.28/test/testshape.c  
+  inflating: SDL3-3.2.28/test/testsprite.c  
+  inflating: SDL3-3.2.28/test/testspriteminimal.c  
+  inflating: SDL3-3.2.28/test/testspritesurface.c  
+  inflating: SDL3-3.2.28/test/teststreaming.c  
+  inflating: SDL3-3.2.28/test/testsurround.c  
+  inflating: SDL3-3.2.28/test/testthread.c  
+  inflating: SDL3-3.2.28/test/testtime.c  
+  inflating: SDL3-3.2.28/test/testtimer.c  
+  inflating: SDL3-3.2.28/test/testtray.c  
+  inflating: SDL3-3.2.28/test/testurl.c  
+  inflating: SDL3-3.2.28/test/testutils.c  
+  inflating: SDL3-3.2.28/test/testutils.h  
+  inflating: SDL3-3.2.28/test/testver.c  
+  inflating: SDL3-3.2.28/test/testviewport.c  
+  inflating: SDL3-3.2.28/test/testvulkan.c  
+  inflating: SDL3-3.2.28/test/testwaylandcustom.c  
+  inflating: SDL3-3.2.28/test/testwm.c  
+  inflating: SDL3-3.2.28/test/testyuv.bmp  
+  inflating: SDL3-3.2.28/test/testyuv.c  
+  inflating: SDL3-3.2.28/test/testyuv_cvt.c  
+  inflating: SDL3-3.2.28/test/testyuv_cvt.h  
+  inflating: SDL3-3.2.28/test/torturethread.c  
+  inflating: SDL3-3.2.28/test/trashcan.bmp  
+  inflating: SDL3-3.2.28/test/unifont-15.1.05-license.txt  
+  inflating: SDL3-3.2.28/test/unifont-15.1.05.hex  
+  inflating: SDL3-3.2.28/test/utf8.txt  
+  inflating: SDL3-3.2.28/test/win32/sdlprocdump.c  
+  inflating: SDL3-3.2.28/wayland-protocols/alpha-modifier-v1.xml  
+  inflating: SDL3-3.2.28/wayland-protocols/color-management-v1.xml  
+  inflating: SDL3-3.2.28/wayland-protocols/cursor-shape-v1.xml  
+  inflating: SDL3-3.2.28/wayland-protocols/fractional-scale-v1.xml  
+  inflating: SDL3-3.2.28/wayland-protocols/frog-color-management-v1.xml  
+  inflating: SDL3-3.2.28/wayland-protocols/idle-inhibit-unstable-v1.xml  
+  inflating: SDL3-3.2.28/wayland-protocols/input-timestamps-unstable-v1.xml  
+  inflating: SDL3-3.2.28/wayland-protocols/keyboard-shortcuts-inhibit-unstable-v1.xml  
+  inflating: SDL3-3.2.28/wayland-protocols/pointer-constraints-unstable-v1.xml  
+  inflating: SDL3-3.2.28/wayland-protocols/primary-selection-unstable-v1.xml  
+  inflating: SDL3-3.2.28/wayland-protocols/relative-pointer-unstable-v1.xml  
+  inflating: SDL3-3.2.28/wayland-protocols/tablet-v2.xml  
+  inflating: SDL3-3.2.28/wayland-protocols/text-input-unstable-v3.xml  
+  inflating: SDL3-3.2.28/wayland-protocols/viewporter.xml  
+  inflating: SDL3-3.2.28/wayland-protocols/wayland.xml  
+  inflating: SDL3-3.2.28/wayland-protocols/xdg-activation-v1.xml  
+  inflating: SDL3-3.2.28/wayland-protocols/xdg-decoration-unstable-v1.xml  
+  inflating: SDL3-3.2.28/wayland-protocols/xdg-dialog-v1.xml  
+  inflating: SDL3-3.2.28/wayland-protocols/xdg-foreign-unstable-v2.xml  
+  inflating: SDL3-3.2.28/wayland-protocols/xdg-output-unstable-v1.xml  
+  inflating: SDL3-3.2.28/wayland-protocols/xdg-shell.xml  
+  inflating: SDL3-3.2.28/wayland-protocols/xdg-toplevel-icon-v1.xml  
+  inflating: SDL3-3.2.28/REVISION.txt  
+  inflating: SDL3-3.2.28/.git-hash   
+-- The C compiler identification is GNU 14.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1")
+-- Detecting Target CPU Architecture
+-- Detecting Target CPU Architecture - ARM64
+-- Performing Test HAVE_GCC_WALL
+-- Performing Test HAVE_GCC_WALL - Success
+-- Performing Test HAVE_GCC_WUNDEF
+-- Performing Test HAVE_GCC_WUNDEF - Success
+-- Performing Test HAVE_GCC_WFLOAT_CONVERSION
+-- Performing Test HAVE_GCC_WFLOAT_CONVERSION - Success
+-- Performing Test HAVE_GCC_NO_STRICT_ALIASING
+-- Performing Test HAVE_GCC_NO_STRICT_ALIASING - Success
+-- Performing Test HAVE_GCC_WDOCUMENTATION
+-- Performing Test HAVE_GCC_WDOCUMENTATION - Failed
+-- Performing Test HAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND
+-- Performing Test HAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND - Failed
+-- Performing Test HAVE_GCC_COMMENT_BLOCK_COMMANDS
+-- Performing Test HAVE_GCC_COMMENT_BLOCK_COMMANDS - Failed
+-- Performing Test HAVE_CLANG_COMMENT_BLOCK_COMMANDS
+-- Performing Test HAVE_CLANG_COMMENT_BLOCK_COMMANDS - Failed
+-- Performing Test HAVE_GCC_WSHADOW
+-- Performing Test HAVE_GCC_WSHADOW - Success
+-- Performing Test HAVE_GCC_WUNUSED_LOCAL_TYPEDEFS
+-- Performing Test HAVE_GCC_WUNUSED_LOCAL_TYPEDEFS - Success
+-- Performing Test HAVE_GCC_WIMPLICIT_FALLTHROUGH
+-- Performing Test HAVE_GCC_WIMPLICIT_FALLTHROUGH - Success
+-- Performing Test COMPILER_SUPPORTS_FDIAGNOSTICS_COLOR_ALWAYS
+-- Performing Test COMPILER_SUPPORTS_FDIAGNOSTICS_COLOR_ALWAYS - Success
+-- Looking for __GLIBC__
+-- Looking for __GLIBC__ - found
+-- Performing Test LINKER_SUPPORTS_VERSION_SCRIPT
+-- Performing Test LINKER_SUPPORTS_VERSION_SCRIPT - Success
+-- Performing Test COMPILER_SUPPORTS_GCC_ATOMICS
+-- Performing Test COMPILER_SUPPORTS_GCC_ATOMICS - Success
+-- Performing Test HAVE_GCC_FVISIBILITY
+-- Performing Test HAVE_GCC_FVISIBILITY - Success
+-- Performing Test LINKER_SUPPORTS_WL_NO_UNDEFINED
+-- Performing Test LINKER_SUPPORTS_WL_NO_UNDEFINED - Success
+-- Performing Test COMPILER_SUPPORTS_ARMNEON
+-- Performing Test COMPILER_SUPPORTS_ARMNEON - Success
+-- Looking for alloca.h
+-- Looking for alloca.h - found
+-- Looking for float.h
+-- Looking for float.h - found
+-- Looking for iconv.h
+-- Looking for iconv.h - found
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for limits.h
+-- Looking for limits.h - found
+-- Looking for malloc.h
+-- Looking for malloc.h - found
+-- Looking for math.h
+-- Looking for math.h - found
+-- Looking for memory.h
+-- Looking for memory.h - found
+-- Looking for signal.h
+-- Looking for signal.h - found
+-- Looking for stdarg.h
+-- Looking for stdarg.h - found
+-- Looking for stdbool.h
+-- Looking for stdbool.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stdio.h
+-- Looking for stdio.h - found
+-- Looking for stdlib.h
+-- Looking for stdlib.h - found
+-- Looking for string.h
+-- Looking for string.h - found
+-- Looking for strings.h
+-- Looking for strings.h - found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for time.h
+-- Looking for time.h - found
+-- Looking for wchar.h
+-- Looking for wchar.h - found
+-- Looking for pow in m
+-- Looking for pow in m - found
+-- Looking for abs
+-- Looking for abs - found
+-- Looking for acos
+-- Looking for acos - found
+-- Looking for acosf
+-- Looking for acosf - found
+-- Looking for asin
+-- Looking for asin - found
+-- Looking for asinf
+-- Looking for asinf - found
+-- Looking for atan
+-- Looking for atan - found
+-- Looking for atan2
+-- Looking for atan2 - found
+-- Looking for atan2f
+-- Looking for atan2f - found
+-- Looking for atanf
+-- Looking for atanf - found
+-- Looking for atof
+-- Looking for atof - found
+-- Looking for atoi
+-- Looking for atoi - found
+-- Looking for bcopy
+-- Looking for bcopy - found
+-- Looking for ceil
+-- Looking for ceil - found
+-- Looking for ceilf
+-- Looking for ceilf - found
+-- Looking for copysign
+-- Looking for copysign - found
+-- Looking for copysignf
+-- Looking for copysignf - found
+-- Looking for cos
+-- Looking for cos - found
+-- Looking for cosf
+-- Looking for cosf - found
+-- Looking for _Exit
+-- Looking for _Exit - found
+-- Looking for exp
+-- Looking for exp - found
+-- Looking for expf
+-- Looking for expf - found
+-- Looking for fabs
+-- Looking for fabs - found
+-- Looking for fabsf
+-- Looking for fabsf - found
+-- Looking for floor
+-- Looking for floor - found
+-- Looking for floorf
+-- Looking for floorf - found
+-- Looking for fmod
+-- Looking for fmod - found
+-- Looking for fmodf
+-- Looking for fmodf - found
+-- Looking for fopen64
+-- Looking for fopen64 - found
+-- Looking for fseeko
+-- Looking for fseeko - found
+-- Looking for fseeko64
+-- Looking for fseeko64 - found
+-- Looking for getenv
+-- Looking for getenv - found
+-- Looking for _i64toa
+-- Looking for _i64toa - not found
+-- Looking for index
+-- Looking for index - found
+-- Looking for itoa
+-- Looking for itoa - not found
+-- Looking for log
+-- Looking for log - found
+-- Looking for log10
+-- Looking for log10 - found
+-- Looking for log10f
+-- Looking for log10f - found
+-- Looking for logf
+-- Looking for logf - found
+-- Looking for lround
+-- Looking for lround - found
+-- Looking for lroundf
+-- Looking for lroundf - found
+-- Looking for _ltoa
+-- Looking for _ltoa - not found
+-- Looking for malloc
+-- Looking for malloc - found
+-- Looking for memcmp
+-- Looking for memcmp - found
+-- Looking for memcpy
+-- Looking for memcpy - found
+-- Looking for memmove
+-- Looking for memmove - found
+-- Looking for memset
+-- Looking for memset - found
+-- Looking for modf
+-- Looking for modf - found
+-- Looking for modff
+-- Looking for modff - found
+-- Looking for pow
+-- Looking for pow - found
+-- Looking for powf
+-- Looking for powf - found
+-- Looking for putenv
+-- Looking for putenv - found
+-- Looking for rindex
+-- Looking for rindex - found
+-- Looking for round
+-- Looking for round - found
+-- Looking for roundf
+-- Looking for roundf - found
+-- Looking for scalbn
+-- Looking for scalbn - found
+-- Looking for scalbnf
+-- Looking for scalbnf - found
+-- Looking for setenv
+-- Looking for setenv - found
+-- Looking for sin
+-- Looking for sin - found
+-- Looking for sinf
+-- Looking for sinf - found
+-- Looking for sqr
+-- Looking for sqr - not found
+-- Looking for sqrt
+-- Looking for sqrt - found
+-- Looking for sqrtf
+-- Looking for sqrtf - found
+-- Looking for sscanf
+-- Looking for sscanf - found
+-- Looking for strchr
+-- Looking for strchr - found
+-- Looking for strcmp
+-- Looking for strcmp - found
+-- Looking for strlcat
+-- Looking for strlcat - found
+-- Looking for strlcpy
+-- Looking for strlcpy - found
+-- Looking for strlen
+-- Looking for strlen - found
+-- Looking for strncmp
+-- Looking for strncmp - found
+-- Looking for strnlen
+-- Looking for strnlen - found
+-- Looking for strpbrk
+-- Looking for strpbrk - found
+-- Looking for strrchr
+-- Looking for strrchr - found
+-- Looking for strstr
+-- Looking for strstr - found
+-- Looking for strnstr
+-- Looking for strnstr - not found
+-- Looking for strtod
+-- Looking for strtod - found
+-- Looking for strtok_r
+-- Looking for strtok_r - found
+-- Looking for strtol
+-- Looking for strtol - found
+-- Looking for strtoll
+-- Looking for strtoll - found
+-- Looking for strtoul
+-- Looking for strtoul - found
+-- Looking for strtoull
+-- Looking for strtoull - found
+-- Looking for tan
+-- Looking for tan - found
+-- Looking for tanf
+-- Looking for tanf - found
+-- Looking for trunc
+-- Looking for trunc - found
+-- Looking for truncf
+-- Looking for truncf - found
+-- Looking for unsetenv
+-- Looking for unsetenv - found
+-- Looking for vsnprintf
+-- Looking for vsnprintf - found
+-- Looking for vsscanf
+-- Looking for vsscanf - found
+-- Looking for wcsnlen
+-- Looking for wcsnlen - found
+-- Looking for wcscmp
+-- Looking for wcscmp - found
+-- Looking for wcsdup
+-- Looking for wcsdup - found
+-- Looking for wcslcat
+-- Looking for wcslcat - found
+-- Looking for wcslcpy
+-- Looking for wcslcpy - found
+-- Looking for wcslen
+-- Looking for wcslen - found
+-- Looking for wcsncmp
+-- Looking for wcsncmp - found
+-- Looking for wcsstr
+-- Looking for wcsstr - found
+-- Looking for wcstol
+-- Looking for wcstol - found
+-- Looking for strcasestr
+-- Looking for strcasestr - found
+-- Performing Test LIBC_HAS_ISINF
+-- Performing Test LIBC_HAS_ISINF - Success
+-- Performing Test LIBC_ISINF_HANDLES_FLOAT
+-- Performing Test LIBC_ISINF_HANDLES_FLOAT - Success
+-- Performing Test LIBC_HAS_ISINFF
+-- Performing Test LIBC_HAS_ISINFF - Success
+-- Performing Test LIBC_HAS_ISNAN
+-- Performing Test LIBC_HAS_ISNAN - Success
+-- Performing Test LIBC_ISNAN_HANDLES_FLOAT
+-- Performing Test LIBC_ISNAN_HANDLES_FLOAT - Success
+-- Performing Test LIBC_HAS_ISNANF
+-- Performing Test LIBC_HAS_ISNANF - Success
+-- Looking for fdatasync
+-- Looking for fdatasync - found
+-- Looking for gethostname
+-- Looking for gethostname - found
+-- Looking for getpagesize
+-- Looking for getpagesize - found
+-- Looking for sigaction
+-- Looking for sigaction - found
+-- Looking for sigtimedwait
+-- Looking for sigtimedwait - found
+-- Looking for setjmp
+-- Looking for setjmp - found
+-- Looking for nanosleep
+-- Looking for nanosleep - found
+-- Looking for gmtime_r
+-- Looking for gmtime_r - found
+-- Looking for localtime_r
+-- Looking for localtime_r - found
+-- Looking for nl_langinfo
+-- Looking for nl_langinfo - found
+-- Looking for sysconf
+-- Looking for sysconf - found
+-- Looking for sysctlbyname
+-- Looking for sysctlbyname - not found
+-- Looking for getauxval
+-- Looking for getauxval - found
+-- Looking for elf_aux_info
+-- Looking for elf_aux_info - not found
+-- Looking for poll
+-- Looking for poll - found
+-- Looking for memfd_create
+-- Looking for memfd_create - found
+-- Looking for posix_fallocate
+-- Looking for posix_fallocate - found
+-- Performing Test ICONV_IN_LIBC
+-- Performing Test ICONV_IN_LIBC - Success
+-- Performing Test ICONV_IN_LIBICONV
+-- Performing Test ICONV_IN_LIBICONV - Failed
+-- Performing Test HAVE_SA_SIGACTION
+-- Performing Test HAVE_SA_SIGACTION - Success
+-- Performing Test HAVE_ST_MTIM
+-- Performing Test HAVE_ST_MTIM - Success
+-- Looking for dlopen
+-- Looking for dlopen - found
+-- Performing Test HAVE_O_CLOEXEC
+-- Performing Test HAVE_O_CLOEXEC - Success
+-- Found ALSA: /usr/lib/aarch64-linux-gnu/libasound.so (found version "1.2.11")
+-- dynamic libasound -> libasound.so.2
+-- Checking for module 'jack'
+--   Found jack, version 0.126.0
+-- dynamic libjack -> libjack.so.0
+-- Checking for module 'libpipewire-0.3>=0.3.44'
+--   Found libpipewire-0.3, version 1.0.5
+-- dynamic libpipewire-0.3 -> libpipewire-0.3.so.0
+-- Checking for module 'libpulse>=0.9.15'
+--   Found libpulse, version 16.1
+-- dynamic libpulse -> libpulse.so.0
+-- Checking for module 'sndio'
+--   Found sndio, version 1.9.0
+-- dynamic libsndio -> libsndio.so.7
+-- Found X11: /usr/include
+-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- dynamic libX11 -> libX11.so.6
+-- dynamic libXext -> libXext.so.6
+-- dynamic libXcursor -> libXcursor.so.1
+-- dynamic libXi -> libXi.so.6
+-- dynamic libXfixes -> libXfixes.so.3
+-- dynamic libXrandr -> libXrandr.so.2
+-- dynamic libXrender -> libXrender.so.1
+-- dynamic libXss -> libXss.so.1
+-- Looking for shmat
+-- Looking for shmat - found
+-- Performing Test HAVE_XGENERICEVENT
+-- Performing Test HAVE_XGENERICEVENT - Success
+-- Looking for XkbLookupKeySym
+-- Looking for XkbLookupKeySym - found
+-- Performing Test HAVE_XINPUT2_MULTITOUCH
+-- Performing Test HAVE_XINPUT2_MULTITOUCH - Success
+-- Performing Test HAVE_XFIXES_H
+-- Performing Test HAVE_XFIXES_H - Success
+-- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so
+-- Performing Test HAVE_OPENGL_EGL
+-- Performing Test HAVE_OPENGL_EGL - Success
+-- Checking for module 'libdrm'
+--   Found libdrm, version 2.4.122
+-- Checking for module 'gbm'
+--   Found gbm, version 25.0.7-0ubuntu0.24.04.2
+-- dynamic libdrm -> libdrm.so.2
+-- dynamic libgbm -> libgbm.so.1
+-- Performing Test HAVE_OPENGL_GLX
+-- Performing Test HAVE_OPENGL_GLX - Success
+-- Performing Test HAVE_OPENGL
+-- Performing Test HAVE_OPENGL - Success
+-- Performing Test HAVE_OPENGLES_V1
+-- Performing Test HAVE_OPENGLES_V1 - Success
+-- Performing Test HAVE_OPENGLES_V2
+-- Performing Test HAVE_OPENGLES_V2 - Success
+-- Checking for modules 'wayland-client>=1.18;wayland-egl;wayland-cursor;egl;xkbcommon>=0.5.0'
+--   Found wayland-client, version 1.22.0
+--   Found wayland-egl, version 18.1.0
+--   Found wayland-cursor, version 1.22.0
+--   Found egl, version 1.5
+--   Found xkbcommon, version 1.6.0
+-- dynamic libwayland-client -> libwayland-client.so.0
+-- dynamic libwayland-egl -> libwayland-egl.so.1
+-- dynamic libwayland-cursor -> libwayland-cursor.so.0
+-- dynamic libxkbcommon -> libxkbcommon.so.0
+-- Checking for module 'libdecor-0'
+--   Found libdecor-0, version 0.2.2
+-- dynamic libdecor-0 -> libdecor-0.so.0
+-- Performing Test HAVE_LINUX_INPUT_H
+-- Performing Test HAVE_LINUX_INPUT_H - Success
+-- Performing Test HAVE_INPUT_KD
+-- Performing Test HAVE_INPUT_KD - Success
+-- Performing Test HAVE_LINUX_VIDEODEV2_H
+-- Performing Test HAVE_LINUX_VIDEODEV2_H - Success
+-- Looking for libudev.h
+-- Looking for libudev.h - found
+-- dynamic libudev -> libudev.so.1
+-- Looking for sys/inotify.h
+-- Looking for sys/inotify.h - found
+-- Looking for inotify_init
+-- Looking for inotify_init - found
+-- Looking for inotify_init1
+-- Looking for inotify_init1 - found
+-- Checking for one of the modules 'dbus-1;dbus'
+-- Checking for one of the modules 'ibus-1.0;ibus'
+-- Checking for one of the modules 'liburing-ffi'
+-- Performing Test LIBC_HAS_WORKING_LIBUNWIND
+-- Performing Test LIBC_HAS_WORKING_LIBUNWIND - Failed
+-- Performing Test LIBUNWIND_HAS_WORKINGLIBUNWIND
+-- Performing Test LIBUNWIND_HAS_WORKINGLIBUNWIND - Failed
+-- Checking for modules 'libunwind;libunwind-generic'
+--   Package 'libunwind', required by 'virtual:world', not found
+--   Package 'libunwind-generic', required by 'virtual:world', not found
+-- Checking for module 'libusb-1.0>=1.0.16'
+--   Package 'libusb-1.0', required by 'virtual:world', not found
+-- Could NOT find LibUSB (missing: LibUSB_LIBRARY LibUSB_INCLUDE_PATH) (found version "LibUSB_VERSION-NOTFOUND")
+-- Performing Test HAVE_PTHREADS
+-- Performing Test HAVE_PTHREADS - Success
+-- Performing Test HAVE_RECURSIVE_MUTEXES
+-- Performing Test HAVE_RECURSIVE_MUTEXES - Success
+-- Performing Test HAVE_PTHREADS_SEM
+-- Performing Test HAVE_PTHREADS_SEM - Success
+-- Performing Test COMPILER_HAS_SEM_TIMEDWAIT
+-- Performing Test COMPILER_HAS_SEM_TIMEDWAIT - Success
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_np.h
+-- Looking for pthread_np.h - not found
+-- Performing Test HAVE_PTHREAD_SETNAME_NP
+-- Performing Test HAVE_PTHREAD_SETNAME_NP - Success
+-- Looking for clock_gettime in c
+-- Looking for clock_gettime in c - found
+-- Performing Test HAVE_ENABLE_NEW_DTAGS
+-- Performing Test HAVE_ENABLE_NEW_DTAGS - Success
+-- Performing Test HAVE_POSIX_SPAWN
+-- Performing Test HAVE_POSIX_SPAWN - Success
+-- 
+-- SDL3 was configured with the following options:
+-- 
+-- Platform: Linux-6.12.54-linuxkit
+-- 64-bit:   TRUE
+-- Compiler: /usr/bin/cc
+-- Revision: SDL-release-3.2.28-0-g7f3ae3d57
+-- Vendor:   
+-- 
+-- Subsystems:
+--   Audio:    ON
+--   Video:    ON
+--   GPU:      ON
+--   Render:   ON
+--   Camera:   ON
+--   Joystick: ON
+--   Haptic:   ON
+--   Hidapi:   ON
+--   Power:    ON
+--   Sensor:   ON
+--   Dialog:   ON
+-- 
+-- Options:
+--   SDL_ALSA                    (Wanted: ON): ON
+--   SDL_ALSA_SHARED             (Wanted: ON): ON
+--   SDL_ALTIVEC                 (Wanted: OFF): OFF
+--   SDL_ARMNEON                 (Wanted: ON): ON
+--   SDL_ASAN                    (Wanted: OFF): OFF
+--   SDL_ASSEMBLY                (Wanted: ON): ON
+--   SDL_ASSERTIONS              (Wanted: auto): auto
+--   SDL_AVX                     (Wanted: OFF): OFF
+--   SDL_AVX2                    (Wanted: OFF): OFF
+--   SDL_AVX512F                 (Wanted: OFF): OFF
+--   SDL_BACKGROUNDING_SIGNAL    (Wanted: OFF): OFF
+--   SDL_CCACHE                  (Wanted: OFF): OFF
+--   SDL_CLANG_TIDY              (Wanted: OFF): OFF
+--   SDL_CLOCK_GETTIME           (Wanted: ON): ON
+--   SDL_COCOA                   (Wanted: OFF): OFF
+--   SDL_DBUS                    (Wanted: ON): ON
+--   SDL_DEPS_SHARED             (Wanted: ON): OFF
+--   SDL_DIRECTX                 (Wanted: OFF): OFF
+--   SDL_DISKAUDIO               (Wanted: ON): ON
+--   SDL_DUMMYAUDIO              (Wanted: ON): ON
+--   SDL_DUMMYCAMERA             (Wanted: ON): ON
+--   SDL_DUMMYVIDEO              (Wanted: ON): ON
+--   SDL_EXAMPLES                (Wanted: OFF): OFF
+--   SDL_EXAMPLES_LINK_SHARED    (Wanted: ON): OFF
+--   SDL_FOREGROUNDING_SIGNAL    (Wanted: OFF): OFF
+--   SDL_GCC_ATOMICS             (Wanted: ON): ON
+--   SDL_GPU_DXVK                (Wanted: OFF): OFF
+--   SDL_HIDAPI                  (Wanted: ON): ON
+--   SDL_HIDAPI_JOYSTICK         (Wanted: ON): ON
+--   SDL_HIDAPI_LIBUSB           (Wanted: ON): OFF
+--   SDL_HIDAPI_LIBUSB_SHARED    (Wanted: ON): OFF
+--   SDL_IBUS                    (Wanted: ON): ON
+--   SDL_INSTALL                 (Wanted: ON): OFF
+--   SDL_INSTALL_TESTS           (Wanted: OFF): OFF
+--   SDL_JACK                    (Wanted: ON): ON
+--   SDL_JACK_SHARED             (Wanted: ON): ON
+--   SDL_KMSDRM                  (Wanted: ON): ON
+--   SDL_KMSDRM_SHARED           (Wanted: ON): ON
+--   SDL_LASX                    (Wanted: OFF): OFF
+--   SDL_LIBC                    (Wanted: ON): ON
+--   SDL_LIBICONV                (Wanted: OFF): OFF
+--   SDL_LIBUDEV                 (Wanted: ON): ON
+--   SDL_LIBURING                (Wanted: ON): ON
+--   SDL_LSX                     (Wanted: OFF): OFF
+--   SDL_METAL                   (Wanted: OFF): OFF
+--   SDL_MMX                     (Wanted: OFF): OFF
+--   SDL_OFFSCREEN               (Wanted: ON): ON
+--   SDL_OPENGL                  (Wanted: ON): ON
+--   SDL_OPENGLES                (Wanted: ON): ON
+--   SDL_OPENVR                  (Wanted: OFF): OFF
+--   SDL_OSS                     (Wanted: OFF): OFF
+--   SDL_PIPEWIRE                (Wanted: ON): ON
+--   SDL_PIPEWIRE_SHARED         (Wanted: ON): ON
+--   SDL_PTHREADS                (Wanted: ON): ON
+--   SDL_PTHREADS_SEM            (Wanted: ON): ON
+--   SDL_PULSEAUDIO              (Wanted: ON): ON
+--   SDL_PULSEAUDIO_SHARED       (Wanted: ON): ON
+--   SDL_RENDER_D3D              (Wanted: OFF): OFF
+--   SDL_RENDER_D3D11            (Wanted: OFF): OFF
+--   SDL_RENDER_D3D12            (Wanted: OFF): OFF
+--   SDL_RENDER_GPU              (Wanted: ON): ON
+--   SDL_RENDER_METAL            (Wanted: OFF): OFF
+--   SDL_RENDER_VULKAN           (Wanted: ON): ON
+--   SDL_ROCKCHIP                (Wanted: ON): OFF
+--   SDL_RPATH                   (Wanted: ON): ON
+--   SDL_RPI                     (Wanted: ON): OFF
+--   SDL_SNDIO                   (Wanted: ON): ON
+--   SDL_SNDIO_SHARED            (Wanted: ON): ON
+--   SDL_SSE                     (Wanted: OFF): OFF
+--   SDL_SSE2                    (Wanted: OFF): OFF
+--   SDL_SSE3                    (Wanted: OFF): OFF
+--   SDL_SSE4_1                  (Wanted: OFF): OFF
+--   SDL_SSE4_2                  (Wanted: OFF): OFF
+--   SDL_SYSTEM_ICONV            (Wanted: ON): ON
+--   SDL_TESTS                   (Wanted: OFF): OFF
+--   SDL_TESTS_LINK_SHARED       (Wanted: ON): OFF
+--   SDL_UNINSTALL               (Wanted: ON): OFF
+--   SDL_VIRTUAL_JOYSTICK        (Wanted: ON): ON
+--   SDL_VIVANTE                 (Wanted: OFF): OFF
+--   SDL_VULKAN                  (Wanted: ON): ON
+--   SDL_WASAPI                  (Wanted: OFF): OFF
+--   SDL_WAYLAND                 (Wanted: ON): ON
+--   SDL_WAYLAND_LIBDECOR        (Wanted: ON): ON
+--   SDL_WAYLAND_LIBDECOR_SHARED (Wanted: ON): ON
+--   SDL_WAYLAND_SHARED          (Wanted: ON): ON
+--   SDL_X11                     (Wanted: ON): ON
+--   SDL_X11_SHARED              (Wanted: ON): ON
+--   SDL_X11_XCURSOR             (Wanted: ON): ON
+--   SDL_X11_XDBE                (Wanted: ON): ON
+--   SDL_X11_XFIXES              (Wanted: ON): ON
+--   SDL_X11_XINPUT              (Wanted: ON): ON
+--   SDL_X11_XRANDR              (Wanted: ON): ON
+--   SDL_X11_XSCRNSAVER          (Wanted: ON): ON
+--   SDL_X11_XSHAPE              (Wanted: ON): ON
+--   SDL_X11_XSYNC               (Wanted: ON): ON
+--   SDL_XINPUT                  (Wanted: OFF): OFF
+-- 
+--  Build Shared Library: ON
+--  Build Static Library: OFF
+-- 
+-- If something was not detected, although the libraries
+-- were installed, then make sure you have set the
+-- CMAKE_C_FLAGS and CMAKE_PREFIX_PATH CMake variables correctly.
+-- 
+-- Configuring done (12.7s)
+-- Generating done (0.1s)
+-- Build files have been written to: /workspaces/stella-emu-stella/dev/temp/SDL3-3.2.28/build
+[  1%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o
+[  1%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.o
+[  1%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.o
+[  1%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.o
+[  2%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.o
+[  2%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.o
+[  2%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.o
+[  3%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.o
+[  3%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.o
+[  3%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.o
+[  3%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.o
+[  4%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.o
+[  4%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.o
+[  4%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.o
+[  4%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.o
+[  5%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.o
+[  5%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.o
+[  5%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.o
+[  6%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.o
+[  6%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.o
+[  6%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.o
+[  6%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.o
+[  7%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.o
+[  7%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.o
+[  7%] Building C object CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.o
+[  8%] Linking C static library libSDL_uclibc.a
+[  8%] Built target SDL_uclibc
+[  9%] Generating wayland-generated-protocols/xdg-toplevel-icon-v1-client-protocol.h
+[ 10%] Generating wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c
+[ 10%] Generating wayland-generated-protocols/alpha-modifier-v1-client-protocol.h
+[ 10%] Generating wayland-generated-protocols/alpha-modifier-v1-protocol.c
+[ 10%] Generating wayland-generated-protocols/color-management-v1-client-protocol.h
+[ 10%] Generating wayland-generated-protocols/color-management-v1-protocol.c
+[ 10%] Generating wayland-generated-protocols/cursor-shape-v1-client-protocol.h
+[ 10%] Generating wayland-generated-protocols/cursor-shape-v1-protocol.c
+[ 11%] Generating wayland-generated-protocols/fractional-scale-v1-client-protocol.h
+[ 12%] Generating wayland-generated-protocols/fractional-scale-v1-protocol.c
+[ 12%] Generating wayland-generated-protocols/frog-color-management-v1-client-protocol.h
+[ 12%] Generating wayland-generated-protocols/frog-color-management-v1-protocol.c
+[ 12%] Generating wayland-generated-protocols/idle-inhibit-unstable-v1-client-protocol.h
+[ 12%] Generating wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c
+[ 13%] Generating wayland-generated-protocols/input-timestamps-unstable-v1-client-protocol.h
+[ 13%] Generating wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c
+[ 13%] Generating wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-client-protocol.h
+[ 14%] Generating wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c
+[ 14%] Generating wayland-generated-protocols/pointer-constraints-unstable-v1-client-protocol.h
+[ 14%] Generating wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c
+[ 14%] Generating wayland-generated-protocols/primary-selection-unstable-v1-client-protocol.h
+[ 14%] Generating wayland-generated-protocols/primary-selection-unstable-v1-protocol.c
+[ 15%] Generating wayland-generated-protocols/relative-pointer-unstable-v1-client-protocol.h
+[ 16%] Generating wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c
+[ 16%] Generating wayland-generated-protocols/tablet-v2-client-protocol.h
+[ 16%] Generating wayland-generated-protocols/tablet-v2-protocol.c
+[ 16%] Generating wayland-generated-protocols/text-input-unstable-v3-client-protocol.h
+[ 16%] Generating wayland-generated-protocols/text-input-unstable-v3-protocol.c
+[ 17%] Generating wayland-generated-protocols/viewporter-client-protocol.h
+[ 17%] Generating wayland-generated-protocols/viewporter-protocol.c
+[ 17%] Generating wayland-generated-protocols/wayland-client-protocol.h
+[ 18%] Generating wayland-generated-protocols/wayland-protocol.c
+[ 18%] Generating wayland-generated-protocols/xdg-activation-v1-client-protocol.h
+[ 18%] Generating wayland-generated-protocols/xdg-activation-v1-protocol.c
+[ 18%] Generating wayland-generated-protocols/xdg-decoration-unstable-v1-client-protocol.h
+[ 18%] Generating wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c
+[ 19%] Generating wayland-generated-protocols/xdg-dialog-v1-client-protocol.h
+[ 20%] Generating wayland-generated-protocols/xdg-dialog-v1-protocol.c
+[ 20%] Generating wayland-generated-protocols/xdg-foreign-unstable-v2-client-protocol.h
+[ 20%] Generating wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c
+[ 20%] Generating wayland-generated-protocols/xdg-output-unstable-v1-client-protocol.h
+[ 20%] Generating wayland-generated-protocols/xdg-output-unstable-v1-protocol.c
+[ 20%] Generating wayland-generated-protocols/xdg-shell-client-protocol.h
+[ 20%] Generating wayland-generated-protocols/xdg-shell-protocol.c
+[ 20%] Building C object CMakeFiles/SDL3-shared.dir/cmake_pch.h.gch
+[ 20%] Building C object CMakeFiles/SDL3-shared.dir/src/SDL.c.o
+[ 21%] Building C object CMakeFiles/SDL3-shared.dir/src/SDL_assert.c.o
+[ 21%] Building C object CMakeFiles/SDL3-shared.dir/src/SDL_error.c.o
+[ 21%] Building C object CMakeFiles/SDL3-shared.dir/src/SDL_guid.c.o
+[ 21%] Building C object CMakeFiles/SDL3-shared.dir/src/SDL_hashtable.c.o
+[ 22%] Building C object CMakeFiles/SDL3-shared.dir/src/SDL_hints.c.o
+[ 22%] Building C object CMakeFiles/SDL3-shared.dir/src/SDL_list.c.o
+[ 22%] Building C object CMakeFiles/SDL3-shared.dir/src/SDL_log.c.o
+[ 23%] Building C object CMakeFiles/SDL3-shared.dir/src/SDL_properties.c.o
+[ 23%] Building C object CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.o
+[ 23%] Building C object CMakeFiles/SDL3-shared.dir/src/atomic/SDL_atomic.c.o
+[ 23%] Building C object CMakeFiles/SDL3-shared.dir/src/atomic/SDL_spinlock.c.o
+[ 24%] Building C object CMakeFiles/SDL3-shared.dir/src/audio/SDL_audio.c.o
+[ 24%] Building C object CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiocvt.c.o
+[ 24%] Building C object CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiodev.c.o
+[ 24%] Building C object CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioqueue.c.o
+[ 25%] Building C object CMakeFiles/SDL3-shared.dir/src/audio/SDL_audioresample.c.o
+[ 25%] Building C object CMakeFiles/SDL3-shared.dir/src/audio/SDL_audiotypecvt.c.o
+[ 25%] Building C object CMakeFiles/SDL3-shared.dir/src/audio/SDL_mixer.c.o
+[ 26%] Building C object CMakeFiles/SDL3-shared.dir/src/audio/SDL_wave.c.o
+[ 26%] Building C object CMakeFiles/SDL3-shared.dir/src/camera/SDL_camera.c.o
+[ 26%] Building C object CMakeFiles/SDL3-shared.dir/src/core/SDL_core_unsupported.c.o
+[ 26%] Building C object CMakeFiles/SDL3-shared.dir/src/cpuinfo/SDL_cpuinfo.c.o
+[ 27%] Building C object CMakeFiles/SDL3-shared.dir/src/dynapi/SDL_dynapi.c.o
+[ 27%] Building C object CMakeFiles/SDL3-shared.dir/src/events/SDL_categories.c.o
+[ 27%] Building C object CMakeFiles/SDL3-shared.dir/src/events/SDL_clipboardevents.c.o
+[ 28%] Building C object CMakeFiles/SDL3-shared.dir/src/events/SDL_displayevents.c.o
+[ 28%] Building C object CMakeFiles/SDL3-shared.dir/src/events/SDL_dropevents.c.o
+[ 28%] Building C object CMakeFiles/SDL3-shared.dir/src/events/SDL_events.c.o
+[ 28%] Building C object CMakeFiles/SDL3-shared.dir/src/events/SDL_eventwatch.c.o
+[ 29%] Building C object CMakeFiles/SDL3-shared.dir/src/events/SDL_keyboard.c.o
+[ 29%] Building C object CMakeFiles/SDL3-shared.dir/src/events/SDL_keymap.c.o
+[ 29%] Building C object CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_keycode.c.o
+[ 29%] Building C object CMakeFiles/SDL3-shared.dir/src/events/SDL_keysym_to_scancode.c.o
+[ 30%] Building C object CMakeFiles/SDL3-shared.dir/src/events/SDL_mouse.c.o
+[ 30%] Building C object CMakeFiles/SDL3-shared.dir/src/events/SDL_pen.c.o
+[ 30%] Building C object CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.o
+[ 31%] Building C object CMakeFiles/SDL3-shared.dir/src/events/SDL_scancode_tables.c.o
+[ 31%] Building C object CMakeFiles/SDL3-shared.dir/src/events/SDL_touch.c.o
+[ 31%] Building C object CMakeFiles/SDL3-shared.dir/src/events/SDL_windowevents.c.o
+[ 31%] Building C object CMakeFiles/SDL3-shared.dir/src/events/imKStoUCS.c.o
+[ 32%] Building C object CMakeFiles/SDL3-shared.dir/src/filesystem/SDL_filesystem.c.o
+[ 32%] Building C object CMakeFiles/SDL3-shared.dir/src/gpu/SDL_gpu.c.o
+[ 32%] Building C object CMakeFiles/SDL3-shared.dir/src/haptic/SDL_haptic.c.o
+[ 33%] Building C object CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.o
+[ 33%] Building C object CMakeFiles/SDL3-shared.dir/src/io/SDL_asyncio.c.o
+[ 33%] Building C object CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.o
+[ 33%] Building C object CMakeFiles/SDL3-shared.dir/src/io/generic/SDL_asyncio_generic.c.o
+[ 34%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/SDL_gamepad.c.o
+[ 34%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/SDL_joystick.c.o
+[ 34%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_gamepad.c.o
+[ 34%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/controller_type.c.o
+[ 35%] Building C object CMakeFiles/SDL3-shared.dir/src/locale/SDL_locale.c.o
+[ 35%] Building C object CMakeFiles/SDL3-shared.dir/src/main/SDL_main_callbacks.c.o
+[ 35%] Building C object CMakeFiles/SDL3-shared.dir/src/main/SDL_runapp.c.o
+[ 36%] Building C object CMakeFiles/SDL3-shared.dir/src/misc/SDL_url.c.o
+[ 36%] Building C object CMakeFiles/SDL3-shared.dir/src/power/SDL_power.c.o
+[ 36%] Building C object CMakeFiles/SDL3-shared.dir/src/render/SDL_render.c.o
+[ 36%] Building C object CMakeFiles/SDL3-shared.dir/src/render/SDL_render_unsupported.c.o
+[ 37%] Building C object CMakeFiles/SDL3-shared.dir/src/render/SDL_yuv_sw.c.o
+[ 37%] Building C object CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_render_d3d.c.o
+[ 37%] Building C object CMakeFiles/SDL3-shared.dir/src/render/direct3d/SDL_shaders_d3d.c.o
+[ 38%] Building C object CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_render_d3d11.c.o
+[ 38%] Building C object CMakeFiles/SDL3-shared.dir/src/render/direct3d11/SDL_shaders_d3d11.c.o
+[ 38%] Building C object CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_render_d3d12.c.o
+[ 38%] Building C object CMakeFiles/SDL3-shared.dir/src/render/direct3d12/SDL_shaders_d3d12.c.o
+[ 39%] Building C object CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_pipeline_gpu.c.o
+[ 39%] Building C object CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_render_gpu.c.o
+[ 39%] Building C object CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_shaders_gpu.c.o
+[ 39%] Building C object CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_render_gl.c.o
+[ 40%] Building C object CMakeFiles/SDL3-shared.dir/src/render/opengl/SDL_shaders_gl.c.o
+[ 40%] Building C object CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_render_gles2.c.o
+[ 40%] Building C object CMakeFiles/SDL3-shared.dir/src/render/opengles2/SDL_shaders_gles2.c.o
+[ 41%] Building C object CMakeFiles/SDL3-shared.dir/src/render/ps2/SDL_render_ps2.c.o
+[ 41%] Building C object CMakeFiles/SDL3-shared.dir/src/render/psp/SDL_render_psp.c.o
+[ 41%] Building C object CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendfillrect.c.o
+[ 41%] Building C object CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendline.c.o
+[ 42%] Building C object CMakeFiles/SDL3-shared.dir/src/render/software/SDL_blendpoint.c.o
+[ 42%] Building C object CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawline.c.o
+[ 42%] Building C object CMakeFiles/SDL3-shared.dir/src/render/software/SDL_drawpoint.c.o
+[ 43%] Building C object CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.o
+[ 43%] Building C object CMakeFiles/SDL3-shared.dir/src/render/software/SDL_rotate.c.o
+[ 43%] Building C object CMakeFiles/SDL3-shared.dir/src/render/software/SDL_triangle.c.o
+[ 43%] Building C object CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm.c.o
+[ 44%] Building C object CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.o
+[ 44%] Building C object CMakeFiles/SDL3-shared.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.o
+[ 44%] Building C object CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_render_vulkan.c.o
+[ 44%] Building C object CMakeFiles/SDL3-shared.dir/src/render/vulkan/SDL_shaders_vulkan.c.o
+[ 45%] Building C object CMakeFiles/SDL3-shared.dir/src/sensor/SDL_sensor.c.o
+[ 45%] Building C object CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc16.c.o
+[ 45%] Building C object CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_crc32.c.o
+[ 46%] Building C object CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_getenv.c.o
+[ 46%] Building C object CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_iconv.c.o
+[ 46%] Building C object CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_malloc.c.o
+[ 46%] Building C object CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memcpy.c.o
+[ 47%] Building C object CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memmove.c.o
+[ 47%] Building C object CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_memset.c.o
+[ 47%] Building C object CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_mslibc.c.o
+[ 48%] Building C object CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_murmur3.c.o
+[ 48%] Building C object CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_qsort.c.o
+[ 48%] Building C object CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_random.c.o
+[ 48%] Building C object CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_stdlib.c.o
+[ 49%] Building C object CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_string.c.o
+[ 49%] Building C object CMakeFiles/SDL3-shared.dir/src/stdlib/SDL_strtokr.c.o
+[ 49%] Building C object CMakeFiles/SDL3-shared.dir/src/storage/SDL_storage.c.o
+[ 49%] Building C object CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.o
+[ 50%] Building C object CMakeFiles/SDL3-shared.dir/src/time/SDL_time.c.o
+[ 50%] Building C object CMakeFiles/SDL3-shared.dir/src/timer/SDL_timer.c.o
+[ 50%] Building C object CMakeFiles/SDL3-shared.dir/src/video/SDL_RLEaccel.c.o
+[ 51%] Building C object CMakeFiles/SDL3-shared.dir/src/video/SDL_blit.c.o
+[ 51%] Building C object CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_0.c.o
+[ 51%] Building C object CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_1.c.o
+[ 51%] Building C object CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_A.c.o
+[ 52%] Building C object CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_N.c.o
+[ 52%] Building C object CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_auto.c.o
+[ 52%] Building C object CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_copy.c.o
+[ 53%] Building C object CMakeFiles/SDL3-shared.dir/src/video/SDL_blit_slow.c.o
+[ 53%] Building C object CMakeFiles/SDL3-shared.dir/src/video/SDL_bmp.c.o
+[ 53%] Building C object CMakeFiles/SDL3-shared.dir/src/video/SDL_clipboard.c.o
+[ 53%] Building C object CMakeFiles/SDL3-shared.dir/src/video/SDL_egl.c.o
+[ 54%] Building C object CMakeFiles/SDL3-shared.dir/src/video/SDL_fillrect.c.o
+[ 54%] Building C object CMakeFiles/SDL3-shared.dir/src/video/SDL_pixels.c.o
+[ 54%] Building C object CMakeFiles/SDL3-shared.dir/src/video/SDL_rect.c.o
+[ 54%] Building C object CMakeFiles/SDL3-shared.dir/src/video/SDL_stb.c.o
+[ 55%] Building C object CMakeFiles/SDL3-shared.dir/src/video/SDL_stretch.c.o
+[ 55%] Building C object CMakeFiles/SDL3-shared.dir/src/video/SDL_surface.c.o
+[ 55%] Building C object CMakeFiles/SDL3-shared.dir/src/video/SDL_video.c.o
+[ 56%] Building C object CMakeFiles/SDL3-shared.dir/src/video/SDL_video_unsupported.c.o
+[ 56%] Building C object CMakeFiles/SDL3-shared.dir/src/video/SDL_vulkan_utils.c.o
+[ 56%] Building C object CMakeFiles/SDL3-shared.dir/src/video/SDL_yuv.c.o
+[ 56%] Building C object CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_lsx.c.o
+[ 57%] Building C object CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_sse.c.o
+[ 57%] Building C object CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.o
+[ 57%] Building C object CMakeFiles/SDL3-shared.dir/src/audio/dummy/SDL_dummyaudio.c.o
+[ 58%] Building C object CMakeFiles/SDL3-shared.dir/src/audio/disk/SDL_diskaudio.c.o
+[ 58%] Building C object CMakeFiles/SDL3-shared.dir/src/camera/dummy/SDL_camera_dummy.c.o
+[ 58%] Building C object CMakeFiles/SDL3-shared.dir/src/loadso/dlopen/SDL_sysloadso.c.o
+[ 58%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/virtual/SDL_virtualjoystick.c.o
+[ 59%] Building C object CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullevents.c.o
+[ 59%] Building C object CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullframebuffer.c.o
+[ 59%] Building C object CMakeFiles/SDL3-shared.dir/src/video/dummy/SDL_nullvideo.c.o
+[ 59%] Building C object CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.o
+[ 60%] Building C object CMakeFiles/SDL3-shared.dir/src/audio/jack/SDL_jackaudio.c.o
+[ 60%] Building C object CMakeFiles/SDL3-shared.dir/src/audio/pipewire/SDL_pipewire.c.o
+[ 60%] Building C object CMakeFiles/SDL3-shared.dir/src/camera/pipewire/SDL_camera_pipewire.c.o
+[ 61%] Building C object CMakeFiles/SDL3-shared.dir/src/audio/pulseaudio/SDL_pulseaudio.c.o
+[ 61%] Building C object CMakeFiles/SDL3-shared.dir/src/audio/sndio/SDL_sndioaudio.c.o
+[ 61%] Building C object CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11clipboard.c.o
+[ 61%] Building C object CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11dyn.c.o
+[ 62%] Building C object CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11events.c.o
+[ 62%] Building C object CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11framebuffer.c.o
+[ 62%] Building C object CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11keyboard.c.o
+[ 63%] Building C object CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11messagebox.c.o
+[ 63%] Building C object CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11modes.c.o
+[ 63%] Building C object CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11mouse.c.o
+[ 63%] Building C object CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11opengl.c.o
+[ 64%] Building C object CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11opengles.c.o
+[ 64%] Building C object CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11pen.c.o
+[ 64%] Building C object CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11settings.c.o
+[ 64%] Building C object CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11shape.c.o
+[ 65%] Building C object CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11touch.c.o
+[ 65%] Building C object CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11video.c.o
+[ 65%] Building C object CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11vulkan.c.o
+[ 66%] Building C object CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11window.c.o
+[ 66%] Building C object CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xfixes.c.o
+[ 66%] Building C object CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xinput2.c.o
+[ 66%] Building C object CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11xsync.c.o
+[ 67%] Building C object CMakeFiles/SDL3-shared.dir/src/video/x11/edid-parse.c.o
+[ 67%] Building C object CMakeFiles/SDL3-shared.dir/src/video/x11/xsettings-client.c.o
+[ 67%] Building C object CMakeFiles/SDL3-shared.dir/src/video/kmsdrm/SDL_kmsdrmdyn.c.o
+[ 68%] Building C object CMakeFiles/SDL3-shared.dir/src/video/kmsdrm/SDL_kmsdrmevents.c.o
+[ 68%] Building C object CMakeFiles/SDL3-shared.dir/src/video/kmsdrm/SDL_kmsdrmmouse.c.o
+[ 68%] Building C object CMakeFiles/SDL3-shared.dir/src/video/kmsdrm/SDL_kmsdrmopengles.c.o
+[ 68%] Building C object CMakeFiles/SDL3-shared.dir/src/video/kmsdrm/SDL_kmsdrmvideo.c.o
+[ 69%] Building C object CMakeFiles/SDL3-shared.dir/src/video/kmsdrm/SDL_kmsdrmvulkan.c.o
+[ 69%] Building C object CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandclipboard.c.o
+[ 69%] Building C object CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandcolor.c.o
+[ 69%] Building C object CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddatamanager.c.o
+[ 70%] Building C object CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylanddyn.c.o
+[ 70%] Building C object CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandevents.c.o
+[ 70%] Building C object CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandkeyboard.c.o
+[ 71%] Building C object CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmessagebox.c.o
+[ 71%] Building C object CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandmouse.c.o
+[ 71%] Building C object CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandopengles.c.o
+[ 71%] Building C object CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandshmbuffer.c.o
+[ 72%] Building C object CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvideo.c.o
+[ 72%] Building C object CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandvulkan.c.o
+[ 72%] Building C object CMakeFiles/SDL3-shared.dir/src/video/wayland/SDL_waylandwindow.c.o
+[ 73%] Building C object CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.o
+[ 73%] Building C object CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.o
+[ 73%] Building C object CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o
+[ 73%] Building C object CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o
+[ 74%] Building C object CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.o
+[ 74%] Building C object CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o
+[ 74%] Building C object CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.o
+[ 74%] Building C object CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o
+[ 75%] Building C object CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o
+[ 75%] Building C object CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o
+[ 75%] Building C object CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o
+[ 76%] Building C object CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.o
+[ 76%] Building C object CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o
+[ 76%] Building C object CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.o
+[ 76%] Building C object CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.o
+[ 77%] Building C object CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o
+[ 77%] Building C object CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o
+[ 77%] Building C object CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.o
+[ 78%] Building C object CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.o
+[ 78%] Building C object CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o
+[ 78%] Building C object CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.o
+[ 78%] Building C object CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o
+[ 79%] Building C object CMakeFiles/SDL3-shared.dir/src/tray/unix/SDL_tray.c.o
+[ 79%] Building C object CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_appid.c.o
+[ 79%] Building C object CMakeFiles/SDL3-shared.dir/src/core/unix/SDL_poll.c.o
+[ 79%] Building C object CMakeFiles/SDL3-shared.dir/src/camera/v4l2/SDL_camera_v4l2.c.o
+[ 80%] Building C object CMakeFiles/SDL3-shared.dir/src/haptic/linux/SDL_syshaptic.c.o
+[ 80%] Building C object CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_dbus.c.o
+[ 80%] Building C object CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_system_theme.c.o
+[ 81%] Building C object CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ime.c.o
+[ 81%] Building C object CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_ibus.c.o
+[ 81%] Building C object CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_fcitx.c.o
+[ 81%] Building C object CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.o
+[ 82%] Building C object CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev.c.o
+[ 82%] Building C object CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_kbd.c.o
+[ 82%] Building C object CMakeFiles/SDL3-shared.dir/src/io/io_uring/SDL_asyncio_liburing.c.o
+[ 83%] Building C object CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_evdev_capabilities.c.o
+[ 83%] Building C object CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_threadprio.c.o
+[ 83%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_combined.c.o
+[ 83%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_gamecube.c.o
+[ 84%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_luna.c.o
+[ 84%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps3.c.o
+[ 84%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps4.c.o
+[ 84%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_ps5.c.o
+[ 85%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_rumble.c.o
+[ 85%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_shield.c.o
+[ 85%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_stadia.c.o
+[ 86%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam.c.o
+[ 86%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steam_hori.c.o
+[ 86%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_steamdeck.c.o
+[ 86%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_switch.c.o
+[ 87%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_wii.c.o
+[ 87%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360.c.o
+[ 87%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xbox360w.c.o
+[ 88%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapi_xboxone.c.o
+[ 88%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/hidapi/SDL_hidapijoystick.c.o
+[ 88%] Building C object CMakeFiles/SDL3-shared.dir/src/joystick/linux/SDL_sysjoystick.c.o
+[ 88%] Building C object CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o
+[ 89%] Building C object CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysmutex.c.o
+[ 89%] Building C object CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syscond.c.o
+[ 89%] Building C object CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_sysrwlock.c.o
+[ 89%] Building C object CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systls.c.o
+[ 90%] Building C object CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_syssem.c.o
+[ 90%] Building C object CMakeFiles/SDL3-shared.dir/src/misc/unix/SDL_sysurl.c.o
+[ 90%] Building C object CMakeFiles/SDL3-shared.dir/src/power/linux/SDL_syspower.c.o
+[ 91%] Building C object CMakeFiles/SDL3-shared.dir/src/locale/unix/SDL_syslocale.c.o
+[ 91%] Building C object CMakeFiles/SDL3-shared.dir/src/filesystem/unix/SDL_sysfilesystem.c.o
+[ 91%] Building C object CMakeFiles/SDL3-shared.dir/src/storage/generic/SDL_genericstorage.c.o
+[ 91%] Building C object CMakeFiles/SDL3-shared.dir/src/storage/steam/SDL_steamstorage.c.o
+[ 92%] Building C object CMakeFiles/SDL3-shared.dir/src/filesystem/posix/SDL_sysfsops.c.o
+[ 92%] Building C object CMakeFiles/SDL3-shared.dir/src/time/unix/SDL_systime.c.o
+[ 92%] Building C object CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o
+[ 93%] Building C object CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog.c.o
+[ 93%] Building C object CMakeFiles/SDL3-shared.dir/src/dialog/SDL_dialog_utils.c.o
+[ 93%] Building C object CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_unixdialog.c.o
+[ 93%] Building C object CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_portaldialog.c.o
+[ 94%] Building C object CMakeFiles/SDL3-shared.dir/src/dialog/unix/SDL_zenitydialog.c.o
+[ 94%] Building C object CMakeFiles/SDL3-shared.dir/src/process/SDL_process.c.o
+[ 94%] Building C object CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o
+[ 94%] Building C object CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenevents.c.o
+[ 95%] Building C object CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenframebuffer.c.o
+[ 95%] Building C object CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenopengles.c.o
+[ 95%] Building C object CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvideo.c.o
+[ 96%] Building C object CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenvulkan.c.o
+[ 96%] Building C object CMakeFiles/SDL3-shared.dir/src/video/offscreen/SDL_offscreenwindow.c.o
+[ 96%] Building C object CMakeFiles/SDL3-shared.dir/src/tray/SDL_tray_utils.c.o
+[ 96%] Building C object CMakeFiles/SDL3-shared.dir/src/gpu/vulkan/SDL_gpu_vulkan.c.o
+[ 97%] Building C object CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o
+[ 97%] Building C object CMakeFiles/SDL3-shared.dir/src/main/generic/SDL_sysmain_callbacks.c.o
+[ 97%] Linking C shared library libSDL3.so
+[ 97%] Built target SDL3-shared
+[ 98%] Building C object CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o
+[ 98%] Building C object CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o
+[ 98%] Building C object CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o
+[ 98%] Building C object CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o
+[ 99%] Building C object CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o
+[ 99%] Building C object CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o
+[ 99%] Building C object CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o
+[ 99%] Building C object CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o
+[100%] Building C object CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o
+[100%] Building C object CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o
+[100%] Linking C static library libSDL3_test.a
+[100%] Built target SDL3_test
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /usr/local/lib/pkgconfig/sdl3.pc
+-- Installing: /usr/local/lib/libSDL3.so.0.2.28
+-- Installing: /usr/local/lib/libSDL3.so.0
+-- Installing: /usr/local/lib/libSDL3.so
+-- Installing: /usr/local/lib/libSDL3_test.a
+-- Installing: /usr/local/lib/cmake/SDL3/SDL3headersTargets.cmake
+-- Installing: /usr/local/lib/cmake/SDL3/SDL3sharedTargets.cmake
+-- Installing: /usr/local/lib/cmake/SDL3/SDL3sharedTargets-relwithdebinfo.cmake
+-- Installing: /usr/local/lib/cmake/SDL3/SDL3testTargets.cmake
+-- Installing: /usr/local/lib/cmake/SDL3/SDL3testTargets-relwithdebinfo.cmake
+-- Installing: /usr/local/lib/cmake/SDL3/SDL3Config.cmake
+-- Installing: /usr/local/lib/cmake/SDL3/SDL3ConfigVersion.cmake
+-- Installing: /usr/local/include/SDL3/SDL.h
+-- Installing: /usr/local/include/SDL3/SDL_assert.h
+-- Installing: /usr/local/include/SDL3/SDL_asyncio.h
+-- Installing: /usr/local/include/SDL3/SDL_atomic.h
+-- Installing: /usr/local/include/SDL3/SDL_audio.h
+-- Installing: /usr/local/include/SDL3/SDL_begin_code.h
+-- Installing: /usr/local/include/SDL3/SDL_bits.h
+-- Installing: /usr/local/include/SDL3/SDL_blendmode.h
+-- Installing: /usr/local/include/SDL3/SDL_camera.h
+-- Installing: /usr/local/include/SDL3/SDL_clipboard.h
+-- Installing: /usr/local/include/SDL3/SDL_close_code.h
+-- Installing: /usr/local/include/SDL3/SDL_copying.h
+-- Installing: /usr/local/include/SDL3/SDL_cpuinfo.h
+-- Installing: /usr/local/include/SDL3/SDL_dialog.h
+-- Installing: /usr/local/include/SDL3/SDL_egl.h
+-- Installing: /usr/local/include/SDL3/SDL_endian.h
+-- Installing: /usr/local/include/SDL3/SDL_error.h
+-- Installing: /usr/local/include/SDL3/SDL_events.h
+-- Installing: /usr/local/include/SDL3/SDL_filesystem.h
+-- Installing: /usr/local/include/SDL3/SDL_gamepad.h
+-- Installing: /usr/local/include/SDL3/SDL_gpu.h
+-- Installing: /usr/local/include/SDL3/SDL_guid.h
+-- Installing: /usr/local/include/SDL3/SDL_haptic.h
+-- Installing: /usr/local/include/SDL3/SDL_hidapi.h
+-- Installing: /usr/local/include/SDL3/SDL_hints.h
+-- Installing: /usr/local/include/SDL3/SDL_init.h
+-- Installing: /usr/local/include/SDL3/SDL_intrin.h
+-- Installing: /usr/local/include/SDL3/SDL_iostream.h
+-- Installing: /usr/local/include/SDL3/SDL_joystick.h
+-- Installing: /usr/local/include/SDL3/SDL_keyboard.h
+-- Installing: /usr/local/include/SDL3/SDL_keycode.h
+-- Installing: /usr/local/include/SDL3/SDL_loadso.h
+-- Installing: /usr/local/include/SDL3/SDL_locale.h
+-- Installing: /usr/local/include/SDL3/SDL_log.h
+-- Installing: /usr/local/include/SDL3/SDL_main.h
+-- Installing: /usr/local/include/SDL3/SDL_main_impl.h
+-- Installing: /usr/local/include/SDL3/SDL_messagebox.h
+-- Installing: /usr/local/include/SDL3/SDL_metal.h
+-- Installing: /usr/local/include/SDL3/SDL_misc.h
+-- Installing: /usr/local/include/SDL3/SDL_mouse.h
+-- Installing: /usr/local/include/SDL3/SDL_mutex.h
+-- Installing: /usr/local/include/SDL3/SDL_oldnames.h
+-- Installing: /usr/local/include/SDL3/SDL_opengl.h
+-- Installing: /usr/local/include/SDL3/SDL_opengl_glext.h
+-- Installing: /usr/local/include/SDL3/SDL_opengles.h
+-- Installing: /usr/local/include/SDL3/SDL_opengles2.h
+-- Installing: /usr/local/include/SDL3/SDL_opengles2_gl2.h
+-- Installing: /usr/local/include/SDL3/SDL_opengles2_gl2ext.h
+-- Installing: /usr/local/include/SDL3/SDL_opengles2_gl2platform.h
+-- Installing: /usr/local/include/SDL3/SDL_opengles2_khrplatform.h
+-- Installing: /usr/local/include/SDL3/SDL_pen.h
+-- Installing: /usr/local/include/SDL3/SDL_pixels.h
+-- Installing: /usr/local/include/SDL3/SDL_platform.h
+-- Installing: /usr/local/include/SDL3/SDL_platform_defines.h
+-- Installing: /usr/local/include/SDL3/SDL_power.h
+-- Installing: /usr/local/include/SDL3/SDL_process.h
+-- Installing: /usr/local/include/SDL3/SDL_properties.h
+-- Installing: /usr/local/include/SDL3/SDL_rect.h
+-- Installing: /usr/local/include/SDL3/SDL_render.h
+-- Installing: /usr/local/include/SDL3/SDL_scancode.h
+-- Installing: /usr/local/include/SDL3/SDL_sensor.h
+-- Installing: /usr/local/include/SDL3/SDL_stdinc.h
+-- Installing: /usr/local/include/SDL3/SDL_storage.h
+-- Installing: /usr/local/include/SDL3/SDL_surface.h
+-- Installing: /usr/local/include/SDL3/SDL_system.h
+-- Installing: /usr/local/include/SDL3/SDL_thread.h
+-- Installing: /usr/local/include/SDL3/SDL_time.h
+-- Installing: /usr/local/include/SDL3/SDL_timer.h
+-- Installing: /usr/local/include/SDL3/SDL_touch.h
+-- Installing: /usr/local/include/SDL3/SDL_tray.h
+-- Installing: /usr/local/include/SDL3/SDL_version.h
+-- Installing: /usr/local/include/SDL3/SDL_video.h
+-- Installing: /usr/local/include/SDL3/SDL_vulkan.h
+-- Installing: /usr/local/include/SDL3/SDL_revision.h
+-- Installing: /usr/local/include/SDL3/SDL_test.h
+-- Installing: /usr/local/include/SDL3/SDL_test_assert.h
+-- Installing: /usr/local/include/SDL3/SDL_test_common.h
+-- Installing: /usr/local/include/SDL3/SDL_test_compare.h
+-- Installing: /usr/local/include/SDL3/SDL_test_crc32.h
+-- Installing: /usr/local/include/SDL3/SDL_test_font.h
+-- Installing: /usr/local/include/SDL3/SDL_test_fuzzer.h
+-- Installing: /usr/local/include/SDL3/SDL_test_harness.h
+-- Installing: /usr/local/include/SDL3/SDL_test_log.h
+-- Installing: /usr/local/include/SDL3/SDL_test_md5.h
+-- Installing: /usr/local/include/SDL3/SDL_test_memory.h
+-- Installing: /usr/local/share/licenses/SDL3/LICENSE.txt
+/workspaces/stella-emu-stella/dev/temp
+/workspaces/stella-emu-stella/dev/temp/SDL3-3.2.28
