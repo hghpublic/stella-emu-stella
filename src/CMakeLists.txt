@@ -1,0 +1,8 @@
+# add_subdirectory(cheat)
+# add_subdirectory(common)
+# add_subdirectory(debugger)
+# add_subdirectory(emucore)
+# add_subdirectory(gui)
+add_subdirectory(lib)
+# add_subdirectory(os)
+# add_subdirectory(tools)
