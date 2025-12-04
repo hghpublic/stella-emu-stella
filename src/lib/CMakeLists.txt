@@ -1,0 +1,7 @@
+add_subdirectory(httplib)
+add_subdirectory(json)
+add_subdirectory(libpng)
+add_subdirectory(nanojpeg)
+add_subdirectory(sqlite)
+add_subdirectory(tinyexif)
+add_subdirectory(zlib)
