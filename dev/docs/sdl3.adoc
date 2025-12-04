@@ -1,0 +1,52 @@
+= SDL3
+
+== SDL3
+
+https://github.com/libsdl-org/SDL
+
+https://github.com/libsdl-org/SDL/blob/main/INSTALL.md
+
+== cmake
+
+https://wiki.libsdl.org/SDL3/README-cmake
+
+https://wiki.libsdl.org/SDL3/README-linux
+
+[source, shell]
+----
+cmake -S . -B build
+cmake --build build
+sudo cmake --install build --prefix /usr/local
+----
+
+
+== Build Dependencies
+
+Ubuntu 18.04, all available features enabled::
+
+[source, shell]
+----
+sudo apt-get install build-essential git make \
+pkg-config cmake ninja-build gnome-desktop-testing libasound2-dev libpulse-dev \
+libaudio-dev libfribidi-dev libjack-dev libsndio-dev libx11-dev libxext-dev \
+libxrandr-dev libxcursor-dev libxfixes-dev libxi-dev libxss-dev libxtst-dev \
+libxkbcommon-dev libdrm-dev libgbm-dev libgl1-mesa-dev libgles2-mesa-dev \
+libegl1-mesa-dev libdbus-1-dev libibus-1.0-dev libudev-dev libthai-dev
+----
+Ubuntu 22.04+ can also add `libpipewire-0.3-dev libwayland-dev libdecor-0-dev liburing-dev` to that command line.
+
+
+----
+VERSION=3.2.28
+curl -LO https://github.com/libsdl-org/SDL/releases/download/release-${VERSION}/SDL3-${VERSION}.zip
+unzip SDL3-${VERSION}.zip
+cd SDL3-${VERSION}
+cmake -S . -B build
+cmake --build build
+sudo cmake --install build --prefix /usr/local
+----
+
+----
+❯ ./scripts/install-sdl3-deps.sh > logs/install-sdl3-deps.log 2>&1
+❯ ./scripts/install-sdl3.sh > logs/install-sdl3.log 2>&1
+----

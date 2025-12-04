@@ -1,0 +1,100 @@
+= stella
+
+== build
+
+
+=== configure
+
+[source, shell]
+----
+❯ ./configure -h
+Running Stella configure...
+
+Usage: ./configure [OPTIONS]...
+
+Configuration:
+  -h, --help             display this help and exit
+
+Installation directories:
+  --prefix=DIR           use this prefix for installing stella  [/usr/local]
+  --bindir=DIR           directory to install the stella binary [PREFIX/bin]
+  --docdir=DIR           directory to install documentation     [PREFIX/share/doc/stella]
+  --datadir=DIR          directory to install icons/data files  [PREFIX/share]
+
+Optional Features:
+  --enable-gui           enable/disable the entire built-in UI [enabled]
+  --disable-gui
+  --enable-sound         enable/disable sound support [enabled]
+  --disable-sound
+  --enable-debugger      enable/disable all debugger options [enabled]
+  --disable-debugger
+  --enable-joystick      enable/disable joystick support [enabled]
+  --disable-joystick
+  --enable-cheats        enable/disable cheatcode support [enabled]
+  --disable-cheats
+  --enable-png           enable/disable PNG image support [enabled]
+  --disable-png
+  --enable-zip           enable/disable ZIP file support [enabled]
+  --disable-zip
+  --enable-windowed      enable/disable windowed rendering modes [enabled]
+  --disable-windowed
+  --enable-shared        build shared binary [enabled]
+  --enable-static        build static binary (if possible) [disabled]
+  --disable-static
+  --enable-profile       build binary with profiling info [disabled]
+  --disable-profile
+  --enable-debug         build with debugging symbols [disabled]
+  --disable-debug
+  --enable-release       build with all optimizations, for final release [disabled]
+  --disable-release
+  --use-mold-linker      use mold linker (experimental) [disabled]
+
+Optional Libraries:
+  --with-sdl-prefix=DIR    Prefix where the sdl2-config script is installed (optional)
+  --with-libpng-prefix=DIR Prefix where libpng is installed (optional)
+  --with-zlib-prefix=DIR   Prefix where zlib is installed (optional)
+  --with-gtest-prefix=DIR        Prefix where googletest is installed (optional)
+
+Some influential environment variables:
+  LDFLAGS       linker flags, e.g. -L<lib dir> if you have libraries in a
+                nonstandard directory <lib dir>
+  CXX           C++ compiler command
+  CXXFLAGS      C++ compiler flags
+  CPPFLAGS      C++ preprocessor flags, e.g. -I<include dir> if you have
+                headers in a nonstandard directory <include dir>
+  LDFLAGS_TEST linker flags for unit tests
+  CXXFLAGS_TEST C++ compiler flags for unit tests
+----
+
+[source, shell]
+----
+❯ git clean -dfx
+❯ ./configure
+Running Stella configure...
+Looking for C++ compiler... g++
+Checking for compiler version... 14, ok
+Checking hosttype... linux-gnu
+Checking for zlib... yes
+Checking for libpng... yes
+Checking for libsqlite3... yes
+
+Summary:
+   GUI enabled
+   Sound support enabled
+   Debugger support enabled
+   Joystick support enabled
+   Cheatcode support enabled
+   PNG image support enabled
+   ZIP file support enabled
+   Windowed rendering modes enabled
+   Static binary disabled
+   Profiling disabled
+   Debug symbols disabled
+Creating config.mak
+----
+
+== dependencies
+
+----
+] ❯ ./scripts/install-stella-deps.sh > logs/install-stella-deps.log 2>&1
+----
