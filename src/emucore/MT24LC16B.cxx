@@ -15,6 +15,6 @@
 // this file, and for a DISCLAIMER OF ALL WARRANTIES.
 //============================================================================
 
-#include "MT24LC256.hxx"
+#include "MT24LC16B.hxx"
 
 ;

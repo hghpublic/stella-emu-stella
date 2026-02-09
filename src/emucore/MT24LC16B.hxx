@@ -15,6 +15,21 @@
 // this file, and for a DISCLAIMER OF ALL WARRANTIES.
 //============================================================================
 
-#include "MT24LC256.hxx"
+#ifndef MT24LC16B_HXX
+#define MT24LC16B_HXX
 
-;
+#include "MicroChip24LC.hxx"
+
+/**
+  Emulates  a   Microchip  Technology   Inc.  24LC16B,  a   2kiB  Serial
+  Electrically Erasable PROM accessed using  the I2C protocol. Thanks to
+  J. Payson (aka Supercat) for the bulk of the 24LC256 code; altered for
+  24LC16B / EFF (Grizzards) cart type by Bruce-Robert Pocock.
+
+  @author Stephen Anthon, J. Payson, and Bruce-Robert Pocock
+*/
+class MT24LC16B : public MicroChip24LC<2_KB, 16> {
+  using MicroChip24LC::MicroChip24LC;
+};
+
+#endif

@@ -15,6 +15,25 @@
 // this file, and for a DISCLAIMER OF ALL WARRANTIES.
 //============================================================================
 
-#include "MT24LC256.hxx"
+#include "CartEFF.hxx"
+#include "CartEFFWidget.hxx"
 
-;
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+CartridgeEFFWidget::CartridgeEFFWidget(
+      GuiObject* boss, const GUI::Font& lfont, const GUI::Font& nfont,
+      int x, int y, int w, int h, CartridgeEFF& cart)
+  : CartridgeEnhancedWidget(boss, lfont, nfont, x, y, w, h, cart)
+{
+  initialize();
+}
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+string CartridgeEFFWidget::description()
+{
+  ostringstream info;
+
+  info << "64k AtariAge EFF cartridge, 16 4k banks + 2k flash\n"
+       << CartridgeEnhancedWidget::description();
+
+  return info.str();
+}
