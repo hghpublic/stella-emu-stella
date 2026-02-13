@@ -36,77 +36,77 @@ class System;
 class CartridgeEFF : public CartridgeEF
 {
   friend class CartridgeEFFWidget;
-  
-public:
-  /**
-     Create a new cartridge using the specified image
 
-     @param image     Pointer to the ROM image
-     @param size      The size of the ROM image
-     @param md5       The md5sum of the ROM image
-     @param settings  A reference to the various settings (read-only)
-     @param bsSize    The size specified by the bankswitching scheme
-  */
-  CartridgeEFF(const ByteBuffer& image, size_t size, string_view md5,
-               const Settings& settings, size_t bsSize = 64_KB);
-  ~CartridgeEFF() override = default;
+  public:
+    /**
+       Create a new cartridge using the specified image
 
-public:
-  /**
-     Get a descriptor for the device name (used in error checking).
+       @param image     Pointer to the ROM image
+       @param size      The size of the ROM image
+       @param md5       The md5sum of the ROM image
+       @param settings  A reference to the various settings (read-only)
+       @param bsSize    The size specified by the bankswitching scheme
+    */
+    CartridgeEFF(const ByteBuffer& image, size_t size, string_view md5,
+                 const Settings& settings, size_t bsSize = 64_KB);
+    ~CartridgeEFF() override = default;
 
-     @return The name of the object
-  */
-  string name() const override { return "CartridgeEFF"; }
+  public:
+    /**
+       Get a descriptor for the device name (used in error checking).
 
-#ifdef DEBUGGER_SUPPORT
-  /**
-     Get debugger widget responsible for accessing the inner workings
-     of the cart.
-  */
-  CartDebugWidget* debugWidget(GuiObject* boss, const GUI::Font& lfont,
-                               const GUI::Font& nfont, int x, int y, int w, int h) override
-  {
-    return new CartridgeEFFWidget(boss, lfont, nfont, x, y, w, h, *this);
-  }
-#endif
+       @return The name of the object
+    */
+    string name() const override { return "CartridgeEFF"; }
 
-  int descriptionLines();
+  #ifdef DEBUGGER_SUPPORT
+    /**
+       Get debugger widget responsible for accessing the inner workings
+       of the cart.
+    */
+    CartDebugWidget* debugWidget(GuiObject* boss, const GUI::Font& lfont,
+                                 const GUI::Font& nfont, int x, int y, int w, int h) override
+    {
+      return new CartridgeEFFWidget(boss, lfont, nfont, x, y, w, h, *this);
+    }
+  #endif
 
-  string ramDescription();
+    int descriptionLines();
 
-  uInt8 peek(uInt16 address) override;
-  bool poke(uInt16 address, uInt8 value) override;
+    string ramDescription();
 
-  void setNVRamFile(string_view path);
+    uInt8 peek(uInt16 address) override;
+    bool poke(uInt16 address, uInt8 value) override;
+    void setNVRamFile(string_view path) override;
 
-protected:
-  bool checkSwitchBank (uInt16 address, uInt8) override;
+  protected:
+    bool checkSwitchBank (uInt16 address, uInt8) override;
 
-  uInt16 hotspot() const override { return 0x1FE0; }
+    uInt16 hotspot() const override { return 0x1FE0; }
 
-  uInt16 getStartBank() const override { return 1; }
+    uInt16 getStartBank() const override { return 1; }
 
-  // RAM size
-  static constexpr size_t RAM_SIZE = 0;
+    // RAM size
+    static constexpr size_t RAM_SIZE = 0;
 
-  void setI2CClock(bool value);
-  void setI2CData(bool value);
-   
-  bool myI2CData = false;
-  bool myI2CClock = false;
+    void setI2CClock(bool value);
+    void setI2CData(bool value);
 
-  string myEEPROMFile;
-  unique_ptr<MT24LC16B> myEEPROM;
+    bool myI2CData{false};
+    bool myI2CClock{false};
 
-  uInt8 readI2C();
+    string myEEPROMFile;
+    unique_ptr<MT24LC16B> myEEPROM;
 
-  // Following constructors and assignment operators not supported
-  CartridgeEFF() = delete;
-  CartridgeEFF(const CartridgeEFF&) = delete;
-  CartridgeEFF(CartridgeEFF&&) = delete;
-  CartridgeEFF& operator=(const CartridgeEFF&) = delete;
-  CartridgeEFF& operator=(CartridgeEFF&&) = delete;
+    uInt8 readI2C();
+
+  private:
+    // Following constructors and assignment operators not supported
+    CartridgeEFF() = delete;
+    CartridgeEFF(const CartridgeEFF&) = delete;
+    CartridgeEFF(CartridgeEFF&&) = delete;
+    CartridgeEFF& operator=(const CartridgeEFF&) = delete;
+    CartridgeEFF& operator=(CartridgeEFF&&) = delete;
 };
 
 #endif

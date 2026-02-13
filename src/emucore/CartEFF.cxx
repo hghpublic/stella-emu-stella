@@ -61,86 +61,97 @@ string CartridgeEFF::ramDescription()
   return info.str();
 }
 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 uInt8 CartridgeEFF::peek(uInt16 address)
 {
   const uInt16 romAddress = address & ROM_MASK;
-  if ((address & 0x1000) && (romAddress >= 0x0FF0) && (romAddress <= 0x0FF4))
+  if((address & 0x1000) && (romAddress >= 0x0FF0) && (romAddress <= 0x0FF4))
+  {
+    switch(romAddress)
     {
-      switch (romAddress) {
-      case 0x0ff0:
+      case 0x0FF0:
         setI2CClock(false);
         break;
-      case 0x0ff1:
+      case 0x0FF1:
         setI2CClock(true);
         break;
-      case 0x0ff2:
+      case 0x0FF2:
         setI2CData(false);
         break;
-      case 0x0ff3:
+      case 0x0FF3:
         setI2CData(true);
         break;
-      case 0x0ff4:
+      case 0x0FF4:
         return readI2C();
-      };
-    }
+    };
+  }
   return CartridgeEF::peek(address);
 }
 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 bool CartridgeEFF::poke(uInt16 address, uInt8 value)
 {
   const uInt16 romAddress = address & ROM_MASK;
-  if ((address & 0x1000) && (romAddress >= 0x0FF0) && (romAddress <= 0x0FF3))
+  if((address & 0x1000) && (romAddress >= 0x0FF0) && (romAddress <= 0x0FF3))
+  {
+    switch(romAddress)
     {
-      switch (romAddress) {
-      case 0x0ff0:
+      case 0x0FF0:
         setI2CClock(false);
         setI2CClock(false);
         return false;
 
-      case 0x0ff1:
+      case 0x0FF1:
         setI2CClock(true);
         setI2CClock(true);
         return false;
 
-      case 0x0ff2:
+      case 0x0FF2:
         setI2CData(false);
         setI2CData(false);
         return false;
 
-      case 0x0ff3:
+      case 0x0FF3:
         setI2CData(true);
         setI2CData(true);
         return false;
-      };
-    }  
+    };
+  }
   return CartridgeEF::poke(address, value);
 }
 
-void CartridgeEFF::setI2CClock(bool value) {
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+void CartridgeEFF::setI2CClock(bool value)
+{
   myI2CClock = value;
-  if (myEEPROM)
+  if(myEEPROM)
     myEEPROM->writeSCL(myI2CClock);
   else
     cerr << " (No EEPROM)\n";
 }
 
-void CartridgeEFF::setI2CData(bool value) {
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+void CartridgeEFF::setI2CData(bool value)
+{
   myI2CData = value;
-  if (myEEPROM)
+  if(myEEPROM)
     myEEPROM->writeSDA(myI2CData);
   else
     cerr << " (No EEPROM)\n";
 }
 
-uInt8 CartridgeEFF::readI2C() {
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+uInt8 CartridgeEFF::readI2C()
+{
   const bool sda = myEEPROM->readSDA();
   return myImage[0x0ff4 + (sda ? 1 : 0)];
 }
 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 void CartridgeEFF::setNVRamFile(string_view pathname)
 {
   myEEPROMFile = std::string(pathname) + std::string("_eeprom.dat");
-  if (mySystem)
+  if(mySystem)
     myEEPROM = make_unique<MT24LC16B>(FSNode(myEEPROMFile), (const System&)mySystem, nullptr);
   else
     cerr << "ERROR asked to set up eeprom before cartridge installed in system\n";

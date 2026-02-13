@@ -27,7 +27,8 @@
 
   @author Stephen Anthony & J. Payson
 */
-class MT24LC256 : public MicroChip24LC<32_KB, 64> {
+class MT24LC256 : public MicroChip24LC<32_KB, 64>
+{
   using MicroChip24LC::MicroChip24LC;
 };
 
