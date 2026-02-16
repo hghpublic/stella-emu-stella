@@ -21,8 +21,7 @@
 CartridgeEFF::CartridgeEFF(const ByteBuffer& image, size_t size,
                            string_view md5, const Settings& settings,
                            size_t bsSize)
-  : CartridgeEF(image, size, md5, settings, bsSize),
-    myEEPROM{nullptr}
+  : CartridgeEF(image, size, md5, settings, bsSize)
 {
   myRamSize = 0;
   myRamBankCount = 0;
@@ -143,16 +142,22 @@ void CartridgeEFF::setI2CData(bool value)
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 uInt8 CartridgeEFF::readI2C()
 {
-  const bool sda = myEEPROM->readSDA();
-  return myImage[0x0ff4 + (sda ? 1 : 0)];
+  if(myEEPROM)
+    return myImage[0x0FF4 + (myEEPROM->readSDA() ? 1 : 0)];
+  else
+  {
+    cerr << " (No EEPROM)\n";
+    return 0;
+  }
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 void CartridgeEFF::setNVRamFile(string_view pathname)
 {
-  myEEPROMFile = std::string(pathname) + std::string("_eeprom.dat");
+  myEEPROMFile = string{pathname} + "_eeprom.dat";
   if(mySystem)
-    myEEPROM = make_unique<MT24LC16B>(FSNode(myEEPROMFile), (const System&)mySystem, nullptr);
+    myEEPROM = make_unique<MT24LC16B>(FSNode(myEEPROMFile),
+                                      (const System&)mySystem, nullptr);
   else
     cerr << "ERROR asked to set up eeprom before cartridge installed in system\n";
 }
