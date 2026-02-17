@@ -125,8 +125,6 @@ void CartridgeEFF::setI2CClock(bool value)
   myI2CClock = value;
   if(myEEPROM)
     myEEPROM->writeSCL(myI2CClock);
-  else
-    cerr << " (No EEPROM)\n";
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -135,8 +133,6 @@ void CartridgeEFF::setI2CData(bool value)
   myI2CData = value;
   if(myEEPROM)
     myEEPROM->writeSDA(myI2CData);
-  else
-    cerr << " (No EEPROM)\n";
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -144,11 +140,8 @@ uInt8 CartridgeEFF::readI2C()
 {
   if(myEEPROM)
     return myImage[0x0FF4 + (myEEPROM->readSDA() ? 1 : 0)];
-  else
-  {
-    cerr << " (No EEPROM)\n";
-    return 0;
-  }
+
+  return 0;
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
