@@ -23,9 +23,6 @@ CartridgeEFF::CartridgeEFF(const ByteBuffer& image, size_t size,
                            size_t bsSize)
   : CartridgeEF(image, size, md5, settings, bsSize)
 {
-  myRamSize = 0;
-  myRamBankCount = 0;
-  myRAM = nullptr;
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -40,24 +37,6 @@ bool CartridgeEFF::checkSwitchBank(uInt16 address, uInt8)
     return true;
   }
   return false;
-}
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-int CartridgeEFF::descriptionLines()
-{
-  return 24; // this can be pretty verbose
-}
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-string CartridgeEFF::ramDescription()
-{
-  ostringstream info;
-
-  info << (myRamSize / 1024) << "kiB EEPROM\n"
-       << "i²c serial interface @ $FFF0 - $FFF3\n"
-       << "i²c read port @ $FFF4 ($FFF5)\n";
-
-  return info.str();
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
