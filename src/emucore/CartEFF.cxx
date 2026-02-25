@@ -61,6 +61,8 @@ uInt8 CartridgeEFF::peek(uInt16 address)
         break;
       case 0x0FF4:
         return readI2C();
+      default:
+        break;
     };
   }
   return CartridgeEF::peek(address);
@@ -93,6 +95,9 @@ bool CartridgeEFF::poke(uInt16 address, uInt8 value)
         setI2CData(true);
         setI2CData(true);
         return false;
+
+      default:
+        break;
     };
   }
   return CartridgeEF::poke(address, value);
@@ -128,8 +133,7 @@ void CartridgeEFF::setNVRamFile(string_view pathname)
 {
   myEEPROMFile = string{pathname} + "_eeprom.dat";
   if(mySystem)
-    myEEPROM = make_unique<MT24LC16B>(FSNode(myEEPROMFile),
-                                      (const System&)mySystem, nullptr);
+    myEEPROM = make_unique<MT24LC16B>(FSNode(myEEPROMFile), *mySystem, nullptr);
   else
     cerr << "ERROR asked to set up eeprom before cartridge installed in system\n";
 }

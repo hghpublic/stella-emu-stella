@@ -101,7 +101,7 @@ class AtariNTSC
     // Width might be rounded down slightly; use inWidth() on result to
     // find rounded value. Guaranteed not to round 160 down at all.
     static constexpr uInt32 outWidth(uInt32 in_width) {
-      return ((((in_width) - 1) / PIXEL_in_chunk + 1)* PIXEL_out_chunk) + 8;
+      return (((in_width - 1) / PIXEL_in_chunk + 1)* PIXEL_out_chunk) + 8;
     }
 
   private:
@@ -223,7 +223,7 @@ class AtariNTSC
 
     // Common ntsc macros
     static constexpr void ATARI_NTSC_CLAMP( uInt32& io, uInt32 shift ) {
-      const uInt32 sub = io >> (9-(shift)) & atari_ntsc_clamp_mask;
+      const uInt32 sub = io >> (9-shift) & atari_ntsc_clamp_mask;
       uInt32 clamp = atari_ntsc_clamp_add - sub;
       io |= clamp;
       clamp -= sub;
@@ -249,13 +249,13 @@ class AtariNTSC
 
     // Converted from C-style macros; I don't even pretend to understand the logic here :)
     static constexpr int PIXEL_OFFSET1( int ntsc, int scaled ) {
-      return (kernel_size / 2 + ((ntsc) - (scaled) / rescale_out * rescale_in) +
-        ((((scaled) + rescale_out * 10) % rescale_out) != 0) +
-        (rescale_out - (((scaled) + rescale_out * 10) % rescale_out)) % rescale_out +
-        (kernel_size * 2 * (((scaled) + rescale_out * 10) % rescale_out)));
+      return (kernel_size / 2 + (ntsc - scaled / rescale_out * rescale_in) +
+        (((scaled + rescale_out * 10) % rescale_out) != 0) +
+        (rescale_out - ((scaled + rescale_out * 10) % rescale_out)) % rescale_out +
+        (kernel_size * 2 * ((scaled + rescale_out * 10) % rescale_out)));
     }
     static constexpr float PIXEL_OFFSET2( int ntsc ) {
-      return 1.0F - (((ntsc) + 100) & 2);
+      return 1.0F - ((ntsc + 100) & 2);
     }
 
   #if 0  // DEAD CODE

@@ -1244,7 +1244,8 @@ int SliderWidget::valueToPos(int value) const
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 int SliderWidget::posToValue(int pos) const
 {
-  const int value = (pos) * (_valueMax - _valueMin) / (_w - _labelWidth - _valueLabelGap - _valueLabelWidth - 4) + _valueMin;
+  const int value = pos * (_valueMax - _valueMin) /
+      (_w - _labelWidth - _valueLabelGap - _valueLabelWidth - 4) + _valueMin;
 
   // Scale the position to the correct interval (according to step value)
   return value - (value % _stepValue);
